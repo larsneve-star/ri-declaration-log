@@ -1,3 +1,0 @@
-e815fba606b953c3bb294a395624e697005021ebd2c1a7db5254c21391bc19f3  baseline/RI-Declaration-4-2-EN.txt
-c16dc6ceba6bd43307c4ba016bd85c62dde70671ec48a9139178fe93833a02c0  round-4.3/PROMPT-EN.md
-75d05a89442d8ac85f0f44fa11b4958ea05974db9aef9eccfc7fd4b5a68dbd06  Ri-Neutral-Overdragelse-Automaton.html
