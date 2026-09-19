@@ -34,7 +34,7 @@ Proposed compiler of 4.3: [Meta AI or Gemini]. Not a question owner in this roun
 
 ## Breaches and notes
 
-(- 2026-09-19 13:50 UTC: The file `ri-public-log (1).zip` was uploaded by mistake in the first commit (d35435c). It was another model's package, containing a different baseline (SHA-256 e815fba6…19f3, 129,682 bytes) that is not the frozen baseline. It was removed at 14:09 UTC in commit aad1f87 and remains visible in the history. Nothing had been sent to any model before the removal.)
+- 2026-09-19 13:50 UTC: The file `ri-public-log (1).zip` was uploaded by mistake in the first commit (d35435c). It was another model's package, containing a different baseline (SHA-256 e815fba6…19f3, 129,682 bytes) that is not the frozen baseline. It was removed at 14:09 UTC in commit aad1f87 and remains visible in the history. Nothing had been sent to any model before the removal.
 
 ## Release
 
