@@ -37,7 +37,7 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 - 2026-09-19 13:50 UTC: The file `ri-public-log (1).zip` was uploaded by mistake in the first commit (d35435c). It was another model's package, containing a different baseline (SHA-256 e815fba6…19f3, 129,682 bytes) that is not the frozen baseline. It was removed at 14:09 UTC in commit aad1f87 and remains visible in the history. Nothing had been sent to any model before the removal.
 - 2026-09-19 14:34 UTC: In commit 97f1190 the other model's package was uploaded by mistake a second time, into `round-4.3/` (its baseline SHA-256 e815fba6…19f3, its prompt SHA-256 c16dc6ce…02c0). The mix-up happened because both packages had the same folder name. The files were removed in commits e901cc3 to c21b0a4 and remain visible in the history. They are not the frozen baseline.
 - 2026-09-19 14:54 UTC: In commit 06d24ab three files were uploaded as Word documents (`LOG.md.docx`, `PROMPT-DA.md.docx`, `PROMPT-EN.md.docx`) because Google Drive converted them on download. They were removed on 2026-09-20 in commits ca2aa69, 58074ed and 7ea1024. The link and deadline were then written directly into the prompts on GitHub instead. Nothing had been sent to any model before any of these removals.
-
+- 2026-09-20 16:39 UTC: While the curator's header was added to `round-4.3/answers/DeepSeek.md` in commit d9abdd5, the answer's first line, `MODEL: DeepSeek (v3)`, was overwritten by mistake. It was restored in the following commit. No other word of the answer was changed, and both commits are in the history.
 ## Release
 
 Released at: [DATE TIME UTC]
