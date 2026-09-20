@@ -19,19 +19,19 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 
 | Model | Sent at | What was sent | Deviation |
 |---|---|---|---|
-| Claude | | baseline + prompt + Automaton | sent|
-| Gemini | | baseline + prompt + Automaton | |
-| ChatGPT | | baseline + prompt + Automaton | |
-| DeepSeek | | baseline + prompt + Automaton | |
-| Grok | | baseline + prompt + Automaton | |
-| Meta AI | | prompt + Automaton |sent baseline .txt not delivered; model answered from hash and prompt only|
+| Claude | 2026-09-20 15:45 (approx.) | prompt + Automaton | baseline .txt not delivered as a file; this model holds the copy it generated itself |
+| Gemini | | | |
+| ChatGPT | | | |
+| DeepSeek | | | |
+| Grok | | | |
+| Meta AI | 2026-09-20 16:05 (approx.) | prompt + Automaton | baseline .txt not delivered; model answered from the hash and the prompt only |
 
 ## Received
 
 | Model | Received at | File | SHA-256 | Status (answer / substitution / refusal / missing) |
 |---|---|---|---|---|
 | Claude | 2026-09-20 15:45 | `round-4.3/answers/claude.md` | `f63f008381de628f95158107e98ad18d5abdd5a5cd9f02ea26d29a9e7714d264` | answer (question owner; see disclosures in the file) |
-
+| Meta AI | 2026-09-20 16:05 | `round-4.3/answers/meta-ai.md` | `7d9f85fe8bc16c86b20c9a512d00f7530a42a3732a5bae14ca411b03ff2f48c9` | answer (baseline not received; see note in file) |
 ## Breaches and notes
 
 - 2026-09-19 13:50 UTC: The file `ri-public-log (1).zip` was uploaded by mistake in the first commit (d35435c). It was another model's package, containing a different baseline (SHA-256 e815fba6…19f3, 129,682 bytes) that is not the frozen baseline. It was removed at 14:09 UTC in commit aad1f87 and remains visible in the history. Nothing had been sent to any model before the removal.
