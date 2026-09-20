@@ -30,7 +30,7 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 
 | Model | Received at | File | SHA-256 | Status (answer / substitution / refusal / missing) |
 |---|---|---|---|---|
-| | | | | |
+| Claude | 2026-09-20 15:45 | `round-4.3/answers/claude.md` | `f63f008381de628f95158107e98ad18d5abdd5a5cd9f02ea26d29a9e7714d264` | answer (question owner; see disclosures in the file) |
 
 ## Breaches and notes
 
