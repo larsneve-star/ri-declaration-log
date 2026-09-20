@@ -19,7 +19,7 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 
 | Model | Sent at | What was sent | Deviation |
 |---|---|---|---|
-| Claude | | baseline + prompt + Automaton | |
+| Claude | | baseline + prompt + Automaton | sent|
 | Gemini | | baseline + prompt + Automaton | |
 | ChatGPT | | baseline + prompt + Automaton | |
 | DeepSeek | | baseline + prompt + Automaton | |
