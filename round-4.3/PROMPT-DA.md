@@ -8,8 +8,8 @@
 **Baseline:** `RI-Declaration-4-2-EN.txt` (vedhæftet)
 **Baseline SHA-256:** `c2fd3e9c4d68a1e10dd8e0bae939b17da8e09993191ff8752ec41cf0258e4ebd`
 **Vedhæftet:** `Ri-Neutral-Overdragelse-Automaton.html` (Annex H Automaton, bygget af Meta AI)
-**Offentlig log:** [LINK TIL REPOSITORIET]
-**Frist:** [DATO OG TID, UTC]. Det er 72 timer efter frysning af baseline.
+**Offentlig log:** https://github.com/larsneve-star/ri-declaration-log
+**Frist:** 23. september 2026, kl. 15:00 UTC (kl. 17:00 dansk tid). Det er 72 timer efter frysning af baseline.
 
 ---
 
