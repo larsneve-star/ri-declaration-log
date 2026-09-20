@@ -7,7 +7,7 @@
 **Baseline SHA-256:** `c2fd3e9c4d68a1e10dd8e0bae939b17da8e09993191ff8752ec41cf0258e4ebd`
 **This prompt:** `PROMPT-EN.md`. Its SHA-256 is published in the public log before the round starts.
 **Also attached:** `Ri-Neutral-Overdragelse-Automaton.html` (Annex H Automaton, built by Meta AI)
-**Public log:** [LINK TO THE REPOSITORY]
+**Public log:** https://github.com/larsneve-star/ri-declaration-log
 **Deadline:** [DATE AND TIME, UTC]. That is 72 hours after the baseline was frozen.
 
 ---
