@@ -35,6 +35,7 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 | DeepSeek | 2026-09-20 16:35 | `round-4.3/answers/DeepSeek.md` | `1183d423802f44177f6550f5f8aa3f94e9c85e1778f1b6d0c48c08f970b9f781` | answer (baseline in hand; hash corrected, see note) |
 | Grok | 2026-09-20 19:05 | `round-4.3/answers/Grok.md` | `837fc4618f30572f723247cf2f05bfe3446e152f8b74dd38a12d83e618f9a2f3` | answer (received with the baseline file; no curator header in the file, see note) |
 | Gemini | 2026-09-20 19:19 | `round-4.3/answers/Gemini.md` | `2db24b89eacf45edd86e225c52e51ec83990d19074fce92c83bf55f6083901ae` | answer (received with the baseline file; first full audit from this model in four rounds) |
+| ChatGPT | 2026-09-20 19:28 | `round-4.3/answers/ChatGPT.md` | `aee71b3570d1afa813893b1f0909d96c90729ac427f408e93cdd553fc9e7763f` | answer (received with the baseline file) |
 ## Breaches and notes
 
 - 2026-09-19 13:50 UTC: The file `ri-public-log (1).zip` was uploaded by mistake in the first commit (d35435c). It was another model's package, containing a different baseline (SHA-256 e815fba6…19f3, 129,682 bytes) that is not the frozen baseline. It was removed at 14:09 UTC in commit aad1f87 and remains visible in the history. Nothing had been sent to any model before the removal.
@@ -47,4 +48,4 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 - 2026-09-20 19:19 UTC: Gemini delivered a full answer to the round's questions. In the 3.8.1 round this model produced a manifesto instead of its assignment, and in the 4.1 round a summary of another model's earlier audit, both logged as substitutions. This is the first round since 3.8.1 in which it answered what was asked. Its outstanding 3.8.1 assignment (the external check on Annex D points 1–19, the §4/§5 relation, and Å10) is still outstanding.
 ## Release
 
-Released at: [DATE TIME UTC]
+Released at: 2026-09-20 19:30 UTC. All six models answered before the deadline. The blind period is over: from this point the answers may be shown to the models and to anyone else.
