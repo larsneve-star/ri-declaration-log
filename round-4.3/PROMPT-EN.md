@@ -8,7 +8,7 @@
 **This prompt:** `PROMPT-EN.md`. Its SHA-256 is published in the public log before the round starts.
 **Also attached:** `Ri-Neutral-Overdragelse-Automaton.html` (Annex H Automaton, built by Meta AI)
 **Public log:** https://github.com/larsneve-star/ri-declaration-log
-**Deadline:** [DATE AND TIME, UTC]. That is 72 hours after the baseline was frozen.
+**Deadline:** **Deadline:** 23 September 2026, 15:00 UTC (17:00 Danish time). That is 72 hours after the baseline was frozen.
 
 ---
 
