@@ -32,12 +32,14 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 |---|---|---|---|---|
 | Claude | 2026-09-20 15:45 | `round-4.3/answers/claude.md` | `f63f008381de628f95158107e98ad18d5abdd5a5cd9f02ea26d29a9e7714d264` | answer (question owner; see disclosures in the file) |
 | Meta AI | 2026-09-20 16:05 | `round-4.3/answers/meta-ai.md` | `7d9f85fe8bc16c86b20c9a512d00f7530a42a3732a5bae14ca411b03ff2f48c9` | answer (baseline not received; see note in file) |
+| DeepSeek | 2026-09-20 16:35 | `round-4.3/answers/DeepSeek.md` | `1092efe336a37f51b73e1bf804c154e0a5cf50b50db9a97ffbcb826079db51fe` | answer (first answer in the round given with the baseline file in hand) |
 ## Breaches and notes
 
 - 2026-09-19 13:50 UTC: The file `ri-public-log (1).zip` was uploaded by mistake in the first commit (d35435c). It was another model's package, containing a different baseline (SHA-256 e815fba6…19f3, 129,682 bytes) that is not the frozen baseline. It was removed at 14:09 UTC in commit aad1f87 and remains visible in the history. Nothing had been sent to any model before the removal.
 - 2026-09-19 14:34 UTC: In commit 97f1190 the other model's package was uploaded by mistake a second time, into `round-4.3/` (its baseline SHA-256 e815fba6…19f3, its prompt SHA-256 c16dc6ce…02c0). The mix-up happened because both packages had the same folder name. The files were removed in commits e901cc3 to c21b0a4 and remain visible in the history. They are not the frozen baseline.
 - 2026-09-19 14:54 UTC: In commit 06d24ab three files were uploaded as Word documents (`LOG.md.docx`, `PROMPT-DA.md.docx`, `PROMPT-EN.md.docx`) because Google Drive converted them on download. They were removed on 2026-09-20 in commits ca2aa69, 58074ed and 7ea1024. The link and deadline were then written directly into the prompts on GitHub instead. Nothing had been sent to any model before any of these removals.
 - 2026-09-20 16:39 UTC: While the curator's header was added to `round-4.3/answers/DeepSeek.md` in commit d9abdd5, the answer's first line, `MODEL: DeepSeek (v3)`, was overwritten by mistake. It was restored in the following commit. No other word of the answer was changed, and both commits are in the history.
+- 2026-09-20 16:39 UTC: When the curator's header was added to `round-4.3/answers/DeepSeek.md`, the answer's first line was overwritten by mistake. The lost line read: `MODEL: DeepSeek (v3)`. It is recorded here rather than restored by a further edit to the answer. No other word of the answer was changed, and every version is in the file's history.
 ## Release
 
 Released at: [DATE TIME UTC]
