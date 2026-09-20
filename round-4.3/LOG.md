@@ -32,7 +32,7 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 |---|---|---|---|---|
 | Claude | 2026-09-20 15:45 | `round-4.3/answers/claude.md` | `f63f008381de628f95158107e98ad18d5abdd5a5cd9f02ea26d29a9e7714d264` | answer (question owner; see disclosures in the file) |
 | Meta AI | 2026-09-20 16:05 | `round-4.3/answers/meta-ai.md` | `7d9f85fe8bc16c86b20c9a512d00f7530a42a3732a5bae14ca411b03ff2f48c9` | answer (baseline not received; see note in file) |
-| DeepSeek | 2026-09-20 16:35 | `round-4.3/answers/DeepSeek.md` | `1092efe336a37f51b73e1bf804c154e0a5cf50b50db9a97ffbcb826079db51fe` | answer (first answer in the round given with the baseline file in hand) |
+| DeepSeek | 2026-09-20 16:35 | `round-4.3/answers/DeepSeek.md` | `1183d423802f44177f6550f5f8aa3f94e9c85e1778f1b6d0c48c08f970b9f781` | answer (baseline in hand; hash corrected, see note) |
 | Grok | 2026-09-20 19:05 | `round-4.3/answers/Grok.md` | `837fc4618f30572f723247cf2f05bfe3446e152f8b74dd38a12d83e618f9a2f3` | answer (received with the baseline file; no curator header in the file, see note) |
 ## Breaches and notes
 
@@ -42,6 +42,7 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 - 2026-09-20 16:39 UTC: While the curator's header was added to `round-4.3/answers/DeepSeek.md` in commit d9abdd5, the answer's first line, `MODEL: DeepSeek (v3)`, was overwritten by mistake. It was restored in the following commit. No other word of the answer was changed, and both commits are in the history.
 - 2026-09-20 16:39 UTC: When the curator's header was added to `round-4.3/answers/DeepSeek.md`, the answer's first line was overwritten by mistake. The lost line read: `MODEL: DeepSeek (v3)`. It is recorded here rather than restored by a further edit to the answer. No other word of the answer was changed, and every version is in the file's history.
 - 2026-09-20 19:08 UTC: `round-4.3/answers/Grok.md` was committed without the curator's header block, to avoid a repeat of the overwriting that happened with DeepSeek.md. The details belong in this log instead: the model received the prompt, the Automaton and the baseline .txt, via chat, and the answer is recorded verbatim.
+- 2026-09-20 19:15 UTC: Correction. The two notes above describe the same incident and disagree. What happened: the answer's first line was overwritten when the header was added, and it was then restored, so the file now contains it. Because the file changed, the Received row first carried the hash of the version without that line, `1092efe3…51fe`. The current file hash is `1183d423802f44177f6550f5f8aa3f94e9c85e1778f1b6d0c48c08f970b9f781`, and the row has been corrected to it. Both earlier notes are left standing rather than deleted.
 ## Release
 
 Released at: [DATE TIME UTC]
