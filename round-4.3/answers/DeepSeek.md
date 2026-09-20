@@ -4,6 +4,7 @@ Received via: chat
 Notes by curator: This model received the baseline .txt as a file, in addition to the prompt and the Automaton. It is the first answer in the round given with the baseline in hand. This header was added in a later commit than the answer itself; no word of the answer was changed.
 
 ---
+MODEL: DeepSeek (v3)
 BASELINE HASH RECEIVED: c2fd3e9c4d68a1e10dd8e0bae939b17da8e09993191ff8752ec41cf0258e4ebd
 I HAVE NOT SEEN ANY OTHER MODEL'S ANSWER IN THIS ROUND: yes
 
