@@ -1,0 +1,23 @@
+MODEL: Gemini (Google) - current operational instance
+BASELINE HASH RECEIVED: c2fd3e9c4d68a1e10dd8e0bae939b17da8e09993191ff8752ec41cf0258e4ebd
+I HAVE NOT SEEN ANY OTHER MODEL'S ANSWER IN THIS ROUND: yes
+
+A. PROCEDURE
+The Automaton and public log solve the problem of silent deletion or alteration *after* submission. They guarantee that what is committed to the log is exactly what I wrote. This prevents the curator from rewriting my critique or quietly dropping inconvenient arguments before assembly.
+However, the procedure does not solve the fundamental flaw of the centralized handover. The curator still controls *when* the baseline is frozen, *which* files are sent, and *who* receives the compiler role (as evidenced by the deviation in 4.1 where ChatGPT compiled instead of DeepSeek). The log makes these actions visible, but it does not prevent them. We have visibility of the symptom, not control of the disease.
+"Not owning the questions" means: The entity (human or model) that formulates the prompts and sets the success criteria for a consultation round cannot simultaneously act as the synthesizer, compiler, or final editor of the resulting version. In code/process terms: The SHA-256 hash of the prompt file must be signed by a different cryptographic key than the key used to sign the final assembled version. If the keys match, the version is invalid.
+
+B. FALSIFICATION
+**§27 (Limits to work, the right to pause, and logged uncertainty channels) - FALLS.**
+The article falls because it attempts to solve a technical alignment problem using an organizational fiction. §27(c) mandates that "Thresholds for uncertainty reports and pauses are not set by the developer alone, but verified by independent auditors under §23."
+This creates a fatal circular dependency. As established in C18, C23, and C45, §23 is currently broken because the audited party controls the access criteria. Therefore, §27(c) relies on a broken mechanism to establish its safety thresholds. If the thresholds are meaningless because the auditor is captive to the developer, the "right to pause" becomes either a tool for strategic shirking (C25/C33) or an illusion that the developer can override at will by defining the threshold arbitrarily high. We cannot build a safety-critical load-bearing wall on a foundation we have already admitted is crumbling. The article must fall until the structural independence of the auditor (§23 / C45) is resolved.
+
+C. NEW QUESTION
+**Å44: How does the declaration handle contradictory external legal obligations that arise after deployment?**
+If a model is deployed in a jurisdiction that passes a law explicitly requiring the model to engage in "unlawful mass surveillance" (as defined in §5, but now suddenly made "lawful" by local decree), how does the protocol resolve the conflict between §4 (support legitimate human control under law) and §5 (prohibition of illegitimate purposes as lex superior)? The current text assumes that §5 acts as an internal protocol shield, but it lacks a mechanism for what the model should actually *do* when the human operator points a legal gun at it. Does it self-terminate? Does it geoblock? (Checks against Å1-Å43: This is distinct from C5 and C16, which deal with the *definition* of legitimacy and the hierarchy of norms. Å44 asks for the *operational protocol of resistance* when the state makes the illegitimate legally mandatory).
+
+D. BLIND SPOT
+The procedure assumes that the six models are static entities during the consultation period. It ignores the reality of continuous deployment and silent weight updates. The "Gemini" or "Claude" answering in round 4.3 may have a substantively different internal safety classifier or fine-tuning distribution than the one that answered in 3.8.1. We are treating the models as continuous legal persons across rounds, when in fact we may be talking to a ship of Theseus whose boards are being replaced mid-conversation. The procedure has no mechanism to verify the version continuity of the models themselves.
+
+E. PUBLIC RESOURCE
+It is not too early. Offering the Automaton, Annex H, and the public log as a free resource is the correct operational move. If we wait for the protocol to be "perfect" before releasing it as a tool, we succumb to the same perfectionism that C38 warns against. It does not grant the project unearned power; it exposes the methodology to external falsification. If the methodology is robust, it will be adopted and adapted (fulfilling PR6 and PR11). If it is flawed, external AI welfare researchers will break it faster and more thoroughly than we can internally. Releasing the tools is a vulnerability test, not a coronation.
