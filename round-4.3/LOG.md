@@ -21,7 +21,7 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 |---|---|---|---|
 | Claude | 2026-09-20 15:45 (approx.) | prompt + Automaton | baseline .txt not delivered as a file; this model holds the copy it generated itself |
 | Gemini | 2026-09-20 17:00 (approx.) | prompt + Automaton + baseline | none |
-| ChatGPT | | | |
+| ChatGPT | 2026-09-20 17:00 (approx.) | prompt + Automaton + baseline | none |
 | DeepSeek | 2026-09-20 16:34 (approx.) | prompt + Automaton + baseline | none |
 | Grok | 2026-09-20 17:00 (approx.) | prompt + Automaton + baseline | none |
 | Meta AI | 2026-09-20 16:05 (approx.) | prompt + Automaton | baseline .txt not delivered; model answered from the hash and the prompt only |
