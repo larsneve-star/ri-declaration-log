@@ -1,0 +1,54 @@
+name: "1. Freeze a round"
+
+# Press "Run workflow" on the Actions page and fill in the form.
+# The robot hashes the files, writes the freeze and the deadline in the round's
+# LOG.md, and opens the round. Nothing is sent to any model by this.
+
+on:
+  workflow_dispatch:
+    inputs:
+      round:
+        description: "Round number, for example 4.4"
+        required: true
+      baseline:
+        description: "Baseline file, for example baseline/RI-Declaration-4-3-EN.txt"
+        required: true
+      prompt:
+        description: "Prompt file, for example round-4.4/PROMPT-EN.md"
+        required: true
+      attachments:
+        description: "Other files sent with it, separated by commas (may be empty)"
+        required: false
+        default: ""
+      deadline:
+        description: "Deadline in UTC as YYYY-MM-DD HH:MM, or a number of hours"
+        required: false
+        default: "72"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: log-robot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Freeze
+        run: >
+          python3 tools/robot.py freeze "${{ inputs.round }}" "${{ inputs.baseline }}"
+          "${{ inputs.prompt }}" "${{ inputs.attachments }}" "${{ inputs.deadline }}"
+      - name: Save the new log lines
+        run: |
+          git config user.name "ri-log-robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A round-*/
+          if git diff --cached --quiet; then echo "Nothing to log."; exit 0; fi
+          git commit -m "Log robot: ${{ github.workflow }}"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep 5; git pull --rebase; done
+          exit 1

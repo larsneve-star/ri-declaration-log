@@ -1,0 +1,45 @@
+name: "2. Log what was sent to a model"
+
+# Press "Run workflow" right after sending the round to a model.
+# The robot writes the time in UTC. You only choose the model.
+
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: "Which model"
+        type: choice
+        options: [Claude, Gemini, ChatGPT, DeepSeek, Grok, Meta AI]
+      what:
+        description: "What was sent"
+        default: "baseline + prompt + attachments, as frozen"
+      deviation:
+        description: "Anything different from the others (leave empty if nothing)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: log-robot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Log
+        run: python3 tools/robot.py sent "${{ inputs.model }}" "${{ inputs.what }}" "${{ inputs.deviation }}"
+      - name: Save the new log lines
+        run: |
+          git config user.name "ri-log-robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A round-*/
+          if git diff --cached --quiet; then echo "Nothing to log."; exit 0; fi
+          git commit -m "Log robot: ${{ github.workflow }}"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep 5; git pull --rebase; done
+          exit 1
