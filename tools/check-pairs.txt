@@ -1,0 +1,6 @@
+# Comparisons the machine runs on every change (Annex H).
+# One per line:  label | earlier file | later file(s), in order, separated by spaces
+# To add a new version later, add one line. Lines starting with # are ignored.
+4.0 -> 4.1 | baseline/RI-Declaration-4-0-EN.txt | baseline/RI-Declaration-4-1-EN.txt
+4.1 -> 4.2 | baseline/RI-Declaration-4-1-EN.txt | baseline/RI-Declaration-4-2-EN.txt
+4.2 -> 4.3 | baseline/RI-Declaration-4-2-EN.txt | round-4.3/compile-4.3/PART-01.md round-4.3/compile-4.3/PART-02-r2.md round-4.3/compile-4.3/PART-03-r2.md round-4.3/compile-4.3/PART-04-r2.md round-4.3/compile-4.3/PART-05-r2.md round-4.3/compile-4.3/PART-06-r2.md
