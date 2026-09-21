@@ -1,0 +1,12 @@
+# Compiler rotation, alphabetical (curator's proposal PR20, 21 September 2026).
+# Not a rule until adopted. Round R produces version R; the line says who compiles it.
+# If the named model is not eligible (it owns the round's questions, or did not
+# answer), the turn passes to the next one, and the skip is logged with its reason.
+4.3 Gemini
+4.4 Grok
+4.5 Meta AI
+4.6 ChatGPT
+4.7 Claude
+4.8 DeepSeek
+4.9 Gemini
+5.0 Grok

@@ -39,6 +39,7 @@ FROZEN = [
 ]
 NOT_FROZEN = ['round-*/answers/_TEMPLATE.md']
 IGNORE_UNLOGGED = ['tools/*', '.github/*', 'README.md', 'RULES.md',
+                   'round-*/STATE.json', 'round-*/checks/*',
                    'round-*/LOG.md', 'round-*/answers/_TEMPLATE.md', 'LICENSE*']
 
 
