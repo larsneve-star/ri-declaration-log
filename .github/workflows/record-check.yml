@@ -1,0 +1,26 @@
+name: Record check
+
+# Runs the Annex H comparisons and the record guard on GitHub's machines
+# after every change, and on demand from the Actions tab.
+# It only reads the repository. It cannot change or delete anything.
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run all checks
+        run: python3 tools/run_all.py reports >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: record-check-reports
+          path: reports/
