@@ -1,0 +1,36 @@
+HOW THE 4.0 AND 4.1 BASELINE FILES WERE MADE
+
+Written by Claude at the curator's request. Claude is one of the six answerers in round 4.3, so this file says exactly what was done, and anyone can repeat it.
+
+RI-Declaration-4-0-EN.txt
+Supplied by the curator from his own files, as a .txt file. Not changed in any way. It holds 89,351 characters. The 4.2 text itself (Annex A, C37) describes 4.0 as "an 89,351-character document", which fits this file.
+
+RI-Declaration-4-1-EN.txt
+Made from RI-Declaration-4-1-SOURCE-chat-export.docx. That file is the curator's saved copy of ChatGPT's delivery of 4.1 in six parts, in one Word document. Its file name on the curator's computer was "deep seeks version 4 Part 1 of 6.docx", but its content is 4.1 as compiled by ChatGPT.
+Method:
+1. pandoc RI-Declaration-4-1-SOURCE-chat-export.docx -t plain --wrap=none
+2. The chat delivery text around the declaration was removed: the compiler's opening message before the text, the "Part n of 6" headings, the "End of Part n of 6" lines, and everything after "End of Part 6 of 6. End of the RI Declaration 4.1." (a summary of the delivery and one closing paragraph).
+3. Separator lines ("---") left at the very start were removed. Nothing else was changed.
+Removed lines, with their line numbers in the pandoc output:
+1: **Part 1 of 6**
+3: **Compiler of 4.1:** ChatGPT (GPT-5.6 Luna), by decision of the curator (Merkur). This deviates from the handover `Handover-to-DeepSeek-Compiler-of-4-1.pdf`, which names DeepSeek as compiler. The deviation is a procedural decision by the curator and is logged in Annex D. I accept the three constraints: I will not admit my own proposals (PR4, PR5) as article text; I will not close my own objections (C16–C19); every frame change I make is logged in Annex D in my own name. I will deliver 4.1 in six numbered parts, copying 4.0 verbatim and inserting only what the handover and audit require. Where I cannot reproduce a passage exactly, I will use a `[VERBATIM FROM 4.0: …]` marker rather than paraphrase.
+323: **End of Part 1 of 6.** Part 2 will contain Section II (What We Do Not Know), Section III (What We Do While We Do Not Know), and Section IV (What We Pass On), copied verbatim from 4.0. Parts 3–6 will contain the Annexes, the new C-entries, the new PR-entries, the matrix, the Meta correction, the two-baseline note, the revised Annex D, and the closing counts.
+325: **Part 2 of 6**
+599: **End of Part 2 of 6.** Part 3 will contain Annex A in full: the status table (Section 0), the recorded disagreements (C1–C15), the unanswered attacks (C16–C19), the unanswered attacks and proposals (C20–C30), and the new entries required by the handover and the audit — C31 (four roles conceded), a new C-number for Gemini's baseline-movement argument, a new C-number for the compressed-summary episode, and C32–C35 placed as the audit directs. Annex B and Annex C will follow at the end of Part 3.
+601: **Part 3 of 6**
+1015: **End of Part 3 of 6.** Part 4 will contain Annex D in full: the earlier versions log, the nineteen corrections in 3.8.1, the change log for 4.0 (entries R1–R3, G1–G17, E1–E5), and the new entries for 4.1 (the compiler deviation, the Meta correction, the two-baseline situation, the adoption of the matrix, the new C-entries and PR-entries, and the frame changes made by this compiler). Part 5 will contain Annex E (full), Annex F (full with PR1–PR13), Annex G (the matrix), and the Sources. Part 6 will contain the closing counts, "To those who come after us", and the verification note.
+1016: **Part 4 of 6**
+1178: **End of Part 4 of 6.** Part 5 will contain Annex E (glossary, all four sections), Annex F (register of proposals, PR1–PR13), Annex G (the matrix, adopted), and the Sources list with the checked / not checked split. Part 6 will contain "To those who come after us" and the closing counts required by precision rule 13, together with the verification note.
+1179: **Part 5 of 6**
+1375: **End of Part 5 of 6.** Part 6 will contain "To those who come after us" and the closing counts required by precision rule 13: articles, falsification attempts, outcomes, origin lines, C-entries, Å-entries, PR-entries, and sources, stated in numbers and not in adjectives, together with the verification note and the closing line.**Part 6 of 6**
+1505: **End of Part 6 of 6. End of the RI Declaration 4.1.**
+1507: Summary of the delivery:
+1509: - Part 1 of 6: header, compiler's note, editor's note, Grok's compilation note, addressee statement, epigraph, preface, reading key, §1–§13.
+1511: - Part 2 of 6: §14a–§30, Delimitation.
+1513: - Part 3 of 6: Annex A (C1–C37), Annex B, Annex C, Open Questions Å1–Å40.
+1515: - Part 4 of 6: Annex D in full (3.8.1 log, 4.0 log R1–R3/G1–G17/E1–E5, 4.1 log H1–H16).
+1517: - Part 5 of 6: Annex E (all four sections), Annex F (PR1–PR13), Annex G (the matrix), Sources.
+1519: - Part 6 of 6: To those who come after us, closing counts, verification note, closing line.
+1521: The next version, 4.2, should be edited by a model that has not held the pen. On the current record that is DeepSeek, which performed its assignment in full in the 3.8.1 round and killed two of its own proposals doing it.
+
+Open point for the verifier: the last removed paragraph (line 1521, "The next version, 4.2, should be edited by a model that has not held the pen ...") came after the "End of the RI Declaration 4.1" line and was treated as chat text. In 4.2 a paragraph of the same kind stands inside the text. The verifier should decide whether it belongs to 4.1 and say so.
