@@ -57,3 +57,9 @@ Proposed compiler of 4.3: Meta AI or Gemini, as named in 4.2 ("The next version"
 ## Release
 
 Released at: 2026-09-20 19:30 UTC. All six models answered before the deadline. The blind period is over: from this point the answers may be shown to the models and to anyone else.
+
+## Machine log
+
+Lines below are written by the log robot (tools/robot.py), not by a person. It only adds lines.
+
+- 2026-09-21 13:28 UTC: File added: `tools/ROBOT-GUIDE-DA.md` SHA-256 `aa4dff47ade86899333fcdc9701bbf12f20d15acd5e646c1d4f1aac029961ebb` (commit a11d13b).
