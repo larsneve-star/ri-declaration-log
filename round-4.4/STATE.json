@@ -1,0 +1,12 @@
+{
+  "round": "4.4",
+  "status": "open",
+  "frozen_at": "2026-09-22 13:28 UTC",
+  "deadline": "2026-09-25 15:00 UTC",
+  "baseline": "baseline/RI-Declaration-4-3-EN.txt",
+  "prompt": "round-4.4/PROMPT-EN.md",
+  "hashes": {
+    "baseline/RI-Declaration-4-3-EN.txt": "ba24a37237abd6ff5ec85c98c394e6745eeeae705fa72d754391ab004b13d26f",
+    "round-4.4/PROMPT-EN.md": "210f52471a33518be2e0cf771191ac3188dc15955aaf38f6f33b228abc75bfd4"
+  }
+}
