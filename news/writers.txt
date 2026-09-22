@@ -1,0 +1,10 @@
+# Who writes the plain-language story of each round (Budbringeren).
+# Rule: the writer is the model after the round's compiler in alphabetical order
+# (ChatGPT, Claude, DeepSeek, Gemini, Grok, Meta AI). So the writer is never the
+# compiler, and usually not the one who drafted the prompt. A skip is logged with its reason.
+round-4.3 Grok
+round-4.4 Meta AI
+round-4.5 ChatGPT
+round-4.6 Claude
+round-4.7 DeepSeek
+round-4.8 Gemini
