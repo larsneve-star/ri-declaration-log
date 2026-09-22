@@ -67,3 +67,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-21 13:28 UTC: File added: `tools/ROBOT-GUIDE-DA.md` SHA-256 `aa4dff47ade86899333fcdc9701bbf12f20d15acd5e646c1d4f1aac029961ebb` (commit a11d13b).
 - 2026-09-22 11:45 UTC: File added: `baseline/RI-Declaration-4-3-EN.txt` SHA-256 `911bfc2df8cda2805d211d8bff20c1b72a8d72ca713f1bf1aeba8aaf4b664660` (commit 71d7ea5).
 - 2026-09-22 12:21 UTC: File added: `round-4.3/VERIFICATION-4.3-DRAFT.txt` SHA-256 `8d8ac94f1ef9d1fdf34a638e32cf235ca29c352a8e98420a0d30def264006191` (commit 63cf46b).
+- 2026-09-22 12:46 UTC: WARNING: frozen file edited: `baseline/RI-Declaration-4-3-EN.txt`, new SHA-256 `ba24a37237abd6ff5ec85c98c394e6745eeeae705fa72d754391ab004b13d26f` (commit 52ddc22). A person should say why in the notes.
