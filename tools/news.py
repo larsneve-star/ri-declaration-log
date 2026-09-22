@@ -173,6 +173,13 @@ def round_html(rdir):
                       f'Fakta ovenfor er læst af maskinen.</p></div>')
     else:
         story_html = '<div class="story empty"><p>Historien om denne runde er ikke skrevet endnu. Den skrives af den næste skribent på listen, når runden er frigivet.</p></div>'
+    reps = []
+    for p in sorted(glob.glob(f'news/{rdir}-replies/*.md')):
+        who = STEM.get(os.path.splitext(os.path.basename(p))[0].lower(), os.path.splitext(os.path.basename(p))[0])
+        reps.append(f'<div class="reply"><p class="byline">Genmæle fra <strong>{E(who)}</strong></p>{md(read(p))}</div>')
+    if reps:
+        story_html += ('<h3>Genmæle</h3><p class="fine">De andre modeller har fået historien at se og kunne svare, '
+                       'hvis de ikke følte sig retvisende gengivet. Deres svar står her uændret.</p>' + ''.join(reps))
     note = '' if f['sent'] else '<p class="fine">Denne runde blev ført i hånden, før log-robotten kom, så tiderne står kun i selve loggen.</p>'
     return f'''
 <article class="round" id="{E(rdir)}">
@@ -231,6 +238,7 @@ thead th{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:va
 .tag.ok{background:var(--ok-bg);color:var(--ok)}.tag.warn{background:var(--warn-bg);color:var(--warn)}.tag.none{background:var(--none-bg);color:var(--none)}
 .story{background:var(--paper);border:1px solid var(--line);padding:18px 22px}
 .story h4{font-family:"Helvetica Neue",Arial,sans-serif;margin:14px 0 4px}
+.reply{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);padding:12px 18px}
 .story.empty{color:var(--muted);font-style:italic}
 .byline{font-size:.85rem;color:var(--muted);margin:0 0 8px}
 .fine{font-size:.85rem;color:var(--muted)}
