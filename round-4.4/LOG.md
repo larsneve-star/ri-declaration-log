@@ -3,6 +3,7 @@
 All times UTC.## Notes by the curator
 
 - 2026-09-22 13:30 UTC: The prompt was drafted by Gemini, compiler of 4.3, under the rotation proposal PR20, and approved by the curator. Gemini therefore owns the questions of this round and may not compile 4.4. The curator filled in only the two placeholders (link and deadline). Conflict of interest, stated so it can be attacked: Gemini put §26 up for attack, and §26 carries C1, in which Gemini is the sole remaining holder of position A and has not answered the attack against it. The first attempt to freeze the round failed because of spaces in the form field; nothing had been sent, and the second attempt succeeded.
+- 2026-09-22 UTC: DeepSeek declined the round in a new chat: it would not take the role of one of the six models, falsify articles or propose mechanisms. The refusal is committed verbatim as `answers/deepseek.md` and counts as a refusal, not an answer. DeepSeek took part fully in every earlier round and compiled 4.2. The curator may send the same prompt once more in a new chat, with no added words; any second reply is committed as `answers/deepseek-2.md`, and both are kept.
 
 ## Machine log
 
