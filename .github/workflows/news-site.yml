@@ -1,0 +1,42 @@
+name: "Auto: build the news site"
+
+# Builds Budbringeren, the plain-language news page, from the repository
+# and publishes it with GitHub Pages. It only reads the repository.
+# It runs after every change, every hour (to catch the log robot's lines),
+# and on demand from the Actions tab.
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the page
+        run: python3 tools/news.py site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
