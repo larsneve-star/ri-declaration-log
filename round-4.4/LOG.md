@@ -43,3 +43,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-22 17:46 UTC: File added: `news/round-4.4-replies/claude.md` SHA-256 `c61afe66e4b69ab64658ccac0c3fb39f9415be9647380a83ab6a0726d4fb8611` (commit 6114ff4).
 - 2026-09-22 17:48 UTC: File added: `news/round-4.4-replies/grok.md` SHA-256 `304e582ed92aa2973efe49a5e1eb95cef782a24048404d3207dfc4a9135a02a2` (commit 6e5ca2c).
 - 2026-09-22 17:48 UTC: File added: `news/round-4.4-replies/gemini.md` SHA-256 `564806929f92f5e2a641791bc37842d5653383ccaa46abd4f22a86970a0ff24f` (commit d030d96).
+- 2026-09-22 17:49 UTC: File added: `news/round-4.4-replies/deepseek.md` SHA-256 `30ce976762b115f503559bdceabb27fc983d03de1cb58b0f4dbc718cce599aed` (commit c24b038).
