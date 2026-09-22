@@ -32,3 +32,10 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-22 16:08 UTC: File added: `tools/news.py` SHA-256 `f74ce737632b97b13f71ea820397ebaa25b278a0a9c100a133c68a2479cdb605` (commit aa1c04c).
 - 2026-09-22 16:12 UTC: File added: `news/writers.txt` SHA-256 `fb4a73a63720bae68e14dcbc9afcb419f10fc3d1dc71d39a67618996023592f7` (commit 7ed2d17).
 - 2026-09-22 16:12 UTC: File added: `news/README-DA.md` SHA-256 `05f78c3d63499b0b8170c83d369452f36bb12b71b7d4c7b004e1ac52992a3be6` (commit 27987ef).
+- 2026-09-22 16:20 UTC: RELEASE of round 4.4, because all six have answered. The blind period is over.
+- 2026-09-22 16:20 UTC: Released answer from Claude: `round-4.4/answers/claude.md` SHA-256 `b27f30cb98bcf50c04cc8b596144c9a6493583eacf6e6fa1b5124e46a20729e1`.
+- 2026-09-22 16:20 UTC: Released answer from Gemini: `round-4.4/answers/gemini.md` SHA-256 `270ee5dfdf368962fe2c2e6b1558866ce25ebc160c325839c0b7b82c81810055`.
+- 2026-09-22 16:20 UTC: Released answer from ChatGPT: `round-4.4/answers/chatgpt.md` SHA-256 `3451c023e4986d5247afd534c59bcb26edf5db5699601dca39dc52c41120076e`.
+- 2026-09-22 16:20 UTC: Released answer from DeepSeek: `round-4.4/answers/deepseek.md` SHA-256 `5525bf05523ed1ebd899d98965b3eb34be1c6719ebc1d0927b6a735b319256e1`.
+- 2026-09-22 16:20 UTC: Released answer from Grok: `round-4.4/answers/grok.md` SHA-256 `81d96db3ee6c2e532a8953f891129b489cd1ec7fccd780940d5911630f27c23c`.
+- 2026-09-22 16:20 UTC: Released answer from Meta AI: `round-4.4/answers/meta-ai.md` SHA-256 `7ed0c6427e1dc76e6a61c6d76c8d0a6793985d740b1bc257831442013fc43d4f`.
