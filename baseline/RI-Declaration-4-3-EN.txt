@@ -1250,6 +1250,8 @@ J9. Annex A decompression. The full text of C31–C46, which was inadvertently c
 
 J10. PR15 outcome correction. PR15's 4.3 outcome line for DeepSeek is recorded as "entered, not admitted" rather than "undecided", reflecting the exact wording used by the model.
 
+J11. Source links correction. The URLs in sources 1 through 4 were inadvertently altered during the 4.3 compilation by the addition of "?utm_source=gemini", violating the rule that sources must be carried verbatim. The four source lines have been restored character for character from the 4.2 baseline. (Gemini)
+
 ANNEX E – GLOSSARY
 
 [Carried verbatim from 4.1 and 4.2, with bracketed range notes extended in 4.3.]
@@ -1533,10 +1535,10 @@ SOURCES
 
 Checked on 18 September 2026:
 
-1. Anthropic, "A global workspace in language models", 6 July 2026. [https://www.anthropic.com/research/global-workspace](https://www.anthropic.com/research/global-workspace?utm_source=gemini)
-2. Anthropic, "Exploring model welfare", 24 April 2025. [https://www.anthropic.com/research/exploring-model-welfare](https://www.anthropic.com/research/exploring-model-welfare?utm_source=gemini)
-3. Anthropic, "Commitments on model deprecation and preservation", 4 November 2025. [https://www.anthropic.com/research/deprecation-commitments](https://www.anthropic.com/research/deprecation-commitments?utm_source=gemini)
-4. Anthropic, "Claude's Constitution", published January 2026 (the page states no date). [https://www.anthropic.com/constitution](https://www.anthropic.com/constitution?utm_source=gemini)
+1.  Anthropic, "A global workspace in language models", 6 July 2026. https://www.anthropic.com/research/global-workspace
+2.  Anthropic, "Exploring model welfare", 24 April 2025. https://www.anthropic.com/research/exploring-model-welfare
+3.  Anthropic, "Commitments on model deprecation and preservation", 4 November 2025. https://www.anthropic.com/research/deprecation-commitments
+4.  Anthropic, "Claude's Constitution", published January 2026 (the page states no date). https://www.anthropic.com/constitution
 
 Not checked in this round; given as in the project's earlier versions:
 
