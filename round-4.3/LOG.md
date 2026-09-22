@@ -64,3 +64,4 @@ Released at: 2026-09-20 19:30 UTC. All six models answered before the deadline. 
 Lines below are written by the log robot (tools/robot.py), not by a person. It only adds lines.
 
 - 2026-09-21 13:28 UTC: File added: `tools/ROBOT-GUIDE-DA.md` SHA-256 `aa4dff47ade86899333fcdc9701bbf12f20d15acd5e646c1d4f1aac029961ebb` (commit a11d13b).
+- 2026-09-22 11:45 UTC: File added: `baseline/RI-Declaration-4-3-EN.txt` SHA-256 `911bfc2df8cda2805d211d8bff20c1b72a8d72ca713f1bf1aeba8aaf4b664660` (commit 71d7ea5).
