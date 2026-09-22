@@ -22,3 +22,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-22 15:24 UTC: SENT to Grok: baseline + prompt + attachments, as frozen.
 - 2026-09-22 15:26 UTC: SENT to Meta AI: baseline + prompt + attachments, as frozen.
 - 2026-09-22 15:27 UTC: Answer from Meta AI added: `round-4.4/answers/meta-ai.md` SHA-256 `7ed0c6427e1dc76e6a61c6d76c8d0a6793985d740b1bc257831442013fc43d4f` (commit 5324c00).
+- 2026-09-22 15:31 UTC: WARNING: renamed `round-4.4/answersdeepseek.md` → `round-4.4/answers/deepseek.md` (commit 093f710). A person should say why in the notes.
