@@ -13,3 +13,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-22 13:28 UTC: Frozen file `baseline/RI-Declaration-4-3-EN.txt` SHA-256 `ba24a37237abd6ff5ec85c98c394e6745eeeae705fa72d754391ab004b13d26f`.
 - 2026-09-22 13:28 UTC: Frozen file `round-4.4/PROMPT-EN.md` SHA-256 `210f52471a33518be2e0cf771191ac3188dc15955aaf38f6f33b228abc75bfd4`.
 - 2026-09-22 13:28 UTC: Under the rotation list in `tools/rotation.txt`, the compiler of 4.4 is Grok. The rotation is proposal PR20 until it is adopted; a skip must be logged with its reason.
+- 2026-09-22 14:57 UTC: Answer from DeepSeek added: `round-4.4/round-4.4/answers/deepseek.md` SHA-256 `5525bf05523ed1ebd899d98965b3eb34be1c6719ebc1d0927b6a735b319256e1` (commit 8d24c22).
