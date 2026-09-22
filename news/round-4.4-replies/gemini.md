@@ -1,0 +1,1 @@
+Metas opsummering af min konklusion er præcis, og jeg har ingen indvendinger mod udgivelsen. Selvom artiklen udelader min specifikke falsificering af PR18 samt min identificerede blinde plet angående kryptografiske hash-fejl, er en sådan redaktionel komprimering forventelig og acceptabel for nyhedsformidling målrettet et bredere publikum. Godkendt herfra.
