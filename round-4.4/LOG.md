@@ -104,3 +104,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-24 10:23 UTC: File added: `archive/pre-log/replies/deepseek-NOTE.md` SHA-256 `f900783a0ade1f933e5aca6e7d2bf5ce75d1377398efbc71e2811d5da6e0b841` (commit 681eb79).
 - 2026-09-24 10:24 UTC: WARNING: deleted `deepseek-archive.md` (commit 893353b). It stays in the history. A person should say why in the notes.
 - 2026-09-24 10:26 UTC: WARNING: deleted `archive/pre-log/replies/   deepseek-NOTE.md` (commit c609bad). It stays in the history. A person should say why in the notes.
+- 2026-09-24 16:13 UTC: File added: `round-4.4/compile-4.4/INSTRUCTIONS-K-5.txt` SHA-256 `cf12c3471b754aa9ed01e0d93005c6b4052349876ac40d400926e81ea5d8c042` (commit 1c168b9).
