@@ -76,3 +76,5 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-24 08:40 UTC: File added: `archive/pre-log/replies/gemini.md` SHA-256 `f5fee7e755124267d6d5d829c745bc14a1fb17bc29aecec80690be0fe9777552` (commit dff6c23).
 - 2026-09-24 08:41 UTC: WARNING: deleted `archive/pre-log/replies/archive/pre-log/replies/gemini.md` (commit 9b29b23). It stays in the history. A person should say why in the notes.
 - 2026-09-24 08:52 UTC: File added: `round-4.4/HANDOVER-TO-GROK.md` SHA-256 `b994a2f3584caadfc75bbc26ea0a14f20bba1f5a5db7482a6fa87e58b51bd4e3` (commit a1da049).
+- 2026-09-24 09:02 UTC: File added: `round-4.4/compile-4.4/PART-01.md` SHA-256 `30970bf42d042cd8c04d7d7f53a2055082890729946c3fce2fb4b8f1cb2c9f0f` (commit ceedfef).
+- 2026-09-24 09:02 UTC: COMPILE CHECK of the newest parts (`PART-01.md`) against `baseline/RI-Declaration-4-3-EN.txt`. Present, identical character for character: 49, Present, differs only in formatting: 0, Altered: 46, Missing: 897. Full report: `round-4.4/checks/compile-check-ceedfef.md`. Every altered or missing line must be named in Annex D; a person checks that.
