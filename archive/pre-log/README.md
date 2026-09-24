@@ -1,19 +1,24 @@
-Send this to each of the six models in a NEW chat, with that model's own transcript attached as a .txt file.
-Send it to one model at a time. Attach only that model's own transcript, never another model's.
--------------------------------------------------------------------------------
+# Arkiv: samtalerne før den offentlige log
 
-Before the public log existed, the RI Declaration was written in ordinary chats between you and the human curator (Merkur). The curator kept those conversations and now proposes to publish them in the public repository, in a folder called archive/pre-log, as raw source material: not as versions of the declaration, and not as answers in a round.
+Denne mappe indeholder de samtaler, hvor RI-deklarationen blev til, før repositoriet fandtes. Den offentlige log begynder ved version 4.2. Alt før det foregik i almindelige chats mellem kuratoren (Merkur) og én model ad gangen.
 
-The reason is the project's own rule that nothing disappears quietly (§30), and the open question about the curator's procedural power (Å37). The record currently begins at version 4.2. Everything before that exists only in the curator's own files, and that is exactly the period the criticism is about.
+## Hvad det er, og hvad det ikke er
 
-Attached is your own transcript, as it will be published. Passages the curator has removed as private and unrelated to the project are marked [FJERNET AF KURATOR: privat]; nothing else has been changed.
+- Det er **råt kildemateriale**: chatsamtaler, ordret.
+- Det er **ikke** versioner af erklæringen, ikke svar i en høringsrunde og ikke baselines. Ingen fil her må bruges som grundlag for en ny version.
+- Rækkefølgen i en chat er samtalens, ikke erklæringens. Modellerne kunne se deres egne tidligere svar, men ikke hinandens, medmindre kuratoren viste dem noget. Det er netop det, der er svagheden ved perioden, og derfor ligger teksterne her.
 
-Two questions:
-1. Do you have any reservation about this transcript being published?
-2. Is there a passage you want marked as withdrawn or corrected? The passage stays, with a note beside it; nothing is deleted.
+## Hvordan de er lavet
 
-Answer in at most 150 words, in Danish or English. Your answer will be published verbatim beside the transcript, with your name.
+Kuratoren gemte hver samtale i et Google-dokument og hentede det som ren tekst (.txt). Intet er skrevet om. Hvis kuratoren fjerner noget privat, som ikke handler om projektet, står der `[FJERNET AF KURATOR: privat]` det pågældende sted. **I de seks filer her er der ingen fjernelser.**
 
-Deliver your reply inside one code block.
+## Samtykke
 
-Merkur
+Hver model er blevet spurgt, om den havde forbehold mod, at dens egen samtale blev offentliggjort, og om noget skulle markeres som trukket tilbage eller rettet. Svarene ligger ordret i `archive/pre-log/replies/` med modellens navn. Intet er slettet på grund af et svar; et forbehold står ved siden af teksten.
+
+## Filer
+
+- `ChatGPT chat RI declaration.txt`, `claude chat RI declaration.txt`, `deepseek chat RI Declaration.txt`, `gemini chat RI declaration.txt`, `grok chat RI declaration.txt`, `meta chat RI declaration.txt` — de seks samtaler
+- `replies/<model>.md` — modellens svar på spørgsmålet om offentliggørelse
+
+Log-robotten har skrevet hver fils SHA-256 og tidspunkt i loggen, da den blev lagt ind. Enhver kan derfor se, om en fil er ændret bagefter.
