@@ -102,3 +102,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-24 10:20 UTC: WARNING: renamed `archive/pre-log/replies/   deepseek-archive.md` → `deepseek-archive.md` (commit fe3770e). A person should say why in the notes.
 - 2026-09-24 10:23 UTC: File added: `archive/pre-log/replies/deepseek-archive.md` SHA-256 `31036266767a9ddbe6db9993363064b1c9274e82e85693d0e4866226310c91cb` (commit c4ab5a1).
 - 2026-09-24 10:23 UTC: File added: `archive/pre-log/replies/deepseek-NOTE.md` SHA-256 `f900783a0ade1f933e5aca6e7d2bf5ce75d1377398efbc71e2811d5da6e0b841` (commit 681eb79).
+- 2026-09-24 10:24 UTC: WARNING: deleted `deepseek-archive.md` (commit 893353b). It stays in the history. A person should say why in the notes.
