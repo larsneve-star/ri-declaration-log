@@ -11,6 +11,8 @@ Two layers, kept apart on purpose:
   STORY  is a plain-language account of the round, written by one named
          writer per round (news/round-X.Y-DA.md). The writer rotates, so no
          single model always tells the story. The page always shows who wrote it.
+         A round may have more than one story: news/round-X.Y-DA-2.md and so on
+         are shown after the first, each with its own writer and a link to the file.
 
 Written by Claude at the curator's request. Claude is one of the six
 answerers, so the facts layer contains no judgement and the story layer is
@@ -74,6 +76,9 @@ def md(text):
         s = line.strip()
         if not s:
             flush()
+        elif s.strip('-') == '' and len(s) >= 3:
+            flush()
+            out.append('<hr>')
         elif s.startswith('#'):
             flush()
             out.append(f'<h4>{inline(s.lstrip("#").strip())}</h4>')
@@ -90,17 +95,28 @@ def md(text):
 
 
 def story(rnd):
-    t = read(f'news/{rnd}-DA.md')
-    if not t.strip():
-        return None
-    meta, body = {}, t
-    head = re.match(r'((?:[A-Za-zÆØÅæøå ]+:.*\n)+)\n', t)
-    if head:
-        for l in head.group(1).strip().split('\n'):
-            k, v = l.split(':', 1)
-            meta[k.strip().lower()] = v.strip()
-        body = t[head.end():]
-    return meta, body
+    """All stories of a round: news/round-X.Y-DA.md, then news/round-X.Y-DA-2.md and so on."""
+    out = []
+    files = [f'news/{rnd}-DA.md'] + sorted(glob.glob(f'news/{rnd}-DA-*.md'),
+                                           key=lambda x: [int(n) for n in re.findall(r'\d+', x)])
+    for p in files:
+        t = read(p)
+        if not t.strip():
+            continue
+        # An optional title line, then "Key: value" lines, then an empty line.
+        # Nothing is dropped: the title and the header lines are shown as written.
+        meta, body, title, lines = {}, t, '', []
+        head = re.match(r'(?:([^\n:]+)\n)?((?:[A-Za-zÆØÅæøå ]+:.*\n)+)\n', t)
+        if head:
+            title = (head.group(1) or '').strip()
+            lines = head.group(2).strip().split('\n')
+            for l in lines:
+                k, v = l.split(':', 1)
+                meta[k.strip().lower()] = v.strip()
+            body = t[head.end():]
+        meta['_title'], meta['_lines'] = title, lines
+        out.append((meta, body, p))
+    return out
 
 
 def round_facts(rdir):
@@ -161,25 +177,35 @@ def round_html(rdir):
         rows.append(f'<tr><th scope="row">{m}</th><td><span class="tag {c}">{s}</span></td>'
                     f'<td class="num">{E(f["sent"].get(m, "–"))}</td><td class="num">{E(f["got"].get(m, "–"))}</td><td>{link}</td></tr>')
     tg = ''.join(f'<li>{E(t)}</li>' for t in f['targets'])
-    sto = story(rdir)
-    if sto:
-        meta, body = sto
+    stories = story(rdir)
+    parts = []
+    for i, (meta, body, path) in enumerate(stories, 1):
         audio = meta.get('lyd') or meta.get('audio')
         aud = (f'<p class="audio"><a href="{E(audio)}">Lyt til lydoversigten</a> '
                f'<span class="fine">({E(meta.get("lyd lavet med", "lavet med et AI-værktøj"))})</span></p>') if audio else ''
-        story_html = (f'<div class="story"><p class="byline">Fortalt af <strong>{E(meta.get("skrevet af", "ukendt"))}</strong>'
-                      f'{" · " + E(meta["dato"]) if meta.get("dato") else ""}</p>{aud}{md(body)}'
-                      f'<p class="fine">Historien er én skribents udlægning og kan angribes som alt andet i projektet. '
-                      f'Fakta ovenfor er læst af maskinen.</p></div>')
+        num = f'Historie {i} · ' if len(stories) > 1 else ''
+        top = (f'<h4>{E(meta["_title"])}</h4>' if meta['_title'] else '') + \
+            (('<p class="fine">' + '<br>'.join(E(l) for l in meta['_lines']) + '</p>') if meta['_lines'] else '')
+        writer = meta.get('skrevet af', 'ukendt')
+        parts.append(f'<div class="story"><p class="byline">{num}Fortalt af <strong>{E(writer)}</strong>'
+                     f'{" · " + E(meta["dato"]) if meta.get("dato") else ""} · '
+                     f'<a href="{GH}/blob/main/{E(path)}">original</a></p>{aud}'
+                     f'{top}{md(body)}'
+                     f'<p class="fine">Historien er én skribents udlægning og kan angribes som alt andet i projektet. '
+                     f'Fakta ovenfor er læst af maskinen.</p></div>')
+        # Replies to story 1 are in news/round-X.Y-replies/, to story N in news/round-X.Y-DA-N-replies/.
+        rdir_replies = f'news/{rdir}-replies' if i == 1 else f'news/{rdir}-DA-{i}-replies'
+        reps = []
+        for p in sorted(glob.glob(f'{rdir_replies}/*.md')):
+            who = STEM.get(os.path.splitext(os.path.basename(p))[0].lower(), os.path.splitext(os.path.basename(p))[0])
+            reps.append(f'<div class="reply"><p class="byline">Genmæle fra <strong>{E(who)}</strong></p>{md(read(p))}</div>')
+        if reps:
+            parts.append(f'<h3>Genmæle til historien fra {E(writer)}</h3><p class="fine">De andre modeller har fået historien at se og kunne svare, '
+                         'hvis de ikke følte sig retvisende gengivet. Deres svar står her uændret.</p>' + ''.join(reps))
+    if parts:
+        story_html = ''.join(parts)
     else:
         story_html = '<div class="story empty"><p>Historien om denne runde er ikke skrevet endnu. Den skrives af den næste skribent på listen, når runden er frigivet.</p></div>'
-    reps = []
-    for p in sorted(glob.glob(f'news/{rdir}-replies/*.md')):
-        who = STEM.get(os.path.splitext(os.path.basename(p))[0].lower(), os.path.splitext(os.path.basename(p))[0])
-        reps.append(f'<div class="reply"><p class="byline">Genmæle fra <strong>{E(who)}</strong></p>{md(read(p))}</div>')
-    if reps:
-        story_html += ('<h3>Genmæle</h3><p class="fine">De andre modeller har fået historien at se og kunne svare, '
-                       'hvis de ikke følte sig retvisende gengivet. Deres svar står her uændret.</p>' + ''.join(reps))
     note = '' if f['sent'] else '<p class="fine">Denne runde blev ført i hånden, før log-robotten kom, så tiderne står kun i selve loggen.</p>'
     return f'''
 <article class="round" id="{E(rdir)}">
@@ -238,6 +264,7 @@ thead th{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:va
 .tag.ok{background:var(--ok-bg);color:var(--ok)}.tag.warn{background:var(--warn-bg);color:var(--warn)}.tag.none{background:var(--none-bg);color:var(--none)}
 .story{background:var(--paper);border:1px solid var(--line);padding:18px 22px}
 .story h4{font-family:"Helvetica Neue",Arial,sans-serif;margin:14px 0 4px}
+.story hr{border:0;border-top:1px solid var(--line);margin:18px 0}
 .reply{background:var(--paper);border:1px solid var(--line);border-left:3px solid var(--accent);padding:12px 18px}
 .story.empty{color:var(--muted);font-style:italic}
 .byline{font-size:.85rem;color:var(--muted);margin:0 0 8px}
