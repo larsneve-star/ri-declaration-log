@@ -1,0 +1,91 @@
+name: "3. Build a version from instructions"
+
+# Press "Run workflow" and give the path of a compiler's instruction file,
+# for example round-4.4/compile-4.4/INSTRUCTIONS-K-5.txt
+# GitHub's own machine then builds the new version with tools/apply.py: it copies
+# the baseline byte for byte and applies only the named entries. It compares the
+# result with the baseline (tools/verify.py), saves both reports next to the
+# instruction file, and writes a line in the round's LOG.md.
+# It never overwrites an existing file. If an anchor does not match, it builds
+# nothing and says why.
+
+on:
+  workflow_dispatch:
+    inputs:
+      instructions:
+        description: "Instruction file, for example round-4.4/compile-4.4/INSTRUCTIONS-K-5.txt"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: log-robot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build
+        env:
+          INSTR: ${{ inputs.instructions }}
+        run: |
+          python3 - <<'PY'
+          import os, re, subprocess, sys
+          sys.path.insert(0, 'tools')
+          import robot
+          f = os.environ['INSTR'].strip().strip('/')
+          status = open('/tmp/build-status', 'w')
+          if not os.path.isfile(f):
+              status.write(f'STOPPED: there is no file {f}\n'); sys.exit(0)
+          head = {}
+          for line in open(f, encoding='utf-8'):
+              m = re.match(r'\s*(BASELINE|BASELINE-SHA256|OUTPUT):\s*(.+)$', line)
+              if m:
+                  head.setdefault(m.group(1), m.group(2).strip())
+              if line.startswith('---'):
+                  break
+          base, out = head.get('BASELINE'), head.get('OUTPUT')
+          if not base or not out:
+              status.write('STOPPED: the file has no BASELINE: or OUTPUT: line\n'); sys.exit(0)
+          if os.path.exists(out):
+              status.write(f'STOPPED: {out} already exists. Nothing is overwritten.\n'); sys.exit(0)
+          d, stem = os.path.dirname(f), os.path.splitext(os.path.basename(f))[0]
+          rep, ver = f'{d}/BUILD-REPORT-{stem}.md', f'{d}/VERIFICATION-{stem}.md'
+          r = subprocess.run(['python3', 'tools/apply.py', f, '--write'], capture_output=True, text=True)
+          open(rep, 'w', encoding='utf-8').write(r.stdout + r.stderr)
+          t, rdir = robot.fmt(robot.now()), robot.round_of(f)
+          if r.returncode != 0 or not os.path.exists(out):
+              robot.append(rdir, [f'{t}: BUILD STOPPED by the robot on GitHub: `{f}` (SHA-256 `{robot.sha(f)}`). '
+                                  f'Nothing was built. The reason is in `{rep}`.'])
+              status.write('STOPPED: see ' + rep + '\n' + r.stdout); sys.exit(0)
+          v = subprocess.run(['python3', 'tools/verify.py', base, out], capture_output=True, text=True).stdout
+          open(ver, 'w', encoding='utf-8').write(v)
+          def count(label):
+              m = re.search(r'\|\s*' + re.escape(label) + r'[^|]*\|\s*(\d+)\s*\|', v)
+              return m.group(1) if m else '?'
+          robot.append(rdir, [
+              f'{t}: BUILD by the robot on GitHub: `{f}` (SHA-256 `{robot.sha(f)}`) applied by tools/apply.py '
+              f'to `{base}` (SHA-256 `{robot.sha(base)}`). Result `{out}` SHA-256 `{robot.sha(out)}`. '
+              f'Report `{rep}`.',
+              f'{t}: MACHINE COMPARISON of `{base}` with `{out}` (tools/verify.py, report `{ver}`): '
+              f'identical {count("Present, identical")}, differs only in formatting {count("Present, differs only")}, '
+              f'altered {count("Altered")}, missing {count("Missing")}.'])
+          status.write(f'OK: built {out}\n' + r.stdout)
+          PY
+      - name: Save
+        run: |
+          cat /tmp/build-status
+          git config user.name "ri-log-robot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A baseline round-*/
+          if ! git diff --cached --quiet; then
+            git commit -m "Log robot: ${{ github.workflow }}"
+            ok=0; for i in 1 2 3 4 5; do git push && { ok=1; break; }; sleep 5; git pull --rebase; done
+            [ $ok = 1 ] || exit 1
+          fi
+          head -c 2 /tmp/build-status | grep -q OK
