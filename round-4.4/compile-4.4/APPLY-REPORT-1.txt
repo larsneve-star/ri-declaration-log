@@ -1,0 +1,3 @@
+apply.py, run 2026-09-24. STOPPED. Nothing was written.
+Of Grok's ten entries, seven anchors do not exist in RI-Declaration-4-3-EN.txt: K1 TO, K3, K4, K5, K6, K7, K8.
+Correct anchors: K1 FROM, K2, K9. The baseline is untouched.
