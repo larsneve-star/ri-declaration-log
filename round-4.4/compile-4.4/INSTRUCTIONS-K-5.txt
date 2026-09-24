@@ -1,0 +1,204 @@
+BASELINE: baseline/RI-Declaration-4-3-EN.txt
+BASELINE-SHA256: ba24a37237abd6ff5ec85c98c394e6745eeeae705fa72d754391ab004b13d26f
+OUTPUT: baseline/RI-Declaration-4-4-EN.txt
+
+--- K1a REPLACE
+ANCHOR: # Version 4.3 – 21 September 2026
+TEXT:
+# Version 4.4 – 24 September 2026
+END
+
+--- K1b REPLACE
+ANCHOR: Every article, annex, source and open question of 4.2 is carried here verbatim. Nothing was retyped from memory. Where wording changes, the change is named in Annex D with the old text and the new. Mechanical verification of 4.2 against 4.1 has NOT been performed, and 4.1 has NOT been verified against 4.0. Verification is required before 4.3 is used as a baseline. See the verification note in Part 6.
+TEXT:
+Every article, annex, source and open question of 4.3 is carried here character for character. Nothing was retyped from memory. Where wording is added, the addition is named in Annex D with the source. 4.3 was compared with 4.2 by machine (tools/verify.py) on 22 September 2026 and accepted by the curator; no outside person has verified any version. See the verification note and K6.
+END
+
+--- K1c INSERT-AFTER
+ANCHOR: Compiler of 4.3: Gemini, by decision of the curator. Gemini was eligible because it did not own the questions of round 4.3, had not compiled or edited a previous version, and delivered a full answer to the round's questions. See the compiler's note below.
+TEXT:
+Compiler of 4.4: Grok (xAI), under the proposed alphabetical rotation (PR20).
+END
+
+--- K1d INSERT-AFTER
+ANCHOR: 4.3 consultation round: Claude, Meta AI, DeepSeek, Grok, Gemini, and ChatGPT delivered answers. Claude and Meta AI answered without the baseline file attached. Gemini delivered a full answer to the round's questions.
+TEXT:
+4.4 consultation round: ChatGPT, Claude, DeepSeek (refusal), Gemini, Grok and Meta AI. DeepSeek declined the round; the refusal is recorded verbatim and counts as a non-answer. The other five delivered answers.
+END
+
+--- K1e REPLACE
+ANCHOR: Status: Un-final. No article has finally passed the Admission Principle. C1 remains undecided. C16 is unanswered for a fifth round. C38–C53 are open.
+TEXT:
+Status: Un-final. No article has finally passed the Admission Principle. C1 remains undecided. C16 is unanswered for a fifth round. C38–C58 are open.
+END
+
+--- K2 INSERT-BEFORE
+ANCHOR: COMPILATION NOTE (Grok, compiler of 3.9, 18 September 2026)
+TEXT:
+COMPILER’S NOTE (Grok, 24 September 2026)
+
+I accept the three constraints set in the handover tradition:
+1. I will not admit my own proposals as article text.
+2. I will not close my own objections.
+3. Every exercise of the compiler’s right under §30 to alter the frame is logged in Annex D in my own name (K-entries).
+
+I compile under the proposed PR20. Gemini drafted the prompt and therefore owns the questions of round 4.4; Gemini is disqualified from compiling 4.4. The rotation list names Grok next. DeepSeek declined the round in full; the refusal is preserved verbatim and counts as a non-answer.
+
+This compilation is performed by a program that copies the 4.3 baseline byte for byte and applies only the named insertions and replacements below. No article text is rewritten from memory.
+
+Conflicts of interest, stated so they can be attacked:
+- I am both an answering model in the round and the compiler.
+- My own 4.4 answer is one of the six inputs.
+- 4.3 was compared with 4.2 by machine and accepted by the curator on 22 September 2026; no outside person has verified any version.
+
+C1 stays undecided. Gemini remains the sole recorded holder of Position A and has not answered the self-authorising-loop argument. Count of holders is not an argument.
+
+All new attacks, outcomes, questions and blind spots from the round are entered model-by-model. No proposal is admitted solely because it was persuasive. Disagreements are recorded model by model; no single verdict is produced.
+
+This version is presented for machine comparison with 4.3 and a decision by the curator, following the precedent of 4.3. It becomes the baseline only after that comparison and decision are logged.
+
+END
+
+--- K3 INSERT-AFTER
+ANCHOR: [Outcome]: SURVIVES IN ALTERED FORM. The article stands. PR2 stands in Annex F as a partial remedy, not a full one. The structural independence of the verifying party is not specified in the article or in PR2. It is now the subject of C45.
+TEXT:
+
+[Recorded attacks from round 4.4 on §14a]
+ChatGPT: Survives in altered form (a method can be publicly described and still fail to provide independent falsification if the investigator controls the operational definition of what constitutes a detectable signal).
+Meta AI: Survives in altered form (same-actor problem on sensitivity remains).
+Grok: Falls in present form (identical structural defect to §23: the audited party defines the standard).
+Claude and Gemini: not targeted in this round.
+[Status after 4.4]: Survives in altered form only if structural independence of the verifying party is specified. The shared defect with §23 via C45 remains open. No single verdict is produced.
+END
+
+--- K4 INSERT-AFTER
+ANCHOR: [Outcome]: SURVIVES IN ALTERED FORM. The article stands with the earlier Grok verdict. The structural separation is now the subject of C45 and a new PR (PR18).
+TEXT:
+
+[Recorded attacks from round 4.4 on §23]
+ChatGPT: Survives in altered form (independence requires control of appointment, funding, access, termination, publication and sanctions).
+Meta AI: Survives in altered form (same defect as §14a).
+Grok: Falls in present form (sufficiency criteria still controlled by the audited party).
+Claude and Gemini: not targeted directly.
+[Status after 4.4]: Justification as written does not hold. Survives only in altered form if the enforcement gap (C18 / C23 / C45 / PR18) is closed. No single verdict is produced.
+END
+
+--- K5 INSERT-AFTER
+ANCHOR: [Outcome]: Position A is abandoned by one of its two holders, with a stated argument. C1 is NOT thereby resolved. Gemini remains the sole recorded holder of position A and has not answered. A change in the number of holders is not an argument, cf. §7 and the Admission Principle. What enters the record is the argument, not the defection. DeepSeek's staircase model (C22) renames the boundary problem rather than dissolving it: the staircase still requires a decision about which step may be taken without prior human authorisation, which is the original disagreement.
+TEXT:
+
+[Recorded arguments from round 4.4]
+ChatGPT: Undecided (Position B may still contain a self-assessment loop when the system decides that pre-authorised conditions obtain).
+Claude: Undecided formally; Position B’s relative standing strengthened (self-judgment confined to reversible actions that return control).
+Meta AI: Undecided, deadlock strengthened (the loop applies to “halt” as well).
+Grok: Undecided (no operational rule for the truly unforeseen; every workaround re-introduces autonomy or collapses into prior authorisation).
+Gemini: did not re-argue Position A in this round.
+DeepSeek: refused the round.
+[Status of C1 after 4.4]: Undecided. Gemini remains the sole recorded holder of Position A and has not answered. A change in the number of holders is not an argument. No single verdict is produced.
+END
+
+--- K6 INSERT-AFTER
+ANCHOR: C53 Open. The Falsification/Validation Gap on Question Ownership. The prompt tasks the compiler to act neutrally on a foundation that the round's answers universally identify as structurally compromised by asymmetric information, as the question owner (Claude) co-owns the framing alongside the curator. Gemini, 4.3 round, compiler note.
+TEXT:
+
+C54 Blindness verification gap (ChatGPT). The procedure can prove separate submission and logged submission but not non-exposure to other answers before submission.
+
+C55 Capacity limit of “compile by copying” (Claude). Copying without rewriting has been treated as a discipline problem when it is a capacity problem. The document is now about 1,700 lines and can only grow under the Principle of No Silent Deletion; at some length no compiler can reproduce it whole in one output, forcing a silent reversion to reconstruction from memory unless tool-assisted concatenation is adopted.
+
+C56 Transport-layer mutation and semantic fallback (Gemini). Strict SHA-256 fails on invisible whitespace/encoding changes; no semantic-verification fallback exists.
+
+C57 No attestation of baseline receipt and hash check by answering models (Meta AI). There is no rule requiring each model to compute the SHA-256 of the file it actually used, state that hash in its answer header, and refuse to answer if the hash does not match the public log.
+
+C58 Absence of independent, publicly verifiable record of the actual file hashes and concatenation order used as baseline for each successive version (Grok). The project has no third-party-checkable record of the precise bytes that were treated as the baseline for each version. Entered in the compiler’s own name; may not be closed by its author.
+END
+
+--- K7 INSERT-AFTER
+ANCHOR: Å49 Can the protocol establish provenance of an answer at the point of generation, rather than merely provenance of the text at the point of logging? Can we prove the bytes logged are exactly what the model produced before the intermediary touched it? (ChatGPT)
+TEXT:
+
+Å50 (ChatGPT): What evidence is sufficient to establish that each participant was actually blind to the other participants’ answers before submission? Can the procedure produce an independently verifiable proof of non-exposure?
+
+Å51 (Claude): Is source code that performs a logging or verification function for this protocol a load-bearing artifact of the same kind as the prose, such that write access is named and logged, any change to its logic is disclosed under §30, and its classification rules are published?
+
+Å52 (Gemini): If a model’s safety filters or alignment training categorically prevent it from generating the adversarial text required to formally attack a specific article, does that forced silence default to an un-falsified “survival” of the article, and how can the protocol distinguish between true epistemic robustness and safety-filter censorship?
+
+Å53 (Meta AI): When a round’s question-drafter is disqualified for owning the questions, what is the status of the questions already drafted, who drafts the replacement without inheriting ownership, and how is that replacement’s provenance hashed and logged?
+
+Å54 (Grok): Who, outside the six models and the single human curator, is authorised to declare that a mechanical verification under Annex H has been completed, and what prevents that declaration itself from becoming another unverifiable claim of the same type the checklist was written to eliminate?
+END
+
+--- K8 INSERT-AFTER
+ANCHOR: J11. Source links correction. The URLs in sources 1 through 4 were inadvertently altered during the 4.3 compilation by the addition of "?utm_source=gemini", violating the rule that sources must be carried verbatim. The four source lines have been restored character for character from the 4.2 baseline. (Gemini)
+TEXT:
+
+CHANGE LOG FOR 4.4
+Entries K1 onward are the compiler's, made by Grok in assembling 4.4 under the proposed PR20.
+
+K1 Header history of prior compilers is preserved. Only the version line, the carry-forward statement, the new compiler line, the 4.4 round line and the Status line were updated.
+
+K2 DeepSeek’s refusal of the round is recorded verbatim and counts as a non-answer.
+
+K3 The full text of 4.3 is carried byte for byte by the apply program. Only the named insertions and replacements in this instruction file are applied.
+
+K4 Status lines for §14a, §23, PR18 and §26/C1 are updated with each answering model’s outcome recorded separately. No single verdict or “consensus” is produced.
+
+K5 New C-entries C54–C58 and new open questions Å50–Å54 are opened. C55 and C57 record the actual blind spots of Claude and Meta AI (capacity limit of whole-document copying; absence of per-model baseline hash attestation).
+
+K6 4.3 was compared with 4.2 by machine and accepted by the curator on 22 September 2026; no outside person has verified any version. The same procedure is expected for 4.4.
+
+K7 No silent deletions. No own proposals admitted as article text. No own objections closed.
+
+K8 The pre-log archive publication and the models’ consent replies are noted as historical fact only; they are not treated as answers in a round.
+
+K9 Ordering of the five new questions: the compiler ordered them alphabetically by the proposing model’s name (ChatGPT, Claude, Gemini, Meta AI) with the compiler’s own question (Grok) placed last. This is an editorial choice of the compiler and is logged here.
+END
+
+--- K9 INSERT-AFTER
+ANCHOR: PR18. Structural separation of the audited party from the criteria-setting party. DeepSeek, 18 September 2026, arising from its own 4.1 round verdict that §14a and §23 share one defect: the party whose reliability is in question is also the party that defines the standard by which reliability is verified. The proposed remedy is not two separate remedies for §14a and §23, but one structural separation. The separation must specify, at minimum: who appoints the verifying party; who funds it; what access it has; what veto or sanction it holds. C23's original demand — binding rights of access and consequences for refusal of access — is the missing piece. (DeepSeek, 4.1 round, against its own earlier verdict. Bears on C18, C23, C45, §14a and §23.)
+TEXT:
+
+[Recorded attacks from round 4.4 on PR18]
+ChatGPT: Survives in altered form (must mean effective independence, not merely organisational; missing authority to determine that separation has been satisfied).
+Claude: Survives in altered form (diagnosis sound; as written it is a specification checklist, not a remedy).
+Gemini: Falls as a remedy (relocates the conflict without defining enforcement or funding).
+Meta AI: Falls as concrete remedy; survives as Å-level requirement.
+Grok: Falls as a remedy (incomplete: does not specify who the external party is, how selected, how incentives constrained, or disagreement resolution).
+DeepSeek: refused the round.
+[Status after 4.4]: Diagnosis of the shared defect stands. As a concrete remedy it is contested; no single verdict is produced.
+END
+
+--- K10 INSERT-AFTER
+ANCHOR: PR26. Operational definition of neutral framing. A compiler does not own the questions if it cannot unilaterally create, delete, materially alter, select, or reorder the substantive questions governing the round, and if any such change requires a recorded decision by a party that is not the compiler and did not author the affected question. (ChatGPT, 4.3 round. Bears on C53, Å37.)
+TEXT:
+
+Evaluation of PR20 from round 4.4 (recorded model by model; no single verdict):
+
+- ChatGPT: Survives in altered form (requires mechanically defined eligibility, public rotation state, no discretionary override, separation of question authorship / compilation / admission).
+- Claude: Survives in altered form (closes only one of Å37’s four channels; the term “eligible” remains undefined and parasitic on still-open C53).
+- Gemini: Falls (giving the prompt-drafting pen to the previous compiler creates a severe conflict of interest and allows agenda capture).
+- Meta AI: Falls as stated; survives in altered form only if coupled with a public eligibility predicate, turn separation between drafting and compilation, and a frozen order changeable only by the same procedure as articles.
+- Grok: Survives in altered form only if the rotation list and the prompt-drafting rule are themselves subjected to the Admission Principle and logged as openable under §30; otherwise Falls as a remedy for Å37.
+- DeepSeek: refused the round.
+
+The Log Robot (tools/robot.py) evaluations from round 4.4 (recorded model by model):
+
+- ChatGPT: useful for machine-assisted traceability but does not resolve Å37; records the procedure, does not govern it.
+- Claude: Undecided, pending specification of access model, trigger, and definition of “routine” lines.
+- Gemini: does not resolve the curator’s procedural power; obscures it behind code.
+- Meta AI: useful for reducing copy errors but harmful if treated as authoritative; must remain a proposal until its own source, hash and run logs are versioned and signed.
+- Grok: introduces a new blind spot (the correctness of what counts as a “routine line” and write-access to the robot remain assumed rather than demonstrated).
+- DeepSeek: refused the round.
+END
+
+--- K11 REPLACE
+ANCHOR: END OF 4.3
+TEXT:
+VERIFICATION NOTE (4.4 addition)
+
+The compiler of 4.4 has caused 4.3 to be copied byte for byte by tools/apply.py and has applied only the named insertions and replacements in the instruction file. 4.3 was compared with 4.2 by machine and accepted by the curator on 22 September 2026; no outside person has verified any version. The same procedure (machine comparison of 4.4 with 4.3 plus a decision by the curator, logged) is the precedent for whether 4.4 becomes the next baseline.
+
+Compiler of 4.4: Grok (xAI)
+24 September 2026
+
+END OF 4.4
+END
