@@ -99,3 +99,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-24 09:34 UTC: File added: `round-4.4/compile-4.4/INSTRUCTIONS-K-4.txt` SHA-256 `0476763b8e9e420eccbdf75015b08f596fd9c2ed66e883b152bce758ea50fbd3` (commit 9731990).
 - 2026-09-24 10:13 UTC: WARNING: renamed `"archive/pre-log/replies/Deepseek archive \302\267 MD"` → `archive/pre-log/replies/   deepseek-archive.md` (commit 0d45071). A person should say why in the notes.
 - 2026-09-24 10:15 UTC: WARNING: deleted `"archive/pre-log/replies/Log note archive fix \302\267 TXT"` (commit c04b321). It stays in the history. A person should say why in the notes.
+- 2026-09-24 10:20 UTC: WARNING: renamed `archive/pre-log/replies/   deepseek-archive.md` → `deepseek-archive.md` (commit fe3770e). A person should say why in the notes.
