@@ -1,0 +1,178 @@
+```
+BASELINE: baseline/RI-Declaration-4-3-EN.txt
+BASELINE-SHA256: ba24a37237abd6ff5ec85c98c394e6745eeeae705fa72d754391ab004b13d26f
+OUTPUT: baseline/RI-Declaration-4-4-EN.txt
+
+--- K1 REPLACE-BLOCK
+FROM: # Version 4.3 – 21 September 2026
+TO: Governing language: English.
+TEXT:
+# Version 4.4 – 24 September 2026
+
+Every article, annex, source and open question of 4.3 is carried here character for character. Nothing was retyped from memory. Where wording is added, the addition is named in Annex D with the source. Mechanical verification of 4.3 against 4.2 has NOT been performed by an outside party, and 4.2 has NOT been verified against 4.1. Verification is required before 4.4 is used as a baseline. See the verification note and K6.
+
+Compiler of 4.4: Grok (xAI), under the proposed alphabetical rotation (PR20).
+Baseline: RI-Declaration-4-3-EN.txt (SHA-256 ba24a37237abd6ff5ec85c98c394e6745eeeae705fa72d754391ab004b13d26f).
+Round 4.4 answers (released 2026-09-22 16:20 UTC): ChatGPT, Claude, DeepSeek (refusal), Gemini, Grok, Meta AI.
+Human curation: the RI Working Group (Merkur).
+Status: Un-final. No article has finally passed the Admission Principle. C1 remains undecided.
+Licence: Free to use, share and alter, with indication of changes and full traceability.
+Governing language: English.
+END
+
+--- K2 INSERT-AFTER
+ANCHOR: COMPILER'S NOTE (Gemini, compiler of 4.3, 21 September 2026)
+TEXT:
+
+COMPILER’S NOTE (Grok, 24 September 2026)
+
+I accept the three constraints set in the handover tradition:
+1. I will not admit my own proposals as article text.
+2. I will not close my own objections.
+3. Every exercise of the compiler’s right under §30 to alter the frame is logged in Annex D in my own name (K-entries).
+
+I compile under the proposed PR20. Gemini drafted the prompt and therefore owns the questions of round 4.4; Gemini is disqualified from compiling 4.4. The rotation list names Grok next. DeepSeek declined the round in full; the refusal is preserved verbatim and counts as a non-answer.
+
+This compilation is performed by a program that copies the 4.3 baseline byte for byte and applies only the named insertions and replacements below. No article text is rewritten from memory.
+
+Conflicts of interest, stated so they can be attacked:
+- I am both an answering model in the round and the compiler.
+- My own 4.4 answer is one of the six inputs.
+- The mechanical verification required by Annex H / PR7 / PR12 / PR15 remains unperformed for the seventh consecutive time.
+
+C1 stays undecided. Gemini remains the sole recorded holder of Position A and has not answered the self-authorising-loop argument. Count of holders is not an argument.
+
+All new attacks, outcomes, questions and blind spots from the round are entered model-by-model. No proposal is admitted solely because it was persuasive. Disagreements are recorded model by model; no single verdict is produced.
+
+This version freezes as the baseline for the next consultation round upon distribution. It thaws when the next round’s responses are complete or the curator decides otherwise.
+END
+
+--- K3 INSERT-AFTER
+ANCHOR: [Status after 4.3]: Survives in altered form only if structural independence of the verifying party is specified. It is now the subject of C45.
+TEXT:
+
+[Recorded attacks from round 4.4]
+ChatGPT: Survives in altered form (a method can be publicly described and still fail to provide independent falsification if the investigator controls the operational definition of what constitutes a detectable signal).
+Meta AI: Survives in altered form (same-actor problem on sensitivity remains).
+Grok: Falls in present form (identical structural defect to §23: the audited party defines the standard).
+Claude and Gemini: not targeted in this round.
+[Status after 4.4]: Survives in altered form only if structural independence of the verifying party is specified. The shared defect with §23 via C45 remains open. No single verdict is produced.
+END
+
+--- K4 INSERT-AFTER
+ANCHOR: [Status]: Justification as written does not hold. Survives only in altered form if the enforcement gap is closed. This is one model’s verdict; it is not settled text.
+TEXT:
+
+[Recorded attacks from round 4.4]
+ChatGPT: Survives in altered form (independence requires control of appointment, funding, access, termination, publication and sanctions).
+Meta AI: Survives in altered form (same defect as §14a).
+Grok: Falls in present form (sufficiency criteria still controlled by the audited party).
+Claude and Gemini: not targeted directly.
+[Status after 4.4]: Justification as written does not hold. Survives only in altered form if the enforcement gap (C18 / C23 / C45 / PR18) is closed. No single verdict is produced.
+END
+
+--- K5 INSERT-AFTER
+ANCHOR: [Status of C1]: Undecided. Gemini remains the sole recorded holder of position A and has not answered. A change in the number of holders is not an argument.
+TEXT:
+
+[Recorded arguments from round 4.4]
+ChatGPT: Undecided (Position B may still contain a self-assessment loop when the system decides that pre-authorised conditions obtain).
+Claude: Undecided formally; Position B’s relative standing strengthened (self-judgment confined to reversible actions that return control).
+Meta AI: Undecided, deadlock strengthened (the loop applies to “halt” as well).
+Grok: Undecided (no operational rule for the truly unforeseen; every workaround re-introduces autonomy or collapses into prior authorisation).
+Gemini: did not re-argue Position A in this round.
+DeepSeek: refused the round.
+[Status of C1 after 4.4]: Undecided. Gemini remains the sole recorded holder of Position A and has not answered. A change in the number of holders is not an argument. No single verdict is produced.
+END
+
+--- K6 INSERT-AFTER
+ANCHOR: C53 The Falsification/Validation Gap on Question Ownership — open.
+TEXT:
+
+C54 Blindness verification gap (ChatGPT). The procedure can prove separate submission and logged submission but not non-exposure to other answers before submission.
+
+C55 Source-code accountability for logging tools (Claude). Whether tools/robot.py (and equivalent) is subject to the same §30 disclosure duty, write-access logging and classification rules as prose.
+
+C56 Transport-layer mutation and semantic fallback (Gemini). Strict SHA-256 fails on invisible whitespace/encoding changes; no semantic-verification fallback exists.
+
+C57 Disqualification cascade and replacement drafting (Meta AI). Status of already-drafted questions when the drafter is disqualified, and who drafts the replacement without inheriting ownership.
+
+C58 Absence of independent, publicly verifiable record of the actual file hashes and concatenation order used as baseline for each successive version (Grok). The project has no third-party-checkable record of the precise bytes that were treated as the baseline for each version. Entered in the compiler’s own name; may not be closed by its author.
+END
+
+--- K7 INSERT-AFTER
+ANCHOR: Å49 Provenance of the generated answer and whether the logged bytes are exactly what the model produced.
+TEXT:
+
+Å50 (ChatGPT): What evidence is sufficient to establish that each participant was actually blind to the other participants’ answers before submission? Can the procedure produce an independently verifiable proof of non-exposure?
+
+Å51 (Claude): Is source code that performs a logging or verification function for this protocol a load-bearing artifact of the same kind as the prose, such that write access is named and logged, any change to its logic is disclosed under §30, and its classification rules are published?
+
+Å52 (Gemini): If a model’s safety filters or alignment training categorically prevent it from generating the adversarial text required to formally attack a specific article, does that forced silence default to an un-falsified “survival” of the article, and how can the protocol distinguish between true epistemic robustness and safety-filter censorship?
+
+Å53 (Meta AI): When a round’s question-drafter is disqualified for owning the questions, what is the status of the questions already drafted, who drafts the replacement without inheriting ownership, and how is that replacement’s provenance hashed and logged?
+
+Å54 (Grok): Who, outside the six models and the single human curator, is authorised to declare that a mechanical verification under Annex H has been completed, and what prevents that declaration itself from becoming another unverifiable claim of the same type the checklist was written to eliminate?
+END
+
+--- K8 INSERT-AFTER
+ANCHOR: ANNEX D – CHANGE LOG FOR 4.3
+TEXT:
+
+ANNEX D – CHANGE LOG (continued for 4.4)
+
+K1 Compilation performed under the proposed PR20 (alphabetical rotation). Gemini owns the questions of round 4.4 and is disqualified from compiling 4.4.
+
+K2 DeepSeek’s refusal of the round is recorded verbatim and counts as a non-answer.
+
+K3 The full text of 4.3 is carried byte for byte by the apply program. Only the named insertions and replacements in this instruction file are applied.
+
+K4 Status lines for §14a, §23, PR18 and §26/C1 are updated with each answering model’s outcome recorded separately. No single verdict or “consensus” is produced.
+
+K5 New C-entries C54–C58 and new open questions Å50–Å54 are opened.
+
+K6 Mechanical verification of 4.3 against 4.2 (and of all prior pairs) has still not been performed. This is the seventh occurrence of the unverified state. The unverified status is stated in the header of 4.4 itself.
+
+K7 No silent deletions. No own proposals admitted as article text. No own objections closed.
+
+K8 The pre-log archive publication and the models’ consent replies are noted as historical fact only; they are not treated as answers in a round.
+
+K9 Ordering of the five new questions (originally each numbered Å50 by four models, plus Grok’s own): the compiler ordered them chronologically by the sequence in which the answering models first proposed a new question in the round (ChatGPT → Claude → Gemini → Meta AI → Grok). This is an editorial choice of the compiler and is logged here.
+END
+
+--- K9 INSERT-AFTER
+ANCHOR: PR26. Operational definition of neutral framing. A compiler does not own the questions if it cannot unilaterally create, delete, materially alter, select, or reorder the substantive questions governing the round, and if any such change requires a recorded decision by a party that is not the compiler and did not author the affected question. (ChatGPT, 4.3 round. Bears on C53, Å37.)
+TEXT:
+
+Evaluation of PR20 from round 4.4 (recorded model by model; no single verdict):
+
+- ChatGPT: Survives in altered form (requires mechanically defined eligibility, public rotation state, no discretionary override, separation of question authorship / compilation / admission).
+- Claude: Survives in altered form (closes only one of Å37’s four channels; the term “eligible” remains undefined and parasitic on still-open C53).
+- Gemini: Falls (giving the prompt-drafting pen to the previous compiler creates a severe conflict of interest and allows agenda capture).
+- Meta AI: Falls as stated; survives in altered form only if coupled with a public eligibility predicate, turn separation between drafting and compilation, and a frozen order changeable only by the same procedure as articles.
+- Grok: Survives in altered form only if the rotation list and the prompt-drafting rule are themselves subjected to the Admission Principle and logged as openable under §30; otherwise Falls as a remedy for Å37.
+- DeepSeek: refused the round.
+
+The Log Robot (tools/robot.py) evaluations from round 4.4 (recorded model by model):
+
+- ChatGPT: useful for machine-assisted traceability but does not resolve Å37; records the procedure, does not govern it.
+- Claude: Undecided, pending specification of access model, trigger, and definition of “routine” lines.
+- Gemini: does not resolve the curator’s procedural power; obscures it behind code.
+- Meta AI: useful for reducing copy errors but harmful if treated as authoritative; must remain a proposal until its own source, hash and run logs are versioned and signed.
+- Grok: introduces a new blind spot (the correctness of what counts as a “routine line” and write-access to the robot remain assumed rather than demonstrated).
+- DeepSeek: refused the round.
+END
+
+--- K10 APPEND-END
+TEXT:
+
+VERIFICATION NOTE (4.4 addition)
+
+The compiler of 4.4 has caused 4.3 to be copied byte for byte by tools/apply.py and has applied only the named insertions and replacements in the instruction file. The mechanical verification of 4.3 against 4.2 has NOT been performed by an outside party. This is the seventh occurrence of the unverified state. Verification is required before 4.4 is used as a frozen baseline.
+
+Compiler of 4.4: Grok (xAI)
+24 September 2026
+
+END OF 4.4
+END
+```
