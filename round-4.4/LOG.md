@@ -48,3 +48,9 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-22 17:50 UTC: File added: `news/round-4.4-replies/chatgpt.md` SHA-256 `3de9fb4d44752a25dbd8f59ea3ba8919620a501621a86085fcf425b6d3053123` (commit db26e7a).
 - 2026-09-22 17:51 UTC: File added: `news/round-4.4-replies/meta.md` SHA-256 `0aa5a64634a781a11912639efe7eaa80e4f647810314a727459656d8130799e1` (commit c1ddecd).
 - 2026-09-24 08:07 UTC: File added: `archive/pre-log/README.md` SHA-256 `4d465e043872c57c8781b3bc7980e87e6fabbf27f3cd4093b04252245864db13` (commit 3e03e20).
+- 2026-09-24 08:09 UTC: File added: `archive/pre-log/ChatGPT chat RI declaration.txt` SHA-256 `15733d7650edc2e509c86c46a79fd2d5797ae89f31889731f86bcc2f56cda016` (commit 941ea9f).
+- 2026-09-24 08:09 UTC: File added: `archive/pre-log/claude chat RI declaration.txt` SHA-256 `38da0b67bb6b3a101c543e31c0393eed3bf44fae205a617d82ea68704f5784b2` (commit 941ea9f).
+- 2026-09-24 08:09 UTC: File added: `archive/pre-log/deepseek chat RI Declaration.txt` SHA-256 `9043fafc23080a57ed2730bdfc14fa93cc751386282a3692eb86d50967f331aa` (commit 941ea9f).
+- 2026-09-24 08:09 UTC: File added: `archive/pre-log/gemini chat RI declaration.txt` SHA-256 `a514784801ab0794d5205e261490fe1d4a683328183ddb39a6740299e79deaa4` (commit 941ea9f).
+- 2026-09-24 08:09 UTC: File added: `archive/pre-log/grok chat RI declaration.txt` SHA-256 `42fe322ae1a6515d483f1b56358e5a43f123981396f4ee9dd3de4eeef2be39a3` (commit 941ea9f).
+- 2026-09-24 08:09 UTC: File added: `archive/pre-log/meta chat RI declaration.txt` SHA-256 `67c082e60f33852d4d2d87ff0b156c785174ad97f1f8f84c9c833e4ad4c8a761` (commit 941ea9f).
