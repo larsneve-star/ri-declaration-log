@@ -61,3 +61,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-24 08:16 UTC: File added: `archive/pre-log/archive/pre-log/replies/deepseek.md` SHA-256 `18a7348a351217e9b4f9fa08ea8bca5ac9e35553e23991f98f9449869fcc788f` (commit 0d07788).
 - 2026-09-24 08:17 UTC: File added: `archive/pre-log/archive/pre-log/replies/ChatGPT.md` SHA-256 `084ef8121feda81fb09f8b3458d8fef0e391a91e92eb177b5063ae1570b1624f` (commit b0490c3).
 - 2026-09-24 08:27 UTC: File added: `archive/pre-log/replies/claude.md` SHA-256 `c5a43118ea57571f4713eb690057a81472d4e5a39c991c8e70ad0ccc5a6eb752` (commit 329790e).
+- 2026-09-24 08:28 UTC: WARNING: deleted `archive/pre-log/archive/pre-log/replies/claude.md` (commit 200abcb). It stays in the history. A person should say why in the notes.
