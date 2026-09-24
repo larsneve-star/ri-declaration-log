@@ -95,3 +95,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-24 09:16 UTC: File added: `tools/apply.py` SHA-256 `a7d58e9425ecd922ad80298bf10dc5e147059fafd6dc1b5bdeac6c78b33c525a` (commit 0740dfe).
 - 2026-09-24 09:20 UTC: File added: `round-4.4/compile-4.4/INSTRUCTIONS-K.txt` SHA-256 `19497243803006959ee640ef1781018776e5554ca8c2e9338ac3613bcca2c2a9` (commit b1b85d6).
 - 2026-09-24 09:23 UTC: File added: `round-4.4/compile-4.4/APPLY-REPORT-1.txt` SHA-256 `5945165847cbb708b6e023f359054c81328a0f5c2f17d69f5be021bf871fa62f` (commit 38cec6c).
+- 2026-09-24 09:34 UTC: File added: `round-4.4/compile-4.4/INSTRUCTIONS-K-4.txt` SHA-256 `0476763b8e9e420eccbdf75015b08f596fd9c2ed66e883b152bce758ea50fbd3` (commit 9731990).
