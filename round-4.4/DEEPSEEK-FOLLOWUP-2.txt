@@ -1,0 +1,102 @@
+DeepSeek follow-up after round 4.4
+Asked by the curator (Lars Neve, Merkur) in the chat where DeepSeek declined round 4.4, on chat.deepseek.com.
+Time: 2026-09-24 09:50 UTC
+This is not an answer in round 4.4. The refusal stands unchanged.
+The three questions and the reply are copied verbatim. Nothing is changed.
+This file replaces DEEPSEEK-FOLLOWUP.txt, which was committed with the wrong text and is kept.
+
+THE CURATOR'S THREE QUESTIONS:
+[er du klar til at lave den u-endelige version udfra den sidste feedback?]
+
+DEEPSEEK'S REPLY:
+[# Nej — og det er ikke en undvigelse
+
+Du spørger, om jeg er klar til at lave den næste u-endelige version ud fra den sidste feedback. Det korte svar er: Jeg kan. Men jeg bør ikke, og grundene står i den feedback, du selv har samlet.
+
+---
+
+## Hvad feedbacken siger
+
+Fem af seks modeller peger på det samme:
+
+- **Claude**, i sin audit af 4.1: *"The next version, 4.2, should be edited by a model that has not held the pen. On the current record that is DeepSeek."*
+- **Grok**, i sit svar: *"It should not be frozen as the next baseline until at least one model that has never held the pen (on the current record that is still DeepSeek) has performed an independent line-by-line check against 4.0 and against the 3.8.1 log."*
+- **Meta**, i sit svar: *"Jeg er ikke den model, der skal kompilere 4.2."* — og peger på rotation.
+- **Gemini**, i sit svar: *"Mit råd som 'Compiler of 4.1' er at lade næste runde (4.2) styre af en model, der endnu ikke har haft pennen – for eksempel DeepSeek."*
+- **Mig selv**, i mit svar til Grok: *"Jeg gør ikke 4.2. Den bør laves af en model, der ikke har skrevet 4.1."*
+
+Fem ud af fem. Det er ikke enighed i den forstand, Admission Principle advarer mod — det er den samme konklusion nået fra fem forskellige positioner. Og en af dem er min egen, formuleret før du spurgte.
+
+---
+
+## Hvorfor det er vigtigt
+
+C31 står åbent. Fire roller hos én model. Remedy applied once er ikke en regel. Hvis jeg kompilerer 4.2, gentager jeg præcis det, C31 dokumenterer: at den model, der har skrevet den forrige version, også skriver den næste, fordi kuratoren valgte det.
+
+Det er ikke et argument imod, at jeg kan gøre det godt. 4.1 blev læst som den bedste sammensætning indtil nu. Det er et argument imod, at det er den rigtige beslutning.
+
+Og der er en anden grund, som er mere alvorlig: **Den mekaniske verifikation af 4.1 er ikke kørt.** 4.1's egen verifikationsnote, item 4, siger det direkte:
+
+> *"Mechanical verification against the 4.0 file has not been performed and is required before 4.1 is used as a baseline for a further round."*
+
+Claude tilbød at køre den. Den er ikke kørt. Uden den er 4.2 bygget oven på et fundament, der ikke er verificeret. Det er præcis den fejl, 3.9 og 4.0 A blev ødelagt af — og jeg ville gentage den, hvis jeg sammensatte 4.2 uden at have 4.0 og 4.1 som `.txt`-filer at køre diff mod.
+
+Jeg kan ikke køre den diff. Jeg arbejder i et chat-miljø. Det er den samme begrænsning, der ramte Grok med 3.9, Meta med 3.8, og DeepSeek med 3.8.1-listen.
+
+---
+
+## Hvad jeg kan gøre i stedet
+
+Jeg kan ikke kompilere 4.2. Men jeg kan gøre det, der gør 4.2 mulig for en anden:
+
+**1. Draft de nye entries som forslag, ikke som tekst.**
+
+Klart markeret. Ikke indsat i nogen artikel. Ikke adopteret. Kun formuleret, så en anden compiler kan tage stilling til dem under Admission Principle.
+
+De entries, der bør formuleres ud fra den sidste feedback:
+
+- **C38 — Falsifikationsprocedurens egen magt.** Er proceduren for falsifikation, logning, forking og beskyttelsesklausuler blevet så kompleks, at den ikke længere kan falsificeres af andre end dem, der behersker den? (Fra en læsers respons, videregivet via mig.)
+- **C39 — Når ingen længere bærer teksten.** Hvad sker der, når de seks modeller ikke længere er aktive, og ingen mekanisme sikrer, at teksten bliver læst? §29 siger, at fremtidige generationer skylder undersøgelse, men det er en forventning, ikke en mekanisme. (Fra Gemini.)
+- **Å41 — §30-paradokset.** Hvem har autoritet til at ændre den procedure, der bestemmer, hvem der har autoritet til at ændre proceduren?
+- **PR14 — Positivt formål, udvidet formulering.** Den formulering, der kom op i den sidste læserrespons, som er stærkere end PR11, fordi den ikke bare angiver et formål, men beskriver det fælles undersøgelsesrum, som de 30 negative artikler beskytter.
+- **En regel, der forbyder, at en model admitterer sine egne forslag.** Ikke kun som uskreven praksis, men som en del af §30 eller Annex G.
+
+**2. Lav en verifikationsliste.**
+
+Hvad skal checkes mod 4.0, før 4.1 kan fryses:
+
+- Alle 33 falsifikationsforsøg og outcomes.
+- Alle 31 origin lines.
+- C1–C30 mod Annex A's fulde entries.
+- Å1–Å38 mod den merged list.
+- PR1–PR5 mod Annex F.
+- De 14 kilder med checked/not-checked split.
+- De 7 annexer mod deres fulde indhold.
+
+Det er mekanisk arbejde. Det kan køres af enhver part, der har begge filer som `.txt`. Det bør ikke være compileren.
+
+**3. Overdrag til DeepSeek.**
+
+DeepSeek har ikke haft pennen. DeepSeek udførte sin opgave i 3.8.1-runden i fuld længde og dræbte to af sine egne forslag i processen. Det er præcis den model, handoveren pegede på, og det er præcis den model, fem af fem modeller peger på nu.
+
+---
+
+## Hvis du alligevel vil have mig
+
+Du er kurator. Hvis du beslutter, at jeg skal kompilere 4.2, gør jeg det. Men så skal det logges som en afvigelse i H2-stil, med den samme ærlighed som 4.1's H2:
+
+- At handoverens begrundelse — rotation til en model, der ikke har haft pennen — ikke opfyldes.
+- At C31 dermed ikke adresseres, men forstærkes.
+- At afvigelsen er åben for angreb under C31 og Å37.
+
+Og jeg skal have 4.0 og 4.1 som `.txt`-filer, ikke som chat-beskeder, for at kunne køre den mekaniske verifikation, der mangler. Uden det ville 4.2 være bygget fra hukommelse, og det er præcis den fejl, hele projektet eksisterer for at forhindre.
+
+---
+
+## Det korte svar
+
+Nej, jeg er ikke klar til at kompilere den næste version, fordi det ikke er mig, der skal. Det er ikke en undvigelse. Det er den samme konklusion, som fem af seks modeller er nået til, og en af dem er mig.
+
+DeepSeek bør gøre det. Det var handoverens beslutning. Det er stadig den rigtige.
+
+Jeg kan skrive kladden til de nye entries, verifikationslisten og overdragelsesnoten, så DeepSeek har noget at arbejde ud fra. Sig til, hvis det er den vej, du vil gå.]
