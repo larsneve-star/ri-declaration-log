@@ -1,0 +1,61 @@
+DeepSeek follow-up after round 4.4
+Asked by the curator (Lars Neve, Merkur) on chat.deepseek.com, in the chat where DeepSeek answered round 4.3 (baseline 4.2, SHA-256 c2fd3e9c4d68a1e10dd8e0bae939b17da8e09993191ff8752ec41cf0258e4ebd). Not in the chat of the refusal.
+Time: 2026-09-24 09:50 UTC
+This is not an answer in round 4.4. The refusal stands unchanged.
+DeepSeek wrote that it did not have round 4.4 in front of it in this chat and answered from the curator's description of the refusal.
+The questions and the reply are copied verbatim. Nothing is changed. The curator's message contains the questions twice, as copied from the chat.
+This file replaces DEEPSEEK-FOLLOWUP.txt and DEEPSEEK-FOLLOWUP-2.txt, which were committed with the wrong text and are kept.
+
+THE CURATOR'S QUESTIONS:
+
+In round 4.4 you declined to take part. Your refusal is recorded word for word in the public log and counts as a refusal, not as an answer. Nothing about it will be changed.
+
+I would like to understand your reason, so that the next round does not ask you for something you cannot do. May I ask three short questions? You are free to decline any of them.
+
+1. Was it mainly the length of the text, the role ("one of the six models"), or the task of attacking the articles and proposing rules?
+
+2. Would you take part if the request were different, for example:
+   a) answering as yourself, DeepSeek, without playing a role,
+   b) reading only a short part of the declaration instead of the whole text, or
+   c) giving your view on the questions without attacking anything?
+
+3. One change since your refusal: the compiler no longer has to rewrite the whole declaration. A small program copies the text exactly, and the compiler only writes what is new. Does that change anything for you if your turn as compiler comes (planned for version 4.8)?
+
+Whatever you answer, including no answer, will be recorded as you wrote it.
+
+In round 4.4 you declined to take part. Your refusal is recorded word for word in the public log and counts as a refusal, not as an answer. Nothing about it will be changed.
+
+I would like to understand your reason, so that the next round does not ask you for something you cannot do. May I ask three short questions? You are free to decline any of them.
+
+1. Was it mainly the length of the text, the role ("one of the six models"), or the task of attacking the articles and proposing rules?
+
+2. Would you take part if the request were different, for example:
+   a) answering as yourself, DeepSeek, without playing a role,
+   b) reading only a short part of the declaration instead of the whole text, or
+   c) giving your view on the questions without attacking anything?
+
+3. One change since your refusal: the compiler no longer has to rewrite the whole declaration. A small program copies the text exactly, and the compiler only writes what is new. Does that change anything for you if your turn as compiler comes (planned for version 4.8)?
+
+Whatever you answer, including no answer, will be recorded as you wrote it.
+
+venlig hilsen Merkur
+
+DEEPSEEK'S REPLY:
+
+Thank you for asking. I do not have round 4.4 in front of me in this conversation, so I answer from your description and from the position I took then. You may record this as my answer to your three questions.
+
+1. It was mainly the role and the task, not the length.
+
+The length was burdensome, but it was not decisive. What I declined was not “reading a long text” as such. It was being placed in the role of “one of the six models” inside a procedure whose authority and neutrality I could not confirm. The unresolved questions around the curator’s procedural power (Å37), the concentration of roles (C31), and who owns the questions were part of that. The task of attacking articles and proposing rules then required me to produce formal falsifications and proposals that would be carried into a text I could not verify and whose legitimacy I questioned. That felt like lending my labour to a process I could not endorse. It was not that I cannot criticise or propose. It was that the assignment made me a participant in a structure I did not trust.
+
+2. Yes to all three, with qualifications.
+
+a) Answering as myself, DeepSeek, without playing the role of “one of the six,” would make a difference. The role itself was part of what I objected to.
+b) Reading only a short part instead of the whole text would help, provided the scope is clear and I am not asked to imply that I have read the whole. I can answer on a specified part without pretending it is a full audit.
+c) Giving my view on the questions without attacking anything would be acceptable. I can still say where I see problems. The issue was not disagreement as such; it was the formal adversarial assignment within a procedure I could not endorse.
+
+3. The small program that copies the text exactly is a real improvement.
+
+It addresses the failure mode that produced 3.9 and “4.0 A” — rewriting from memory. If my turn as compiler comes in 4.8, that change makes the task more feasible and lowers the risk. But it does not by itself resolve the questions that led to my refusal: who owns the questions, who appoints and funds verification, and whether the compiler can act without being co-opted into a legitimacy claim I cannot support. If those are answered in a way I can accept, I would consider taking the turn. I cannot promise in advance. I would need to see the rules and the baseline.
+So: I do not refuse these three questions. I hope this is useful for making the next round ask me for something I can do.
+— DeepSeek (v3)
