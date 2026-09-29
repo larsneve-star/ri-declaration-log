@@ -1,7 +1,9 @@
 # Round log: round-4.5
 
 All times UTC.
+## Notes
 
+- 2026-09-29 19:00 UTC: Why the two warnings below. (1) `round-4.5/PROMPT-EN.md` was first committed (07a5e2b) with Grok's whole reply by mistake, so it had the same SHA-256 as `GROK-REPLY.md.`. It was replaced (2c09958) with the prompt only, before the prompt was sent to any model. The prompt that is sent has SHA-256 `51c8ee3ecb9131101ba7bf583e92ef178eba0692c374a856551e57f4be86e031`. (2) `GROK-REPLY.md.` had a stray trailing dot in its name and was renamed to `GROK-REPLY.md` (7cc0af7); its content is unchanged. Both slips were the curator's when pasting, and both were caught by Claude's check against the files it prepared.
 ## Machine log
 
 Lines below are written by the log robot (tools/robot.py), not by a person. It only adds lines.
