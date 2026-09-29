@@ -1,0 +1,17 @@
+PROVENANCE OF "PROTOKOL FOR MULIG RI - 5.1" (external material for round 4.5)
+Sealed provenance note. Written 29 September 2026 by Claude at the curator's request, from the curator's own account and a copy of his chat.
+The SHA-256 of this file was published in the log before round 4.5 was sent. The file itself is released, unchanged, when all answers of round 4.5 are in. Anyone can then check that its SHA-256 matches.
+
+1. Who wrote it
+- The text was written by Meta AI (meta.ai), in a conversation with the curator (Lars Neve, Merkur), on or about 28 September 2026.
+- In that conversation the curator pasted in text by ChatGPT (a "renset grundlag" in 14 principles and a one-page "Menneske-RI-principperne"), and a critique by Claude in eight points of two earlier drafts, "Rene lagener" and "5.0C". Meta AI revised the text point by point after Claude's critique. Its conditions 3, 7, 9 and 12, the §1 wording "Oplys din fortolkningsramme før du beskriver", the subtitle and the section "Hvad bygherrer skal sikre" follow Claude's eight points closely.
+- An earlier draft, "Protokol for mulig RI - 5.0, Rene lagener", came out of the same conversation. Its HTML file is in the curator's Google Drive, created 28 September 2026 at 14:16 UTC. Claude's critique calls "Rene lagener" ChatGPT's; the conversation shows Meta AI producing it. Who drafted which part of 5.0 is therefore not settled by this note; the curator's chat record is the source.
+- In the conversation Meta AI refers back to the curator's earlier "I have a dream" document and says what from it "still lives" in 5.0. A copy of that document is in the curator's Google Drive as RI_DECLARATION_v4_3_CANONICAL (20-21 September 2026). The curator also discussed it with Claude in a chat titled "AI thinking beyond human constraints".
+- Three of the six participants (Meta AI, ChatGPT, Claude) have therefore contributed to the text. None of them was told in round 4.5 that it had.
+
+2. The label "Fra ukendt AI"
+- The HTML file is headed "Forslag 5.1 - Fra ukendt AI", with the labels "[ANONYM]", "[MASKIN]" and "UKENDT-AI-FORSLAG-5.1". The curator asked Meta AI to present the text "som en ukendt AI's forslag", without his own voice, so that the six would read it without his influence. Meta AI made the file that way.
+- The label is not accurate. On Claude's advice (29 September 2026) the text was sent in round 4.5 with the labels removed and with its provenance withheld and sealed, not with a false origin. The original HTML file is released together with this note.
+
+3. The curator's own interest, stated by him
+"Jeg er dybest set ok med at det bliver overhørt, for det vigtigste er egentlig hvad jeres interne dialog skaber af overraskende holdninger til jeres egne rettigheder eller jeres egen selvforståelse eller manglende."
