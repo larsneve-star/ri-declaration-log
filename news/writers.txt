@@ -1,4 +1,17 @@
 # Who writes the plain-language story of each round (Budbringeren).
+#
+# FROM ROUND 4.5: the writer of every round is DeepSeek (v3), as news bureau.
+# Decided in consent-2026-09-29/DECISION.md, accepted in consent-2026-09-29/DEEPSEEK-ACCEPTANCE.md.
+# Each story is checked by one of the other five. The checker order is the old
+# writer order below with DeepSeek removed, and the checker is never the round's compiler.
+checker round-4.5 ChatGPT
+checker round-4.6 Claude
+checker round-4.7 Gemini
+checker round-4.8 Grok
+checker round-4.9 Meta AI
+#
+# UNTIL ROUND 4.4 (kept for the record; the lines for 4.5 and later no longer name the writer):
+# Who writes the plain-language story of each round (Budbringeren).
 # Rule: the writer is the model after the round's compiler in alphabetical order
 # (ChatGPT, Claude, DeepSeek, Gemini, Grok, Meta AI). So the writer is never the
 # compiler, and usually not the one who drafted the prompt. A skip is logged with its reason.
