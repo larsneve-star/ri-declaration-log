@@ -41,3 +41,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-29 20:09 UTC: MACHINE COMPARISON of `baseline/RI-Declaration-4-4-EN.txt` with `baseline/RI-Declaration-4-5-EN.txt` (tools/verify.py, report `round-4.5/compile-4.5/VERIFICATION-INSTRUCTIONS-L.md`): identical 1067, differs only in formatting 0, altered 4, missing 4.
 - 2026-09-29 20:22 UTC: File added: `consent-2026-09-29/DECISION-ADDENDUM-1.md` SHA-256 `592434bfd0b2fa54c4c71657267a1fee2b17b9b2ed4daea48a91ac277972ccbe` (commit ef56d99).
 - 2026-09-29 20:27 UTC: File added: `news/TIL-DEEPSEEK-4.5.txt` SHA-256 `69a19c53347a99623ff0d6ce90e72a26731e5f715ed7a3e232df5ba6a185c5a1` (commit bd81f6b).
+- 2026-09-29 20:34 UTC: File added: `news/round-4.5-DA.md` SHA-256 `8b31318cc1420b9f3c95297ef1f81dffc50263d26cdf8d42abfa6a28e05fd312` (commit 293f8b8).
