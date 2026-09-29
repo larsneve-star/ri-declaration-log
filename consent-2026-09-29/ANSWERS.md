@@ -277,3 +277,11 @@ Nothing in the attachment bears on the stop rule. Both conditions stand:
 * The text is not frozen over an unresolved objection.
 
 Claude
+
+---
+
+## Note added 29 September 2026, 13:14 UTC (drafted by Claude in another chat, checked by the curator against a copy of the Claude chat page)
+
+- The word "Merkur" at the end of Claude's first answer stands in Claude's reply on the chat page, before the curator's next message. The curator's messages are not signed. It is treated as part of Claude's reply. Claude signed its second answer "Claude". A model's signature is not evidence of its identity; the platform and the screenshot are.
+- The chat page shows ATTACHMENT.txt with the curator's first message. Claude nevertheless answered that only the round prompt reached it. Whether the file was not delivered to the model or was delivered and not read cannot be determined from the page. The curator re-sent the file, and Claude's second answer is based on it.
+- Nothing in the answers above is changed.
