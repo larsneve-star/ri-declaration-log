@@ -7,3 +7,4 @@ All times UTC.
 Lines below are written by the log robot (tools/robot.py), not by a person. It only adds lines.
 
 - 2026-09-29 14:09 UTC: File added: `round-4.5/EXTERNAL-5.1.md` SHA-256 `c935f6d7e37a60559092e29c6d4ef3f52ba6a3cb1b182fa7f2c45df684be89a4` (commit 2e9e0fc).
+- 2026-09-29 14:10 UTC: File added: `round-4.5/HANDOVER-TO-GROK.md` SHA-256 `13f8eba6fa564bbdb9ed30fc882a97a41f0a0d1a0079509e2e26b7d4a6e40b3d` (commit f20f75a).
