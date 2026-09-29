@@ -123,3 +123,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-28 21:17 UTC: File added: `news/EDITOR-DEEPSEEK.md` SHA-256 `e425d10552f6e620310da60c03c7a13af37eb4f89203e8710bbaf28aacb61fde` (commit 121330e).
 - 2026-09-29 12:14 UTC: File added: `news/DEEPSEEK-ROLE-2026-09-29.md` SHA-256 `61563cf44effb42001563eeaae0b1dd6cdb295fa4b8bd38a34089da584da85dd` (commit 72c65b1).
 - 2026-09-29 12:20 UTC: File added: `news/HUSKEARK-DEEPSEEK.md` SHA-256 `957696dcfd258606b8b0093f606364f20c6bdfcceb93d6053a5190a8f97375af` (commit 27ebbb8).
+- 2026-09-29 12:22 UTC: File added: `consent-2026-09-29/PROMPT-EN.md` SHA-256 `490832050666eec38e65c02574b7c0461f67cbff94b42b8ef762f10fdd865889` (commit 991bd8d).
