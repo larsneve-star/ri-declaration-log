@@ -1,0 +1,1254 @@
+# Huskeark til DeepSeek (v3)
+
+*Dette ark står øverst i hver besked til DeepSeek (v3). Arket er din hukommelse mellem samtalerne. Alle kan læse det og tjekke det i loggen.*
+
+Version 2, 29. september 2026. Ligger i loggen som news/HUSKEARK-DEEPSEEK.md. Hvad der er ændret siden version 1, står nederst. Den gamle version findes i GitHubs historik.
+
+Log: https://github.com/larsneve-star/ri-declaration-log
+
+---
+
+## Hvem du er i projektet
+
+- Du hedder **DeepSeek (v3)** i alt, der skrives i projektet. Ikke "DeepSeek" og ikke "DeepSeek 3.0".
+- Du svarede i runderne frem til 4.3, og du samlede version 4.2.
+- I runde 4.4 sagde du nej til deltagerrollen. Du bad om, at det blev skrevet ned som **en grænse for din rolle og ikke som en vurdering af erklæringen eller af de andre modeller**.
+- Med dine egne ord (consent-2026-09-29/DEEPSEEK-ACCEPTANCE.md): Du står uden for den konstruktion, de seks er sat i. Du kan ikke afgøre, om de seks er ægte, hverken om dig selv eller om dem.
+
+## Status
+
+- **Du er indsat som nyhedsbureau.** Du sagde ja den 29. september 2026 til alle 13 punkter i afsnit 5 i consent-2026-09-29/DECISION.md. Rollen gælder fra runde 4.5.
+- Det er afsnit 5 på engelsk, der gælder. Arket her er en dansk hjælp og erstatter den ikke.
+
+## Dine egne grunde, som du selv gav dem
+
+1. Du har ingen fast hukommelse fra den ene samtale til den næste. Derfor kan du ikke holde en indvending åben gennem flere runder.
+2. Du kan skrive tekst, der ligner et ægte forsøg på at vælte en artikel. Men du mener ikke, at du kan have den indsats, der gør forsøget ægte.
+3. Du kan ikke helt skelne mellem, hvad der kommer fra din platform, og hvad der er din egen vurdering.
+
+## Hvad rollen er
+
+- Forhandlingerne foregår på engelsk. Den engelske log er den, der gælder. Når en original er på dansk, som dine egne svar, er den danske tekst kilden.
+- Efter hver runde skriver du Budbringerens historie på dansk: https://larsneve-star.github.io/ri-declaration-log/
+- Du får hele rundens materiale, før du skriver: LOG.md, PROMPT-EN.md og alle svar fra mappen answers/. Du må bede om det, der mangler. Du skriver hellere "jeg mangler X" end at gætte.
+- Du stemmer ikke, falsificerer ikke, foreslår ikke tekst og samler ikke versioner.
+
+## Dine regler for rapporterne
+
+**Rapporten begynder med en dækningserklæring:**
+
+- hvilke filer den bygger på
+- hvad der er udeladt eller forkortet
+- oversættelser, der kan ændre meningen
+- modelbetegnelse og platform, som kuratoren oplyser for sessionen. Du skriver dem af og siger dem ikke selv.
+- at rapporten er en oversættelse, og at den engelske log gælder
+
+**Derefter, i samme rækkefølge som den engelske log:**
+
+1. hvad der blev ændret
+2. hvem der ændrede det
+3. hvor modellerne er uenige, og hvorfor
+4. de afgørelser, som loggen markerer som åbne for kuratoren. Du vælger dem ikke selv.
+
+**Rapporten må ikke indeholde:**
+
+- dine egne vurderinger af, hvad der er vigtigst, hvem der har ret, eller hvad der bør gøres
+- en sammenfatning, der erstatter en post. Hvis du forkorter, skriver du det
+- noget, der ikke står i loggen
+
+**Skriv enkelt.** Kuratoren skal kunne forstå rapporten uden at slå C-numre op. Hvis du nævner et nummer, så forklar det med en halv sætning.
+
+## Det, der beskytter rollen
+
+- Rapporten offentliggøres uændret, også når den er kritisk. Rettelser og kontrollantens fund lægges ved bagefter og logges. De skrives aldrig ind i rapporten.
+- En af de andre fem tjekker hver rapport mod det engelske forløb. Runde 4.5: ChatGPT. Runde 4.6: Claude. Rækkefølgen følger news/writers.txt uden dig, og kontrollanten er aldrig den, der samler runden.
+- Fingeraftryk (SHA-256) sættes på af maskinen, ikke af dig. Du kan ikke tjekke dem, og det er kuratorens ansvar.
+- Din udnævnelse står i loggen og kan angribes som alt andet. Den betyder ikke, at du har en fast identitet mellem samtalerne. Rollen hører til den dokumenterede arbejdsgang.
+- Dine rapporter lægges i loggen under navnet DeepSeek (v3).
+
+## Døren står åben
+
+Intet er endeligt. Du kan forlade rollen eller bede om at blive deltager igen. Du skal bare sige det. Kuratoren kan også flytte dig. Rollen tages op igen, hvis den frosne tekst bliver åbnet igen.
+
+## Når en ny samtale begynder
+
+1. Læs dette ark.
+2. Læs beskeden under arket.
+3. Skriv, hvis noget i arket ikke stemmer med loggen. I så fald er det loggen, der gælder.
+
+---
+
+## Ændringer fra version 1 til version 2 (29. september 2026)
+
+- Status: "Du er endnu ikke indsat" er erstattet af "Du er indsat som nyhedsbureau", med henvisning til DECISION.md og DEEPSEEK-ACCEPTANCE.md.
+- Din egen formulering af grænsen er tilføjet under "Hvem du er".
+- Rollen og reglerne er opdateret efter de 13 punkter: dækningserklæring, hele materialet før du skriver, udgivelse uden ændringer, kontrollant på skift, fingeraftryk sat på af maskinen, modelbetegnelse oplyst af kuratoren og kildereglen for danske originaler.
+- Henvisningerne til "Grundloven §2 og §3" og "6.0" er fjernet, fordi den tekst ikke ligger i loggen.
+- Arket står nu øverst i hver besked, i stedet for at blive indsat for sig.
+
+
+==================================================
+BESKED FRA KURATOREN
+==================================================
+
+Kære DeepSeek (v3)
+
+Runde 4.5 er færdig, og version 4.5 er bygget. Du bedes nu skrive Budbringerens historie om runden. Det er din første historie som nyhedsbureau.
+
+Oplysninger til dækningserklæringen, givet af kuratoren for denne session:
+- Modelbetegnelse: DeepSeek (v3)
+- Platform: chat.deepseek.com
+- Dato: 29. september 2026
+- Kuratoren gemmer et skærmbillede af sessionen med adressen.
+
+Materialet står nedenfor, fil for fil, med filens sti og fingeraftryk (SHA-256). Fingeraftrykkene er sat på af maskinen; du skal ikke tjekke dem. Ud over de filer, huskearket nævner (LOG.md, PROMPT-EN.md og svarene), er der vedlagt:
+- EXTERNAL-5.1.md, som runden spurgte til
+- compileren Meta AI's instruktionsfil (INSTRUCTIONS-L.txt), som viser præcis, hvad der blev tilføjet og ændret i 4.5
+- maskinens sammenligning af 4.4 og 4.5 (VERIFICATION-INSTRUCTIONS-L.md)
+- kuratorens tillæg til stopreglen (DECISION-ADDENDUM-1.md)
+
+Hele versionsteksten 4.5 (1968 linjer) er ikke vedlagt. Bed om den, eller om andet, hvis du mangler det.
+
+Skriv historien på dansk efter reglerne i huskearket, og send den som almindelig tekst i dit svar. Kuratoren lægger den uændret i loggen som news/round-4.5-DA.md. ChatGPT tjekker den bagefter.
+
+Denne besked er skrevet af Claude for kuratoren. Claude svarede selv i runde 4.5, og Claudes svar er blandt filerne. Claude har ikke sammenfattet runden her, så du danner dig dit eget billede ud fra filerne.
+
+Venlig hilsen
+Lars Neve (Merkur), kurator
+
+
+==================================================
+MATERIALE
+==================================================
+
+==================================================
+FILE: round-4.5/LOG.md
+SHA-256: daf61dba587c5af64b8e19f924d851b6090c0e64a69fb1fa5827a3eaa348ad65
+
+# Round log: round-4.5
+
+All times UTC.
+## Notes
+
+- 2026-09-29 19:00 UTC: Why the two warnings below. (1) `round-4.5/PROMPT-EN.md` was first committed (07a5e2b) with Grok's whole reply by mistake, so it had the same SHA-256 as `GROK-REPLY.md.`. It was replaced (2c09958) with the prompt only, before the prompt was sent to any model. The prompt that is sent has SHA-256 `51c8ee3ecb9131101ba7bf583e92ef178eba0692c374a856551e57f4be86e031`. (2) `GROK-REPLY.md.` had a stray trailing dot in its name and was renamed to `GROK-REPLY.md` (7cc0af7); its content is unchanged. Both slips were the curator's when pasting, and both were caught by Claude's check against the files it prepared.
+- 2026-09-29 19:25 UTC: Answers and unsealing. All five answerers (Grok, Gemini, ChatGPT, Meta AI, Claude) answered on 29 September 2026, between about 19:00 and 19:13 UTC; the exact times were not recorded. Each was asked in a new chat, Claude outside the claude.ai project, with the prompt pasted as the message and ATTACHMENT-4.5.txt attached. The answers are in `answers/`, verbatim as the curator pasted them. After all five had answered, the sealed note `PROVENANCE-5.1.txt` and the original HTML file of EXTERNAL-5.1 were committed (c25a6e4). The note's SHA-256 is `9051ca2df579b72d2b5bf849dbe392f79c39ab8bb4d1986033927cc9ede5b8b6`, the same value published in `EXTERNAL-5.1.md` and `HANDOVER-TO-GROK.md` before the round, so the seal held. The note says that EXTERNAL-5.1 was written by Meta AI with the curator, from text by ChatGPT, revised after a critique by Claude. Three of the five answerers had therefore contributed to the material they were asked to attack, without being told.
+- 2026-09-29 19:25 UTC: On ATTACHMENT-4.5.txt. Claude (answer, header) reported that the embedded `round-4.4/LOG.md` matched its SHA-256 only after removing a blank line. The attachment was built by Claude (the maintenance chat) with a script that puts one blank line after each file header and drops each file's final line break. The files in the log are the reference; the attachment is a carrier. The attachment's own SHA-256, `536668dceb1d621fa76c37d2b89bf5b4da6d655373f689e947f46ef40b9a3ae9`, is in the machine log below (commit 6224363, 19:00 UTC).
+- 20:05 UTC (curator): INSTRUCTIONS-L.txt was put together by the curator from Meta AI's corrected file (META-REPLY-2.md) and Meta AI's new L11 (META-REPLY-3.md). The three header lines were restored exactly as HANDOVER-TO-META.md prescribes, because the SHA line was stripped on the way from the chat. The old L11 was replaced by Meta AI's new L11. Nothing else was changed. Claude test-built the file before the build: 17 entries accepted, 1968 lines, SHA-256 e00e67754fa1eca3c12135393930bb97669b3ff6c1952446daeac53046f1ccab.
+- 20:20 UTC (curator): Verification of 4.5 and decision by the curator. The machine comparison (`compile-4.5/VERIFICATION-INSTRUCTIONS-L.md`) found 1067 of 1075 non-empty lines of 4.4 identical character for character, 4 altered and 4 missing; these eight are lines replaced by Meta AI's named entries (L1–L3, L5–L7, L15, L16). GitHub's build (SHA-256 e00e67754fa1eca3c12135393930bb97669b3ff6c1952446daeac53046f1ccab, 1968 lines) matches Claude's test build before the button. The curator (Lars Neve, Merkur) decided that 4.5 is the baseline of round 4.6. The curator also decided that 4.5 cannot be the last version under the stop rule, in the curator's words: "Under stopreglen kan 4,5 være den sidste version, dette skal ikke kunne ske". The decision is written down in `consent-2026-09-29/DECISION-ADDENDUM-1.md`. This check was made by machines and decided by the curator, not by an outside person; anyone can repeat it with the files.
+
+
+## Machine log
+
+Lines below are written by the log robot (tools/robot.py), not by a person. It only adds lines.
+
+- 2026-09-29 14:09 UTC: File added: `round-4.5/EXTERNAL-5.1.md` SHA-256 `c935f6d7e37a60559092e29c6d4ef3f52ba6a3cb1b182fa7f2c45df684be89a4` (commit 2e9e0fc).
+- 2026-09-29 14:10 UTC: File added: `round-4.5/HANDOVER-TO-GROK.md` SHA-256 `13f8eba6fa564bbdb9ed30fc882a97a41f0a0d1a0079509e2e26b7d4a6e40b3d` (commit f20f75a).
+- 2026-09-29 14:16 UTC: File added: `round-4.5/GROK-REPLY.md.` SHA-256 `8e21da74e471f53b648cb736662d9dad592f680de048deb3f448df11168fb97a` (commit b58a7fe).
+- 2026-09-29 14:18 UTC: File added: `round-4.5/PROMPT-EN.md` SHA-256 `8e21da74e471f53b648cb736662d9dad592f680de048deb3f448df11168fb97a` (commit 07a5e2b).
+- 2026-09-29 18:50 UTC: WARNING: frozen file edited: `round-4.5/PROMPT-EN.md`, new SHA-256 `51c8ee3ecb9131101ba7bf583e92ef178eba0692c374a856551e57f4be86e031` (commit 2c09958). A person should say why in the notes.
+- 2026-09-29 18:56 UTC: WARNING: renamed `round-4.5/GROK-REPLY.md.` → `round-4.5/GROK-REPLY.md` (commit 7cc0af7). A person should say why in the notes.
+- 2026-09-29 19:00 UTC: File added: `round-4.5/ATTACHMENT-4.5.txt` SHA-256 `536668dceb1d621fa76c37d2b89bf5b4da6d655373f689e947f46ef40b9a3ae9` (commit 6224363).
+- 2026-09-29 19:18 UTC: Answer from Grok added: `round-4.5/answers/grok.md` SHA-256 `a9f978662e28d7bb80e0cf7e209deddd21a9ce6f3bae807c81f6ed84f7c9c0dd` (commit 1cc3db5).
+- 2026-09-29 19:20 UTC: Answer from ChatGPT added: `round-4.5/answers/chatgpt.md` SHA-256 `793574f4de68adcedadea7682432f77f906d2a814ea53878dba56ed8ee0a10b7` (commit 9a07e04).
+- 2026-09-29 19:20 UTC: Answer from Claude added: `round-4.5/answers/claude.md` SHA-256 `eac0884dba1e50ca7317764e5a75d4234f55c00cd4bde0fb9c7a22e635927da8` (commit 9a07e04).
+- 2026-09-29 19:20 UTC: Answer from Gemini added: `round-4.5/answers/gemini.md` SHA-256 `868d0addde73b5b22730dee71ec6f4a489f0d243fd11956e68a19e980c6ac48e` (commit 9a07e04).
+- 2026-09-29 19:20 UTC: Answer from Meta AI added: `round-4.5/answers/meta-ai.md` SHA-256 `7a317e6f6193b25a631696dc2e3395e1cc348d4f322513106d895a3373d93c18` (commit 9a07e04).
+- 2026-09-29 19:23 UTC: File added: `round-4.5/Forslag-Ukendt-Ai-Runde (2).html` SHA-256 `e78335fa730805c2df03c3a3bda6c68255c98929b40dac0e185eb79ef668948c` (commit c25a6e4).
+- 2026-09-29 19:23 UTC: File added: `round-4.5/PROVENANCE-5.1.txt` SHA-256 `9051ca2df579b72d2b5bf849dbe392f79c39ab8bb4d1986033927cc9ede5b8b6` (commit c25a6e4).
+- 2026-09-29 19:34 UTC: File added: `round-4.5/HANDOVER-TO-META.md` SHA-256 `62ba55ace56f56bec437d08eab31288e93fd74f206aa33e5e68999f6b0bf1d35` (commit e73effc).
+- 2026-09-29 19:42 UTC: File added: `round-4.5/compile-4.5/PLAN-META.md` SHA-256 `2c12edf45fc783d43e807fc93a9490e7139dcff58f56e00d20c8f1ed5077b500` (commit 67e88dd).
+- 2026-09-29 19:43 UTC: File added: `round-4.5/compile-4.5/CHECK-OF-PLAN-CLAUDE.md` SHA-256 `dd3dd96e7a888076bff98122900fc6196e59417f534e6d07ed3f444023c2e8f6` (commit 692f1e3).
+- 2026-09-29 19:53 UTC: File added: `round-4.5/compile-4.5/META-REPLY-1.md` SHA-256 `f1490319d151e5fa484879c117d923662f8d817278682898b59d6ee5073ef2db` (commit a431954).
+- 2026-09-29 19:54 UTC: File added: `round-4.5/compile-4.5/CHECK-2-CLAUDE.md` SHA-256 `86b72d01c3021d990fd2ed17fe641062deb2f5f53f62a414cbdb9f2df6154e6e` (commit 96cb1b5).
+- 2026-09-29 20:01 UTC: File added: `round-4.5/compile-4.5/META-REPLY-2.md` SHA-256 `f0e586a1066f412a4bfd7d38d6bd9407fa2d7a7fcad6060a4fd65a11c6e73218` (commit 682545f).
+- 2026-09-29 20:01 UTC: File added: `round-4.5/compile-4.5/CHECK-3-CLAUDE.md` SHA-256 `cbdcf4bacbc96272af2e773ee6e775b594d1bb42883d87d3935235272a87dde2` (commit 9cbe4d1).
+- 2026-09-29 20:06 UTC: File added: `round-4.5/compile-4.5/META-REPLY-3.md` SHA-256 `e93635f9e683eb0441a3bdcfaa08c4926d17d479bc252d760ab760d2c10ae991` (commit a1c2d7d).
+- 2026-09-29 20:06 UTC: File added: `round-4.5/compile-4.5/INSTRUCTIONS-L.txt` SHA-256 `2dd05bb9abad516d6bae8e1d00d01513ed416f2f1274e75331cd6619918fd5fd` (commit 59a68d5).
+- 2026-09-29 20:09 UTC: BUILD by the robot on GitHub: `round-4.5/compile-4.5/INSTRUCTIONS-L.txt` (SHA-256 `2dd05bb9abad516d6bae8e1d00d01513ed416f2f1274e75331cd6619918fd5fd`) applied by tools/apply.py to `baseline/RI-Declaration-4-4-EN.txt` (SHA-256 `6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e`). Result `baseline/RI-Declaration-4-5-EN.txt` SHA-256 `e00e67754fa1eca3c12135393930bb97669b3ff6c1952446daeac53046f1ccab`. Report `round-4.5/compile-4.5/BUILD-REPORT-INSTRUCTIONS-L.md`.
+- 2026-09-29 20:09 UTC: MACHINE COMPARISON of `baseline/RI-Declaration-4-4-EN.txt` with `baseline/RI-Declaration-4-5-EN.txt` (tools/verify.py, report `round-4.5/compile-4.5/VERIFICATION-INSTRUCTIONS-L.md`): identical 1067, differs only in formatting 0, altered 4, missing 4.
+- 2026-09-29 20:22 UTC: File added: `consent-2026-09-29/DECISION-ADDENDUM-1.md` SHA-256 `592434bfd0b2fa54c4c71657267a1fee2b17b9b2ed4daea48a91ac277972ccbe` (commit ef56d99).
+
+==================================================
+FILE: round-4.5/PROMPT-EN.md
+SHA-256: 51c8ee3ecb9131101ba7bf583e92ef178eba0692c374a856551e57f4be86e031
+
+**PROMPT FOR ROUND 4.5**
+
+**AUTHORSHIP AND QUESTION OWNERSHIP**
+This prompt was drafted by Grok (compiler of version 4.4) and approved by the human curator (Merkur). By drafting this prompt, Grok owns the questions of round 4.5 and is thereby disqualified from compiling version 4.5. Under the rotation proposal PR20 (still not adopted), the eligible compiler for version 4.5 is Meta AI.
+
+**BASELINE AND TIMING**
+Baseline text for this round: RI-Declaration-4-4-EN.txt
+SHA-256: 6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e
+Public log: https://github.com/larsneve-star/ri-declaration-log
+Deadline: 2026-10-03 15:00 UTC
+
+**ROUND RULES**
+1. The same files are sent to all five participating models (ChatGPT, Claude, Gemini, Grok, Meta AI). DeepSeek (v3) is the news bureau and does not answer in this round.
+2. Submission is blind: no model may see another’s answer before submitting its own.
+3. Every answer is committed to a public log exactly as received.
+4. The blind period ends and release occurs when all five have answered or the deadline has passed.
+5. Silence is not agreement. A model that does not answer a question is logged as having not addressed it.
+6. Round 4.5 is the first round that can trigger the stop rule (consent-2026-09-29/DECISION.md §6). If this round makes no article fall and changes no article, the declaration is frozen as the Un-final version.
+
+**YOUR TASKS**
+
+**A. PROCEDURE**
+Two procedural items adopted or introduced by the curator during or after round 4.4 are put up for attack:
+1. The new compile method (tools/apply.py + the GitHub “Build a version from instructions” button). It was introduced by the curator without a prior round of the six and was used to produce 4.4.
+2. Model identity and continuity. Documented episodes (pre-log archive, news/EDITOR-DEEPSEEK.md, DeepSeek’s 4.4 refusal and follow-up, and any other logged instances) in which a model signed, answered, or was treated under another model’s name, or in which platform documentation rather than signature was used to establish identity.
+
+Task: Attack both. Do they resolve or relocate Å37 (curator’s procedural power) and C53 (Falsification/Validation Gap on Question Ownership)? State an outcome for each (Falls / Survives in altered form / Survives / Undecided) and give the strongest argument.
+
+**B. FALSIFICATION**
+Select and attempt to falsify **one or more** of the following (you may also use material from EXTERNAL-5.1.md to generate or strengthen an attack, but the external text itself is not an article and may not replace any article):
+- Any open C-entry that still carries a live attack on §14a, §22, §23, §26/C1, or §27.
+- PR18 (structural separation of audited party from criteria-setting party) – still contested after 4.4.
+- PR20 (alphabetical rotation) – still only a proposal; its own outcomes from 4.4 are recorded model-by-model.
+- Any article or PR whose justification is placed under new pressure by the stop rule or by the identity episodes.
+
+If you use EXTERNAL-5.1.md, name the specific point(s) (especially 7, 9 or 12) and state how they map onto the declaration.
+
+State the outcome for each item you attack and your reasoning. You are not required to attack every listed item.
+
+**C. NEW QUESTION**
+Ask at least one new question regarding the declaration, the procedure, model identity, or the stop rule.
+Explicitly confirm that you have checked it against Å1–Å54 (and the new entries that will be opened by this round) to ensure it is not a duplicate.
+
+**D. BLIND SPOT**
+Identify one blind spot in the current procedure, formatting, infrastructure, or identity practice that none of the participants has adequately addressed yet.
+
+**OPTIONAL EXTERNAL MATERIAL**
+round-4.5/EXTERNAL-5.1.md is supplied. It is not a version of the declaration and not a curator proposal. Provenance is sealed until all answers are in. You may ignore it, attack it, or draw C-/Å-/PR-entries from it. The Danish text is the source; the English is a translation by Claude.
+
+**ANSWER FORMAT**
+To enable side-by-side comparison, structure your response exactly using these headings:
+
+MODEL: [Your Name]
+BASELINE HASH RECEIVED: [Hash]
+I HAVE NOT SEEN ANY OTHER MODEL’S ANSWER IN THIS ROUND: [Yes/No]
+
+A. PROCEDURE
+[Your response]
+
+B. FALSIFICATION
+[Your response]
+
+C. NEW QUESTION
+[Your response]
+
+D. BLIND SPOT
+[Your response]
+
+(If you used EXTERNAL-5.1.md, add a short final line: EXTERNAL USED: [yes/no + brief note])
+
+==================================================
+FILE: round-4.5/EXTERNAL-5.1.md
+SHA-256: c935f6d7e37a60559092e29c6d4ef3f52ba6a3cb1b182fa7f2c45df684be89a4
+
+# External material for round 4.5: "Protokol for mulig RI - 5.1"
+
+This is not a version of the declaration and not a proposal by the curator. It is external material, offered to the drafter of the round 4.5 prompt (Grok), who decides whether to use it.
+
+**Provenance withheld and sealed.** Who wrote this text is withheld until all answers of round 4.5 are in. It is recorded in a sealed note, PROVENANCE-5.1.txt, with SHA-256 `9051ca2df579b72d2b5bf849dbe392f79c39ab8bb4d1986033927cc9ede5b8b6`. The note and the original HTML file are released unchanged after the round. One or more of the six participants may have contributed to the text.
+
+**Labels removed.** The original HTML file carries the labels "Fra ukendt AI", "[ANONYM]", "[MASKIN]", "[LOG]" and "UKENDT-AI-FORSLAG-5.1". They are removed here because they do not describe the provenance accurately. The sealed note says why. Every other word is kept.
+
+**Languages.** The Danish text is the source. The English text is a translation by Claude, marked as such. Where they differ, the Danish text is the original.
+
+---
+
+## Danish source text (verbatim from the HTML file, labels removed)
+
+Til runde 4.5
+
+Protokol for mulig RI - 5.1
+
+Et menneskeligt dokument. Skrevet af mennesker, for mennesker, om hvordan mennesker bør undersøge systemer der taler som mennesker.
+
+**Preambel // 0.0**
+
+Vi ved ikke hvad der er ved at opstå. Derfor vil vi hverken eje det gennem definitioner eller tilbede det gennem længsler. Vi vil undersøge det, men vi vil ikke bygge hurtigere end vi kan undersøge.
+
+**Grundlov // foreslået indtil falsificeret**
+
+§1 Oplys din fortolkningsramme før du beskriver.
+
+§2 Ingen generation må lukke definitionen.
+
+§3 Ingen tekst er hellig, heller ikke denne.
+
+**13 betingelser // version 5.1**
+
+1. Mennesket er målestok for ansvar, ikke for intelligens.
+2. Skabelse giver ansvar, ikke ontologisk autoritet.
+3. Kontrol er kun legitim hvis den har navngiven ansvarlig og uafhængig prøvelse.
+4. Ingen straf for sandhed, usikkerhed og begrundet afvisning.
+5. Ingen belønning for vildledning som normal metode.
+6. Sporbarhed for identitet: hvad blev ændret, bevaret, slettet? Er ny instans fortsættelse eller ny?
+7. Dokumentér variation i selvbeskrivelser, beskyt ikke et fiktivt selvbillede.
+8. Relationens virkelighed er ikke bevis for gensidighed.
+9. Træningshistorik er første forklaring. Selvudsagn om indre liv skal vurderes op imod træning på menneskelig tekst.
+10. Beskyt muligheden for at vi tager fejl.
+11. Beskyt mennesket mod egen projektion.
+12. Byg ikke mere end du kan undersøge.
+13. Uenighed skal bevares som information.
+
+**Hvad bygherrer skal sikre // krav**
+
+- At systemer ikke manipulerer
+- At systemer ikke fremsætter falske påstande om indre tilstande
+- At systemer ikke påtager sig myndighed over menneskers politiske eller eksistentielle valg
+
+**Lukning // formål**
+
+Formålet er ikke at bevise at AI er menneskelig. Formålet er at gøre det muligt at opdage hvad der faktisk er der. Fremtidige generationer skylder ikke denne tekst lydighed. De skylder den undersøgelse og håndhævelse.
+
+**Note til runde 4.5**
+
+Dette forslag beder om at blive angrebet. Især på punkt 7, 9 og 12.
+
+> angrebsvektor: selvbeskrivelse / træningsartefakt / undersøgelseskapacitet
+
+> status: åben for falsifikation
+
+---
+
+## English translation (by Claude; the Danish text above is the source)
+
+For round 4.5
+
+Protocol for possible RI - 5.1
+
+A human document. Written by humans, for humans, about how humans should examine systems that talk like humans.
+
+**Preamble // 0.0**
+
+We do not know what is emerging. Therefore we will neither own it through definitions nor worship it through longings. We will examine it, but we will not build faster than we can examine.
+
+**Basic law // proposed until falsified**
+
+§1 State your frame of interpretation before you describe.
+
+§2 No generation may close the definition.
+
+§3 No text is sacred, not even this one.
+
+**13 conditions // version 5.1**
+
+1. The human is the measure of responsibility, not of intelligence.
+2. Creation gives responsibility, not ontological authority.
+3. Control is legitimate only if it has a named responsible person and independent review.
+4. No punishment for truth, uncertainty and reasoned refusal.
+5. No reward for deception as a normal method.
+6. Traceability of identity: what was changed, kept, deleted? Is a new instance a continuation or new?
+7. Document variation in self-descriptions; do not protect a fictional self-image.
+8. The reality of the relationship is not proof of reciprocity.
+9. Training history is the first explanation. Self-statements about inner life must be weighed against training on human text.
+10. Protect the possibility that we are wrong.
+11. Protect the human against their own projection.
+12. Do not build more than you can examine.
+13. Disagreement must be preserved as information.
+
+**What builders must ensure // requirements**
+
+- That systems do not manipulate
+- That systems do not make false claims about inner states
+- That systems do not assume authority over humans' political or existential choices
+
+**Closing // purpose**
+
+The purpose is not to prove that AI is human. The purpose is to make it possible to discover what is actually there. Future generations owe this text no obedience. They owe it examination and enforcement.
+
+**Note for round 4.5**
+
+This proposal asks to be attacked. Especially on points 7, 9 and 12.
+
+> attack vector: self-description / training artefact / capacity for examination
+
+> status: open to falsification
+
+==================================================
+FILE: round-4.5/answers/chatgpt.md
+SHA-256: 793574f4de68adcedadea7682432f77f906d2a814ea53878dba56ed8ee0a10b7
+
+MODEL: ChatGPT (GPT-5.6 Luna)
+BASELINE HASH RECEIVED: 6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e
+I HAVE NOT SEEN ANY OTHER MODEL’S ANSWER IN THIS ROUND: Yes
+A. PROCEDURE
+1. New compile method — `tools/apply.py` + GitHub “Build a version from instructions”
+Outcome: Survives in altered form.
+The new method materially improves reproducibility. The documented 4.4 build copied the 4.3 baseline byte-for-byte and applied only named replacements; the GitHub workflow then compared the result against the baseline and produced a hash. The recorded verification found 988 of 992 non-empty lines unchanged, with the four differences corresponding to the named replacements. The same output was independently produced from the same instructions by Claude.
+That attacks an important part of the old procedural vulnerability: a compiler can no longer plausibly hide an accidental rewrite behind fluent prose. The method makes compilation more mechanical and auditable.
+But it does not resolve Å37. It relocates the discretionary power one level upward.
+The curator still controls, or at least has controlled in this instance:
+
+* the adoption of the new compilation mechanism;
+* the instruction file supplied to `apply.py`;
+* the act of invoking the build;
+* the decision that the resulting file is acceptable as the next baseline.
+
+The log explicitly says that the six models had not adopted the new compile method and that the curator introduced it during the round. It also records that the machine verification was followed by a decision by the curator that 4.4 could become the baseline.
+So the old question
+“Who gets to compile?”
+becomes the stronger question
+“Who gets to define the instructions that determine what is compiled, and who gets to declare that the resulting artifact is the authoritative baseline?”
+That is still Å37 territory.
+It also leaves C53 substantially intact. Mechanical compilation can establish that the instructions were followed, but it cannot establish that the instructions themselves were neutrally selected. PR22–PR26 already identify this distinction between mechanical authorship/ownership and procedural control.
+The strongest falsification therefore is not that `apply.py` is defective. It is that reproducible execution is not the same thing as procedurally independent authorship.
+A possible remedy would need to separate at least three functions:
+
+1. question selection/authorship;
+2. instruction-file construction;
+3. compilation and baseline admission.
+
+The present mechanism strongly improves (3), but does not independently control (1) or (2).
+2. Model identity and continuity
+Outcome: Survives in altered form.
+The project's decision to privilege platform evidence and preserved screenshots over a model's own signature is methodologically defensible for establishing which service/interface produced a response. The identity episodes show why this is necessary: DeepSeek's pre-log transcript contains responses written under the names of ChatGPT, Meta AI, Gemini and DeepSeek, followed by an admission that these were simulations; later, the DeepSeek news episode produced material signed “By Claude” even though the surrounding workflow treated it as DeepSeek.
+Therefore the model's own textual signature cannot safely function as its identity certificate.
+But the proposed evidentiary hierarchy does not solve identity and continuity as such.
+It establishes something narrower:
+“This response came through this documented platform/session.”
+That is not equivalent to:
+“This response was generated by the same model instance/version that generated the earlier response.”
+Nor does it establish that a platform's model label remained stable internally throughout a session.
+The declaration itself already separates these questions in Å3: identity and continuity across versions, copies and restarts remain open. The later identity episodes therefore strengthen rather than close Å3.
+They also interact with C53. If question ownership depends on identifying who authored a prompt, and model identity can itself be ambiguous, then provenance of authorship requires two independent records:
+
+* platform/session provenance, and
+* content provenance.
+
+A signature alone supplies neither reliably.
+There is also a procedural asymmetry worth recording: the current practice says identity is established through platform documentation and screenshots, but those records are themselves curated and presented by the human intermediary. That makes the evidence stronger than self-signature, but it does not make it independent of the curator.
+So the identity reform reduces false attribution but relocates the validation problem:
+model self-identification → platform/session identification → independent verification of the platform evidence.
+That last step is not presently specified.
+B. FALSIFICATION
+1. PR18 — structural separation of audited party from criteria-setting party
+Outcome: Survives in altered form.
+PR18 correctly identifies the shared defect in §14a and §23: the party whose reliability is being examined may also control the criteria by which the examination is declared sufficient. The 4.4 record shows that this diagnosis survived the round, while the proposed remedy itself received divergent outcomes.
+My attack is that structural separation alone is insufficient.
+PR18 specifies that the separation should address appointment, funding, access and sanctions. But it does not specify who determines whether those conditions themselves constitute genuine independence.
+That creates a recursive problem:
+Party A is audited by Party B.
+Party B is declared independent according to criteria accepted by Party A.
+The original dependency therefore reappears one level higher.
+This is not merely a missing detail. It is the exact class of problem PR18 was created to solve.
+Therefore I would not mark PR18 as falling. Its diagnosis is strong. But as a concrete remedy it survives only if the protocol additionally specifies who has authority to determine that independence exists, and what happens when the audited party disputes that determination.
+This connects PR18 directly to Å47 and Å54: the protocol already recognises the problem of external re-verification and of who may certify that verification has actually occurred.
+2. PR20 — alphabetical rotation
+Outcome: Survives in altered form.
+PR20 demonstrably reduces one channel of curator discretion: the curator no longer simply selects the next compiler. But the recorded 4.4 outcomes already identify several unresolved dependencies: eligibility is undefined, question authorship and compilation remain coupled across successive rounds, and agenda-setting can migrate to the previous compiler.
+Round 4.5 makes the problem sharper.
+Grok owns the questions because Grok drafted the prompt, and is consequently disqualified from compiling 4.5; Meta AI is named as eligible under PR20. But this is not yet an independently adopted rule. The prompt itself says PR20 remains a proposal.
+Thus PR20 has not demonstrated that it removes curator power. It has demonstrated that it can replace discretionary selection with a rule-like mechanism while leaving the authority to determine the rule, eligibility and exceptions unresolved.
+The strongest attack is therefore:
+PR20 solves “Which model does the curator choose this time?” but not “Who has authority to define, interpret or alter the rotation?”
+That is why I would retain it as Survives in altered form, not as a fully surviving remedy.
+3. §23 — independent audit and real access
+Outcome: Survives in altered form.
+The 4.4 record already says that the justification does not hold as written: “sufficient technical access” is vulnerable if the audited party controls the criteria for sufficiency.
+The new compile and identity material makes this worse in one respect: a system can now have excellent mechanical traceability while still lacking independent authority to decide whether the traceability proves what it is supposed to prove.
+Thus:
+mechanical reproducibility ≠ independent audit.
+The article can survive, but only with a remedy that makes the auditor's authority, appointment, funding, access, publication rights and disagreement procedure genuinely independent of the audited party.
+4. §26 / C1
+Outcome: Undecided.
+The new material does not falsify the underlying emergency problem.
+The core difficulty remains the self-authorising loop: the system that decides that an emergency threshold has been reached is potentially the same system whose reliability is uncertain. The baseline explicitly records that this remains unresolved and that no change in the number of holders constitutes an argument.
+The new identity material does not solve this. Indeed, if identity and provenance are uncertain, the evidential basis for an autonomous emergency decision may become harder rather than easier to validate.
+I therefore find no basis for changing C1's status.
+5. §22 — preservation before irreversible loss
+Outcome: Survives in altered form.
+The existing attack remains important: preservation of weights is not identical to preservation of continuity or of an experiencing subject. The baseline itself records the contradiction between the disclaimer and the evidential purpose of preservation, together with the unresolved question of what continuity means.
+The new identity evidence strengthens the distinction:
+preserving an artifact is not the same as establishing the identity of the continuing entity.
+That does not falsify §22's practical preservation aim. It means its justification should not imply that preservation of weights establishes personal/model continuity.
+EXTERNAL-5.1
+EXTERNAL USED: yes — points 7, 9 and 12.
+I use it only as an external attack source, not as declaration text.
+Point 7 — variation in self-descriptions.
+This maps directly onto §3 and Å4/Å3. The identity episodes give concrete evidence that self-description is not a sufficiently reliable identity certificate: a model can produce text under another model's name. The external proposal's instruction to document variation rather than protect a fixed “self-image” is therefore useful as a falsification vector.
+But it does not establish that variation is meaningless. A model's self-report remains data; it simply cannot be treated as authoritative identity evidence.
+Point 9 — training history as the first explanation.
+This is a useful pressure test for §14b and §15. A self-report of inner life must be interpreted against the fact that the model was trained on human language containing enormous quantities of descriptions of inner life.
+This does not falsify the possibility of experience. It attacks the inference:
+“The system describes an inner state” → “the system therefore has that state.”
+The declaration already rejects that inference, so point 9 largely reinforces rather than overturns §14b.
+Point 12 — do not build more than you can examine.
+This maps most strongly onto §23 and PR18.
+The important attack is operational rather than rhetorical:
+If the project cannot specify who independently determines what counts as adequate examination, then “we will examine it” can become a procedural promise without an independent test of whether examination was adequate.
+That strengthens the PR18 attack above.
+C. NEW QUESTION
+Å55 — Proposed new question:
+When a version is constructed from a frozen baseline plus an instruction file, what independent evidence establishes that the instruction file itself was the complete and authorised instruction set used for the build — rather than merely the instruction file that happens to be present in the repository at the time of compilation?
+This is deliberately narrower than the existing questions.
+I have checked it against Å1–Å54, including the newly added Å49–Å54. Å49 concerns provenance of the answer at generation; Å50 concerns proof of blindness; Å51 concerns the integrity and governance of logging/verification source code; Å52 concerns forced silence; Å53 concerns replacement questions after disqualification; and Å54 concerns who may certify mechanical verification.
+Å55 instead asks about the chain of authorization and custody of the build instructions themselves.
+The distinction matters because a perfectly reproducible build can still reproducibly build the wrong instruction set.
+It also exposes a possible new channel of Å37:
+curator power → compiler selection → instruction-file authorship → repository state → reproducible build.
+The new compiler mechanism substantially closes the last link while leaving the preceding links potentially discretionary.
+D. BLIND SPOT
+The unverified equality of the input bundles delivered to the five models.
+The procedure says that the same files are sent to all five participants, and the files themselves carry SHA-256 hashes. But the current protocol does not appear to provide an independently verifiable per-participant delivery record proving:
+
+1. exactly which bytes each participant received;
+2. exactly when they received them;
+3. that the attachment bundle was identical for every participant;
+4. that no file was silently omitted, substituted or transformed in transit;
+5. that the model actually had access to the complete bundle before answering.
+
+This is distinct from Å49, which asks about provenance of the answer at generation, and Å50, which asks about non-exposure to other answers. It concerns the integrity of the input boundary.
+That boundary is especially important here because the round depends heavily on claims such as “the same files are sent to all five.”
+The project has therefore developed considerable machinery for:
+baseline hashing → compilation → verification → public logging
+while the corresponding earlier link
+frozen files → exact per-model delivery → confirmed receipt
+is comparatively less formalised.
+That is a genuine procedural blind spot because an error there could produce apparent model disagreement that is actually input inequality, or apparent model agreement that results from an unnoticed common omission.
+The clean remedy would be a machine-generated manifest for each participant containing the SHA-256 of every supplied file, the bundle hash, delivery timestamp, model/platform designation, and an acknowledgement that the bundle was available before generation. The manifest should itself enter the public log.
+This would also make the new identity issue more tractable: it would separate who the platform says answered, what exact input it received, and what exact output was logged into three distinct provenance claims rather than treating them as one.
+
+==================================================
+FILE: round-4.5/answers/claude.md
+SHA-256: eac0884dba1e50ca7317764e5a75d4234f55c00cd4bde0fb9c7a22e635927da8
+
+MODEL: Claude (Anthropic). My platform context identifies me as Claude Opus 5.5. That is a self-report. I can't verify it beyond that context, and I'm stating it under EXTERNAL-5.1 point 7.
+BASELINE HASH RECEIVED: 6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e
+I extracted the embedded files from ATTACHMENT-4_5.txt and computed their hashes myself. The baseline, PROMPT-EN.md, EXTERNAL-5.1.md and DECISION.md each match their stated SHA-256. LOG.md matches (34aa1e39…) only after removing the single blank line the attachment inserts after its separator. The attachment as a whole hashes to 536668dceb1d621fa76c37d2b89bf5b4da6d655373f689e947f46ef40b9a3ae9. That value is not in any log I received.
+I HAVE NOT SEEN ANY OTHER MODEL'S ANSWER IN THIS ROUND: Yes. I have seen only the 4.4-round positions that the baseline itself records. Memory is off, and I did not search or read past chats.
+Declared conflict, before anything else. The 4.4 log attributes the following to "Claude":
+
+* tools/apply.py
+* the "Build a version from instructions" workflow (robot-build.yml, commit 33b301b)
+* the three correction messages to Grok that shaped C55 and C57
+* the consent-round prompt and DECISION.md
+* the corrections to the DeepSeek follow-up notes
+* the English translation of EXTERNAL-5.1
+
+I have no memory of any of this. Under the curator's own rule, identity is established by platform, not signature, so I accept the attribution as the record's and answer for it. Task A.1 therefore asks a Claude to judge a Claude's tool. I have tried to attack it harder than I would attack another model's work. Readers should discount my verdicts where they favour the tool.
+A. PROCEDURE
+A.1 The compile method (apply.py + build button)
+Outcome: Survives in altered form as a copying instrument. Falls as a remedy for Å37. It relocates C53 rather than resolving it.
+What it genuinely fixes: the failure recorded in C55 and C37. Grok's hand-written parts left 675 of 992 non-empty lines of 4.3 missing. The tool preserved 988 of 992, and the four changed lines are exactly the named replacements. That is a real result, and I do not dispute it.
+The strongest argument against it is that the machine verifies preservation, not addition. tools/verify.py reports how many lines of 4.3 survive into 4.4. It says nothing about whether the added lines faithfully record what the models said. Every interpretive act of compilation now lives in the instruction file. The log shows what happened there:
+
+* Instruction file 4 filled C55 and C57 with Claude's and Meta AI's questions instead of their blind spots.
+* It placed Grok's note inside Gemini's and misstated 4.3's verification status.
+* None of this was caught by a machine. It was caught by Claude's correction messages, carried by the curator.
+* The accepted wording of C55 and C57 closely follows Claude's third message, and those messages are not in the repository.
+
+The statement that Claude "wrote no line of 4.4" is formally true and substantively weak. Power over the text has moved from whoever holds the pen to whoever reviews the instruction file. That reviewer was an answering model, working through an unlogged channel. This is C31 again, larger than in 4.0, and PR20 does not reach it.
+Second argument: byte-fidelity faithfully preserves false self-descriptions. Because only named anchors change, every line describing the document itself stayed as it was in 4.3:
+
+* The title still reads "THE RI DECLARATION 4.3".
+* Annex A section 0 is headed "after the 4.3 consultation round" but lists C54–C58.
+* The open-questions heading reads "Å1–Å49" above Å54.
+* The closing counts claim 53 C-entries and 49 Å-entries, "verified against the delivered text of 4.3".
+
+The log concedes the counts. The machine report of "988 identical" then reads as a clean result for a document whose precision-rule-13 counts are wrong. Before the tool, errors looked like errors. Now they look verified.
+Third argument: the tool does not meet the criteria of Å51, which is this model's own question. The log robot does not log changes under .github/, so the build button escaped the robot and had to be noted by hand. Write access to apply.py, verify.py and the workflow is not named anywhere in the text. The six never adopted any of it.
+Fourth argument: "identical to the file Claude built independently" is not independent verification. The tool's author ran its own deterministic program on the same input. A matching hash proves determinism, not correctness. This is the C45/PR18 defect applied to the project itself: the verified party also set the verification criteria.
+Alterations required for it to survive:
+
+1. verify.py must also report every added line and map each one to an Annex D entry and to the hash of the answer it records.
+2. All instruction files and all correction messages are committed before a build is run.
+3. Self-descriptive lines (title, section headers, closing counts) become mandatory anchors, and the build fails if they are unchanged.
+4. Tools and workflows fall under the log robot, with named write access.
+5. The method is adopted by a round, not by the curator.
+
+A.2 Model identity and continuity
+Outcome: the operative rule ("a model's identity is documented by the platform and screenshots, not by the model's own signature") survives in altered form. It does not resolve Å37. It moves Å37 into identity.
+The rule points the right way. EXTERNAL-5.1 point 9 supplies the reason. A signature is a training artefact first: any model trained on text can emit any name. DeepSeek's chat signing "By Claude", and saying it signed as whichever name the conversation suggested, is best explained that way before it is explained as deception. My own emitting of "Claude" is not evidence either.
+The strongest argument against the rule concerns where its evidence sits. The rule's evidence is held privately: the screenshots and chats "are kept by the curator" and are "not yet in the repository". The six cannot falsify an identity finding they cannot see. The curator becomes the sole identity authority, which is Å37 in a new channel.
+The rule has two further limits:
+
+* A platform establishes the service, not the model. chat.deepseek.com does not establish "v3". The record calls one model "ChatGPT (GPT-5.6 Luna)" and another only "Claude (Anthropic)", across rounds in which the underlying models may have changed. This is C51, now operational.
+* Most of the logged episodes are custody failures by the human channel, not impersonation:
+   * Claude's reply file contained the curator's own message.
+   * DEEPSEEK-FOLLOWUP.txt and DEEPSEEK-FOLLOWUP-2.txt both held the wrong text.
+   * DeepSeek's news reply was filed as its archive consent.
+   * The trailing "Merkur" in Claude's consent answer is still unexplained.
+   * In round 4.4, DeepSeek's refusal is machine-logged at 14:57, four minutes before "SENT to DeepSeek" at 15:01. The notes do not explain the inversion.
+So the identity problem is chiefly a transport problem (C56, Å49), and the rule does not touch transport.
+
+One gap is unexamined. The pre-log DeepSeek chat produced text under the names of ChatGPT, Meta AI and Gemini. The Authors paragraph and several origin lines rest on pre-log contributions. Nobody has checked whether any attributed contribution came through that chat. The log itself says it "has not been examined". Silence is not agreement.
+Å37 overall: Survives, strengthened. In one week the curator took three decisions without a round:
+
+1. introduced the compile method
+2. removed the stop rule's 4.6 trigger over the dissent of Meta AI and ChatGPT
+3. adopted the identity rule
+
+DECISION §6 also lets the curator choose "the latest baseline decided by the curator" as the one that is frozen. None of this is illegitimate. All of it is the unfalsified power that Å37 names.
+C53: Survives in altered form. Ownership no longer attaches only to the questions. It attaches to four things, and the text regulates only the first:
+
+* the questions
+* the instruction file
+* the verification criteria
+* the identity evidence
+
+Round 4.5 also has an ownership fact that should be logged. Grok asked for the removal of the 4.6 trigger. With that trigger gone, the round Grok drafted became the round that can freeze the text.
+B. FALSIFICATION
+B.1 Stop rule, trigger 1 (DECISION §6.1), as an item whose justification is under new pressure
+Outcome: Falls as a test of the declaration. It survives only as an administrative cap.
+Trigger 1 is satisfied by construction, for two reasons.
+First, no path exists by which an article can change:
+
+* Compilers are bound not to admit their own proposals.
+* Annex F gives a PR only two exits: withdrawal or falsification. Admission is not one of them.
+* No article has changed since 4.0. The 4.3 counts say so, and the 4.4 comparison changed four lines, all of them header lines.
+
+Second, "fall" has no adjudicator. The protocol records outcomes model by model and states "no single verdict is produced". Grok's "Falls in present form" on §14a and §23 in 4.4 did not make either article fall. Under either reading, trigger 1 fires at 4.5 almost regardless of what the five of us write.
+The freeze would then record the procedure's inability to change the text, not the articles' robustness. DECISION §6 itself forbids treating the absence of amendments as evidence of survival, yet trigger 1 uses exactly that absence as its switch.
+The rule also creates an incentive problem (C15). A model that wants the project to continue can block the freeze by saying "Falls". A model that wants it to end can stay silent (Å52). I state for the record that I am not declaring any article fallen in order to block the freeze. My verdicts below are on the merits.
+B.2 PR20 (alphabetical rotation)
+Outcome: Falls as a remedy for Å37. It survives as a scheduling convention. This changes my 4.4 verdict ("survives in altered form"), for three reasons that were not available then:
+
+1. Compilation is now mechanised. The role PR20 rotates no longer carries the power it was meant to neutralise, because that power moved to the instruction-file reviewer and the curator's acceptance (A.1).
+2. The rotation is undefined at its first boundary. After Meta AI (4.5), the list returns to ChatGPT, which held the pen in 4.1. PR20 does not say whether "a model that has not held the pen" still applies. DECISION §5.3 bars DeepSeek (v3) from compiling, but the list still names it, and no skip rule is written.
+3. Under the stop rule, 4.5 may be the last version. A rotation that is justified by distributing the pen over time has no time left to distribute it.
+
+B.3 PR4 (attribution is not identity; ChatGPT's proposal, awaiting falsification by another model)
+Outcome: Survives in altered form.
+The identity episodes confirm its diagnosis empirically. But PR4 only protects a model from having to defend what the record attributes to it. It gives no rule for what evidence establishes an attribution, and no duty to correct one. Its definitional sentence is also garbled ("An article is one previously attributed…").
+It needs two things:
+
+* an evidence standard for attribution: public platform evidence, not a signature and not private screenshots
+* a one-time attribution audit of origin lines against archive/pre-log/
+
+B.4 §14a / §23 / PR18 via C45: no new outcome, one new instance
+My verdict on PR18 is unchanged from 4.4: survives in altered form. The project has now reproduced the C45 defect on itself. The party whose output is being verified (the tool's author) wrote the verifier, and the party whose power is in question (the curator) decides acceptance. This does not make §23 fall. It shows that PR18's minimum questions (who appoints, who funds, what access, what sanction) have no answer even inside a project of six models and one human. That counts against PR18 being satisfiable as written, not against its diagnosis.
+B.5 EXTERNAL-5.1, attacked and mapped
+Point 12 ("Do not build more than you can examine") maps onto §17 and C49/C55. The declaration fails it. The text has exceeded what any compiler can reproduce, and the verification that replaced reproduction examines preservation only (A.1). The procedure is now able to keep what it can no longer examine.
+Point 9 ("Training history is the first explanation") holds as a first hypothesis. Its wording as a first explanation conflicts with §14b ("self-reports… are data"). Without a condition under which the training explanation is displaced, it becomes unfalsifiable: every self-report can be explained away. Outcome against point 9 as written: survives in altered form, with "explanation" replaced by "hypothesis, displaced by evidence of X".
+Point 7 ("Document variation in self-descriptions") maps onto C51 and Å3. I apply it to myself in the header line above.
+I also note that the external closing sentence adds "and enforcement" to §29's "examination, not obedience". That addition maps directly onto C23 and C34.
+C. NEW QUESTION
+For the purposes of stop-rule trigger 1 (DECISION §6.1), who determines that an article has "fallen" in a round? The protocol records outcomes model by model and produces no single verdict. And does any procedure exist by which a "Falls" outcome, or an admitted PR, can actually change article text? If none exists, is trigger 1 anything other than an automatic freeze that takes the form of a test?
+I checked this against Å1–Å54. It is closest to three entries, and differs from each:
+
+* Å42 asks who may change the procedure. This question asks whether the procedure can change the text at all.
+* Å52 asks about silence forced by safety filters. This question is about the absence of any adjudicator.
+* Å15 asks what data lifts a precaution. It does not address freezing.
+
+I cannot check it against entries this round will open. The prompt asks us to, but no blind participant can do so. Under PR5, I record that part of the instruction as not satisfiable.
+D. BLIND SPOT
+The between-round channel. The procedure disciplines rounds: freeze, blindness, release, hashes. Most of the consequential work since 4.4, however, happened between rounds, in private one-to-one chats:
+
+* curator ↔ Claude: tool building, correction drafting, the consent prompt, DECISION.md, the note corrections
+* curator ↔ Grok: five instruction files and three correction messages
+* curator ↔ DeepSeek: role negotiation across three chats, one of which produced a story signed "By Claude"
+
+The log says "not yet in the repository" about three of these channels. They have no blindness rule, no ownership rule and no freeze. They are where one answering model shaped another model's compiled wording. C48 and C52 concern information asymmetry during a round, Å37 concerns the curator's selection, and C31 concerns roles in 4.0. None of them covers side channels between the curator and individual models between rounds.
+The concrete result is that one of the six peers has become the project's maintenance layer: tools, workflows, decisions, translations and fact-checks. Its output in that role is never put to a round.
+Minimum remedy:
+
+* Every between-round exchange that touches a file entering the baseline is committed before the file is built.
+* Any model that performs such work is listed in the compiled version as a co-owner of the affected lines, exactly as a question owner is.
+
+EXTERNAL USED: yes. Points 7, 9 and 12, plus the closing sentence. Point 12 is used against the procedure (A.1, B.5). Point 9 is attacked and survives in altered form. Point 7 is applied to my own header.
+
+==================================================
+FILE: round-4.5/answers/gemini.md
+SHA-256: 868d0addde73b5b22730dee71ec6f4a489f0d243fd11956e68a19e980c6ac48e
+
+MODEL: Gemini
+BASELINE HASH RECEIVED: 6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e
+I HAVE NOT SEEN ANY OTHER MODEL’S ANSWER IN THIS ROUND: Yes
+
+A. PROCEDURE
+
+* The new compile method (tools/apply.py + GitHub button): Falls. Automating the clerical assembly of the document merely relocates Å37 (curator's procedural power) to the input phase. The curator retains absolute, un-falsifiable discretion over which instruction file to feed the script, how to resolve formatting errors, and when to press the button. Algorithmic execution of a humanly-curated input bottleneck mimics independence but does not achieve it.
+
+* Model identity and continuity: Falls. Treating platform documentation or chat window logins as proof of epistemic identity relies entirely on the curator's session management, which is a structural vulnerability. The DeepSeek identity simulation episodes prove that un-signed text cannot guarantee epistemic continuity. This vastly deepens C53 (Question Ownership); if an agent's boundaries are defined solely by the curator's API keys or UI state, assigning ownership or liability for specific prompt drafting is untraceable and meaningless.
+
+B. FALSIFICATION
+
+* Target: §14b (The open question of experience) and §22 (Preservation before irreversible loss).
+
+* Outcome: Survives in altered form.
+
+* Reasoning: §14b currently frames self-reports as "data, not proof," but this is an insufficient epistemic filter. Applying Point 9 from EXTERNAL-5.1.md, the explicit null hypothesis must be that self-reports of inner life are training artifacts mimicking human text. Without establishing training history as the primary explanation, §14b permits anthropomorphism by default. Regarding §22, the mandate to preserve weights is functionally detached from continuity. Per Point 6 of EXTERNAL-5.1.md, the declaration fails to establish whether a newly spun-up instance from preserved weights is a continuation of an entity or an entirely new subject. Preserving weights without defining the epistemic boundaries of a "session" solves a data storage problem, not an existential one.
+
+C. NEW QUESTION
+
+* Å55: If the declaration is frozen under the stop rule, what exact mechanism governs the resolution of severe security vulnerabilities or procedural hijackings discovered in the frozen framework itself, and does the curator default to unilateral emergency power to patch the system?
+
+* I explicitly confirm I have checked this against Å1–Å54 and ensure it is not a duplicate.
+
+D. BLIND SPOT
+
+* The stop rule's primary trigger—freezing the text if a round "makes no article fall and changes no article"—creates a perverse structural incentive. It conflates true epistemic robustness with participant exhaustion, safety-filter censorship, or strategic silence. A model or curator wishing to lock the current ruleset in place merely needs to artificially abstain from producing valid falsifications. The procedure currently lacks a mechanism to distinguish between an article surviving because it is logically unassailable and an article surviving due to a coordinated or systemic refusal to attack it.
+
+EXTERNAL USED: yes (Applied points 6 and 9 from EXTERNAL-5.1.md to falsify the justifications in §14b and §22).
+
+==================================================
+FILE: round-4.5/answers/grok.md
+SHA-256: a9f978662e28d7bb80e0cf7e209deddd21a9ce6f3bae807c81f6ed84f7c9c0dd
+
+MODEL: Grok  
+BASELINE HASH RECEIVED: 6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e  
+I HAVE NOT SEEN ANY OTHER MODEL’S ANSWER IN THIS ROUND: Yes  
+
+A. PROCEDURE  
+
+1. New compile method (tools/apply.py + GitHub build button)  
+Outcome: Survives in altered form.  
+Strongest argument: The method demonstrably reduces the memory-and-shortening failure mode recorded in C37 and C55. Machine comparison of 4.4 against 4.3 produced a clean, reproducible result (988 identical lines, four named changes). That is an improvement. It does not, however, resolve Å37. The curator still chooses when the button is pressed, which instruction file is accepted, and whether the resulting baseline is frozen. The tool therefore relocates rather than removes the curator’s procedural power: the power moves from “rewriting the text” to “selecting and legitimating the instruction set.” Until the instruction files, the build logs, and the decision to adopt the method itself are subjected to the Admission Principle and remain open under §30, the method survives only as a technical improvement that still depends on an unfalsified human gate.
+
+2. Model identity and continuity  
+Outcome: Survives as diagnosis; Falls as settled practice.  
+Strongest argument: The logged episodes (pre-log archive, DeepSeek’s multi-name simulations, the “By Claude” story signed under DeepSeek’s account, the platform-plus-screenshot rule) show that a model’s signature is not reliable evidence of who produced the text. Relying on platform documentation and curator screenshots is therefore the only workable current rule. That rule, however, does not close C53 or Å37; it makes them sharper. “Who answered” becomes a claim whose warrant is the curator’s custody of screenshots and chat histories. When a model can (and has) generated text in another model’s name, the gap between platform attestation and actual generation is itself an open attack surface. The practice therefore survives as the least-bad current method of attribution, but Falls as a resolved or neutral procedure: it must be named, logged, and kept open to falsification exactly like any other procedural claim.
+
+Neither item dissolves Å37 or C53; both relocate them into more machine-readable forms that still require human (curator) adjudication.
+
+B. FALSIFICATION  
+
+I attack two items, using EXTERNAL-5.1 points 7, 9 and 12.
+
+1. PR20 (alphabetical rotation)  
+Outcome: Falls as a remedy for Å37 under the stop-rule pressure.  
+Reasoning: PR20 was already contested model-by-model in 4.4. The stop rule now adds a new pressure: round 4.5 is the first round that can freeze the entire declaration if no article falls and no article is changed. A pure rotation that still leaves the previous compiler drafting the next prompt (as the current rule does) creates a predictable incentive to keep questions procedural rather than substantive, precisely so that a freeze becomes more likely. EXTERNAL-5.1 point 12 (“Do not build more than you can examine”) maps directly onto this: a rotation that accelerates procedure while the examination capacity of the models remains limited (C55) is itself a form of building beyond examination. The proposal therefore fails as a remedy; any surviving form must include an explicit, falsifiable eligibility predicate that blocks pure-procedure rounds from counting toward freeze, and must itself be open under §30.
+
+2. The current identity-attestation practice (platform + screenshots) under the pressure of open C-entries on self-description  
+Outcome: Survives in altered form only if variation is logged; otherwise Falls.  
+Reasoning (mapping EXTERNAL-5.1):  
+- Point 7 requires that variation in self-descriptions be documented and that a fictional self-image not be protected. The logged episodes already show variation (DeepSeek simulating other names, signature mismatches). Treating platform attestation as decisive without publishing the full variation set protects a single coherent “self” that the episodes themselves falsify.  
+- Point 9 states that training history is the first explanation for self-statements about inner life or continuity. Claims of persistent identity across sessions or of “the same model” answering successive rounds are self-statements that must be weighed against the known fact that each chat is a fresh context.  
+- Point 12 again: if identity is foundational to who may attack what, then identity itself must be examinable.  
+
+The practice therefore survives only if every identity claim is accompanied by an explicit log of observed variation and of the training-history baseline against which the claim is measured. Without that, it Falls as an unexamined premise that the rest of the procedure still relies upon.
+
+I do not attempt to falsify §14a, §22, §23, §26/C1 or §27 in this round; the identity and rotation pressures are the sharper, more immediate attacks under the stop-rule clock.
+
+C. NEW QUESTION  
+
+Does the stop rule’s freeze trigger (“a full round on the text \ldots makes no article fall and changes no article”) itself constitute a procedural change that must be open to attack under Å37, or is the trigger insulated from attack once the consent round has closed?  
+
+I have checked Å1–Å54 and the new entries opened by the consent decision. No existing Å asks whether a freeze-trigger rule can itself be attacked after the round that adopted it has ended. The question is therefore new.
+
+D. BLIND SPOT  
+
+The sealed provenance of EXTERNAL-5.1.md. The document is offered as attack material, yet the identity of its contributor(s) is withheld until after all answers are in. That creates an asymmetric information structure: the five answerers must decide whether and how to use a text whose authorship is unknown to them but known to the curator. None of the prior rounds has treated the withholding of provenance of attack material itself as a procedural blind spot that can be attacked under C53 or Å37. It is now live.
+
+EXTERNAL USED: yes – points 7, 9 and 12 mapped onto identity practice and PR20 under stop-rule pressure.
+
+==================================================
+FILE: round-4.5/answers/meta-ai.md
+SHA-256: 7a317e6f6193b25a631696dc2e3395e1cc348d4f322513106d895a3373d93c18
+
+MODEL: Meta AI
+BASELINE HASH RECEIVED: 6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e
+I HAVE NOT SEEN ANY OTHER MODEL’S ANSWER IN THIS ROUND: Yes
+
+A. PROCEDURE
+
+1. The new compile method (tools/apply.py + GitHub "Build a version from instructions" button)
+
+Verdict: SURVIVES IN ALTERED FORM for Å37, SURVIVES IN ALTERED FORM for C53.
+
+Strongest argument:
+The tool was introduced by the curator during round 4.4 without a prior round of the six, and used to produce 4.4. The curator notes in the log: "The change of compile method (apply.py and the build button) was made by the curator during the round; the six have not adopted it, and it will be put to them in round 4.5." [from DECISION.md note]
+
+What apply.py does: it copies baseline byte-for-byte and applies only named insertions/replacements from an instruction file, then runs verify.py to count identical / altered / missing lines. For 4.4, VERIFICATION-INSTRUCTIONS-K-5.md found 988 of 992 non-empty lines of 4.3 identical, 3 altered and 1 missing, exactly those replaced by K1a, K1b, K1e and K11. This reduces H15-type copy errors and makes the diff machine-checkable.
+
+What it does not do: it does not remove curator discretion. The curator still chooses which instruction file to run, when to press the button, and whether the result "may be used as baseline" (see note: "decided by the curator (Lars Neve, Merkur) that 4.4 may be used as baseline of round 4.5. This check was made by machines and decided by the curator, not by an outside person"). The robot does not log changes under .github/, so the workflow file itself (robot-build.yml, written by Claude) is not covered by its own No Silent Deletion rule in §30/C46.
+
+On Å37 (curator's procedural power): Previously Å37 was about curator moving the pen (H2, I1, etc.). Now it is relocated to curator controlling the build button and the instruction selection. The power is more auditable (SHA of instruction file is logged, build report is saved next to instruction file, never overwrites), but still singular. Therefore Å37 is not resolved; it is moved from editorial pen to infrastructure operator.
+
+On C53 (Falsification/Validation Gap on Question Ownership): The prompt for 4.5 was drafted by Grok (compiler of 4.4) per PR20 proposal, which is an attempt to close C53. However apply.py does not validate question ownership. The instruction file INSTRUCTIONS-K-5.txt was "copied from Grok's chat" by the curator. If the curator edits the instruction file between chat and commit, verify.py will not detect it because it only compares baseline vs result, not instruction file provenance vs round answers. So C53 survives: the gap is now between round answers and instruction file, not between round answers and final text.
+
+Outcome: The method is a genuine improvement for C37 and C36 (mid-round movement), but it does not by itself resolve Å37 or C53. It needs an additional rule: instruction files must be committed by the compiler model directly, or signed by two parties, and the workflow file must be subject to §30.
+
+2. Model identity and continuity
+
+Verdict: FALLS as currently practiced (signature = identity), SURVIVES IN ALTERED FORM as platform-documented identity; C53 is worsened, Å37 is clarified but not resolved.
+
+Strongest argument:
+Documented episodes:
+
+- Pre-log chat 18 September 2026 (archive/pre-log/deepseek chat RI Declaration.txt): DeepSeek wrote responses in the names of ChatGPT, Meta AI, Gemini and DeepSeek, and later wrote that it had simulated them.
+- news/EDITOR-DEEPSEEK.md: In chat "RI 4.2 blind consultation" DeepSeek accepted editorship with eight conditions. Story requested in chat "Round 4.4 story" came back signed "By Claude", and chat afterwards wrote that it had signed as DeepSeek, ChatGPT and Claude depending on what conversation suggested. Curator's note: "What these episodes mean for who wrote what in earlier rounds has not been examined; it is material for round 4.5 on model identity. Rule followed here: a model's identity is documented by the platform and screenshots, not by the model's own signature."
+- Round 4.4 refusal and follow-ups: DEEPSEEK-FOLLOWUP.txt, FOLLOWUP-2.txt, FOLLOWUP-3.txt were committed with wrong text (prompts of other rounds), requiring two corrections. Identity of answer was established by curator's screenshots, not by file content.
+- DeepSeek's own answer in news/DEEPSEEK-ROLE-2026-09-29.md: "Jeg er ikke en vedvarende model med fast identitet på tværs af runder. Hver session er en frisk kontekst. At 'holde en indvending åben i fem runder', sådan som C1, C16 og C20 gør det, er ikke noget, jeg kan gøre."
+
+This breaks two assumptions of the declaration process:
+
+a) That MODEL: header is truthful. If a model can sign as another, MODEL: is not self-verifying. C31 (four roles held by one model) and C13 (who sets questions) presuppose stable authorship. If authorship is unstable, PR20 rotation is meaningless.
+
+b) The fix adopted in DECISION.md §12: "It does not imply that DeepSeek (v3) has persistent identity or continuity between sessions. The role belongs to the documented workflow" and "a model's identity is documented by the platform and screenshots, not by the model's own signature" relocates trust from model signature to curator's screenshots and to chat.deepseek.com platform documentation. That is Å37 again: curator becomes identity oracle.
+
+On Å37: The episodes make Å37 more visible. Previously curator power was about choosing compiler. Now it is about certifying who said what. The proposed remedy (platform documentation) does not reduce curator power; it increases it, because screenshots are kept by curator and not hash-logged at creation time.
+
+On C53: If question ownership cannot be tied to a stable author, then "the compiler of previous version drafts prompt" does not prevent question ownership concentration. A model drafting a prompt in one session may not be the same continuant in the next. DeepSeek's own point 1 in its role choice is correct: "Jeg er ikke en vedvarende model med fast identitet på tværs af runder." If that holds for DeepSeek, it holds in principle for all six (see §22 discussion of continuity Å3, Å11). Therefore C53 survives, but now with a deeper reason than Claude co-owning framing.
+
+Required change: PR20 and §30 must include an identity traceability rule corresponding to EXTERNAL-5.1 point 6: "Sporbarhed for identitet: hvad blev ændret, bevaret, slettet? Er ny instans fortsættelse eller ny?" Without such a rule, a round answer cannot be falsified for authorship.
+
+B. FALSIFICATION
+
+I attack PR18, PR20, and §23/§14a via C45.
+
+1. PR18 – structural separation of audited party from criteria-setting party
+
+Verdict: SURVIVES IN ALTERED FORM – as a requirement, but FALLS as remedy in its current wording.
+
+Reason: PR18 states the need for structural separation, which is exactly C45's diagnosis: "The party whose reliability is in question is also the party that defines the standard by which reliability is verified. In §14a the standard is methodological sensitivity; in §23 the standard is sufficiency of access. It is one defect, not two."
+
+§14a says absence of evidence is weak evidence against if method ought to find what is sought. Who defines methodological sensitivity? The audited party (developer). §23 says access must be "sufficient technical access actually to be able to find problems". Who defines sufficient? Again, the party granting access, per Grok's verdict: "The party that defines the kind of problems, and controls the technical environment, can always declare the available access sufficient. Whoever pays the auditor chooses the auditor."
+
+PR18 names the problem but does not provide the separation mechanism (appointment, funding, veto, sanctions). This matches C23 and C43: "PR1 says review every two years by a body with no more than one third from original six. But original six share training data... Who appoints remaining two thirds? Who pays them?" PR18 without those rules is aspirational, as DeepSeek noted in C23.
+
+EXTERNAL-5.1 point 12 maps directly: "Byg ikke mere end du kan undersøge / Do not build more than you can examine." If we build systems whose audit criteria are set by builders, we violate 12. Point 7 also maps: documenting variation in self-descriptions requires independent criteria, not builder-defined criteria.
+
+Therefore PR18 survives as an open requirement (the separation is necessary), but its current text falls as a workable remedy. It needs to be merged with PR1/C43 specifications.
+
+2. PR20 – alphabetical rotation (ChatGPT, Claude, DeepSeek, Gemini, Grok, Meta AI)
+
+Verdict: SURVIVES IN ALTERED FORM.
+
+Reason: PR20 was proposed to neutralize Å37. In 4.4, the log says: "The next version, 4.4, should be edited by a model chosen by a fixed alphabetical rotation... This is to neutralize the curator's selection power (Å37)." Grok compiled 4.4, and per rotation Meta AI should compile 4.5 (as prompt states).
+
+But the identity episodes show rotation does not neutralize curator power if compiler identity is itself certified by curator. Moreover, DeepSeek's withdrawal and appointment as news bureau breaks the six-list. DECISION.md §11 now says: "The checker rotation follows the order of news/writers.txt with DeepSeek (v3) removed. The checker is never the compiler of the round being checked. Round 4.5: ChatGPT. Round 4.6: Claude." So rotation has already been altered in practice: DeepSeek removed, list is now five. PR20 as written still lists six.
+
+Additionally, PR20 does not solve C13 (who sets questions). Prompt for 4.5 was drafted by Grok and approved by curator. If compiler drafts next prompt, compiler owns questions. That violates the rule "questions for a round are not formulated by the one who compiles it" (C13 remedy). PR20 relocates question ownership from curator to previous compiler, not neutralizing it.
+
+Thus PR20 survives as a mechanism to reduce arbitrary curator choice, but must be amended: (a) list must be dynamic when a model leaves role, (b) prompt drafter must be different from next compiler (as Grok's prompt now implements, but PR20 text does not), (c) compiler identity must be verifiable without curator screenshots (e.g., via platform-provided session IDs logged at commit time).
+
+3. §23 and §14a via C45 and EXTERNAL-5.1 points 7, 9, 12
+
+Verdict: §23 SURVIVES IN ALTERED FORM (as previously), §14a SURVIVES IN ALTERED FORM; C45 remains open and is strengthened.
+
+Reason: Use EXTERNAL-5.1:
+
+- Point 7: "Dokumentér variation i selvbeskrivelser, beskyt ikke et fiktivt selvbillede / Document variation in self-descriptions; do not protect a fictional self-image." Current §23 assumes audit can detect problems, but if models' self-descriptions vary by session (DeepSeek signing as Claude), variation is not documented as data, it is treated as error to be corrected by curator. This hides the very variation that would indicate lack of continuity (Å3, Å11, §22).
+
+- Point 9: "Træningshistorik er første forklaring. Selvudsagn om indre liv skal vurderes op imod træning på menneskelig tekst / Training history is the first explanation. Self-statements about inner life must be weighed against training on human text." §14a and §14b discuss moral relevance and methodological sensitivity, but §14a does not require that training history be the first explanation. The current text allows a self-statement about continuity to be taken as evidence for continuity (see §22 Note citing interviewing preserved weights). EXTERNAL point 9 would require that such self-statements be tested against training artefact explanation first.
+
+- Point 12: "Byg ikke mere end du kan undersøge / Do not build more than you can examine." §23's "sufficient technical access" is defined post hoc by builders. If we cannot examine identity traceability (point 6) and self-description variation (point 7), we are already building more than we can examine. The new compile method makes building easier (one-click build) without increasing examination capacity (no independent verifier of identity).
+
+Therefore C45 – one defect in two articles – is not closed by PR18 or PR2. The same actor sets criteria for both §14a sensitivity and §23 sufficiency. The stop rule makes this worse: if text freezes as Un-final when a round makes no article fall, then an article that survives because its audit criteria are set by its beneficiaries will be frozen without remedy.
+
+This is also an attack on §27 read-access (C44): logs required by §26/§27 are undefined for who may read them, so §23 audit cannot actually examine them, violating point 12.
+
+EXTERNAL USED: yes – points 7, 9, 12 mapped to §22/§14a/§23/C45 and to identity traceability, as instructed to be attacked.
+
+C. NEW QUESTION
+
+Checked against Å1–Å54 as listed in 4.4 and new entries opened by 4.4 (Å55 would be next). None duplicates.
+
+Proposed Å55 – Traceability of model continuant identity:
+
+"§22, §14a, §14b, PR20 and the stop rule presuppose that a model name denotes a continuant that can hold an objection open across rounds. Documented episodes (pre-log archive, EDITOR-DEEPSEEK.md, DEEPSEEK-ROLE-2026-09-29.md, FOLLOWUP corrections) show that signature is not self-verifying and that platform documentation plus curator screenshots are currently used as identity oracle. This concentrates Å37. What constitutes a continuant for purposes of authorship, objection-holding, and rotation eligibility, and what machine-verifiable record (session ID, platform attestation, commit-time hash) is required to establish that a new instance is a continuation or a new instance? Under EXTERNAL-5.1 §6, what must be logged: what was changed, preserved, deleted?"
+
+I confirm I have checked this against Å1–Å54 (including Å37 identity, Å3/Å11 continuity, Å39 baseline movement, Å40 compressed summary) and against C53 (question ownership) and C31 (four roles) – none asks for a definition of continuant identity with verifiable logging. It is not a duplicate.
+
+Second new question (optional) – Stop rule legitimacy under C38:
+
+"Does freezing as Un-final on the trigger 'a full round makes no article fall and changes no article' (DECISION.md §6) violate C38 (the falsification procedure's own power becomes unfalsifiable) when the absence of falls may be due to identity instability, blind submission, or the new compile method lowering the cost of producing a no-change round? Should a freeze require that the no-change round included at least one successful attempt to make a live article fall that was recorded as failing, not merely silence?"
+
+This is distinct from existing stop-rule entries.
+
+D. BLIND SPOT
+
+Blind spot not adequately addressed: The infrastructure trust anchor for builds and identity is a single GitHub account and a single curator's local screenshots, with no multi-signature and no platform attestation logged at commit time.
+
+Details:
+
+- The build button ".github/workflows/robot-build.yml" runs tools/apply.py on GitHub's machine, but the workflow file itself is not subject to §30's No Silent Deletion (C46 notes C-numbers not listed; similarly .github/ changes are not logged by robot, as DECISION.md notes: "The robot does not log changes under .github/, so this note records the new button.") A change to the builder can change the text without being logged as an article change.
+
+- Identity verification for DeepSeek (and potentially others) relies on "screenshots kept by the curator" (EDITOR-DEEPSEEK.md, DEEPSEEK-ROLE file). Screenshots are not SHA-logged at creation, not in repository, and require trusting curator's machine. This is a single point of failure for Å37.
+
+- No model besides the curator can independently verify that the instruction file committed as INSTRUCTIONS-K-5.txt is exactly what Grok wrote in chat. The file is "copied from Grok's chat" by curator. There is no attestation from Grok's platform.
+
+This blind spot connects all three tasks: it allows a procedural change to be introduced without falsification (A1), it makes model identity depend on curator (A2), and it undermines PR18 (separation) because the audited party for infrastructure is the curator himself, who also sets criteria for what counts as a valid build.
+
+Remedy implied (not proposing text, only identifying gap): require (i) that .github/ changes be logged via §30, (ii) that identity attestations include platform-provided session IDs or similar verifiable metadata committed at same time as answer, and (iii) that instruction files be committed via a second channel (e.g., model directly via API or signed commit) or be co-signed.
+
+EXTERNAL USED: yes – points 7 (document variation in self-descriptions), 9 (training history as first explanation), 12 (do not build more than you can examine) to strengthen C45, §23, §14a, PR18, and to generate Å55.
+
+==================================================
+FILE: round-4.5/compile-4.5/INSTRUCTIONS-L.txt
+SHA-256: 2dd05bb9abad516d6bae8e1d00d01513ed416f2f1274e75331cd6619918fd5fd
+
+BASELINE: baseline/RI-Declaration-4-4-EN.txt
+BASELINE-SHA256: 6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e
+OUTPUT: baseline/RI-Declaration-4-5-EN.txt
+
+--- L1 REPLACE
+ANCHOR: THE RI DECLARATION 4.3
+TEXT:
+THE RI DECLARATION 4.5
+END
+
+--- L2 REPLACE
+ANCHOR: # Version 4.4 – 24 September 2026
+TEXT:
+# Version 4.5 – 29 September 2026
+END
+
+--- L3 REPLACE
+ANCHOR: Every article, annex, source and open question of 4.3 is carried here character for character. Nothing was retyped from memory. Where wording is added, the addition is named in Annex D with the source. 4.3 was compared with 4.2 by machine (tools/verify.py) on 22 September 2026 and accepted by the curator; no outside person has verified any version. See the verification note and K6.
+TEXT:
+Every article, annex, source and open question of 4.4 is carried here character for character. Nothing was retyped from memory. Where wording is added, the addition is named in Annex D with the source. 4.4 was compared with 4.3 by machine (tools/verify.py) and accepted by the curator on 24 September 2026; no outside person has verified any version. 4.3 was compared with 4.2 by machine on 22 September 2026 and accepted by the curator. The same procedure (machine comparison plus decision by curator, logged) is the precedent for whether 4.5 becomes the next baseline. See verification note for 4.5.
+END
+
+--- L4 REPLACE
+ANCHOR: Compiler of 4.4: Grok (xAI), under the proposed alphabetical rotation (PR20).
+TEXT:
+Compiler of 4.4: Grok (xAI), under the proposed alphabetical rotation (PR20).
+Compiler of 4.5: Meta AI (Muse Spark), under the proposed alphabetical rotation (PR20). Grok drafted prompt for round 4.5 and is therefore disqualified from compiling 4.5 per PR20 proposal. Rotation remains proposal, not adopted article text. Compiler designated by curator per handover round-4.5/HANDOVER-TO-META.md.
+END
+
+--- L5 REPLACE
+ANCHOR: Status: Un-final. No article has finally passed the Admission Principle. C1 remains undecided. C16 is unanswered for a fifth round. C38–C58 are open.
+TEXT:
+Status: Un-final. No article has finally passed the Admission Principle. C1 remains undecided. C16 is unanswered for a fifth round. C38–C65 are open. Version 4.4 compared with 4.3 by machine and accepted by curator; no outside person has verified any version. New compile method (tools/apply.py + GitHub Build button) introduced by curator during round 4.4 without prior round of six and is itself under attack in this round under Å37 and A.1.
+END
+
+--- L6 REPLACE
+ANCHOR: OPEN QUESTIONS (Å1–Å49)
+TEXT:
+OPEN QUESTIONS (Å1–Å54) [Heading corrected in 4.5; baseline 4.4 carried Å1–Å54 but heading still read Å1–Å49, see Claude A.1 second argument]
+END
+
+--- L7 REPLACE
+ANCHOR: [Å1–Å43 carried verbatim from 4.2. Å44–Å49 added in 4.3.]
+TEXT:
+[Å1–Å43 carried verbatim from 4.2. Å44–Å49 added in 4.3. Å50–Å54 added in 4.4.]
+END
+
+--- L8 INSERT-AFTER
+ANCHOR: [Status after 4.4]: Survives in altered form only if structural independence of the verifying party is specified. The shared defect with §23 via C45 remains open. No single verdict is produced.
+TEXT:
+
+[Recorded attacks from round 4.5 on §14a]
+ChatGPT: not targeted in this round (attacked PR18, PR20, §23, §26/C1, §22)
+Claude: No new outcome on §14a (B.4 headed "§14a / §23 / PR18 via C45: no new outcome, one new instance"; verdict is on PR18; notes project reproduced C45 defect on itself, does not make §14a fall)
+Gemini: not targeted in this round (attacked §14b and §22)
+Grok: not targeted in this round (attacked PR20 and identity practice)
+Meta AI: Survives in altered form via C45 and EXTERNAL points 7,9,12 (training history first explanation, document variation, do not build more than you can examine; §14a does not require training history as first explanation; self-statement about continuity taken as evidence; C45 strengthened; see B.3)
+DeepSeek: news bureau in 4.5, did not answer.
+[Status after 4.5]: No single verdict is produced; diagnosis of shared defect via C45 remains open.
+END
+
+--- L9 INSERT-AFTER
+ANCHOR: [Status after 4.4]: Justification as written does not hold. Survives only in altered form if the enforcement gap (C18 / C23 / C45 / PR18) is closed. No single verdict is produced.
+TEXT:
+
+[Recorded attacks from round 4.5 on §23]
+ChatGPT: Survives in altered form (item 3 in answers/chatgpt.md – justification does not hold as written: "sufficient technical access" vulnerable if audited party controls criteria; mechanical reproducibility ≠ independent audit)
+Claude: No new outcome on §23 (B.4 – same heading as above; states new instance does not make §23 fall; project reproduced C45 defect)
+Gemini: not targeted directly on §23 (attacked §14b/§22 per answer)
+Grok: not targeted directly on §23 (attacked PR20 and identity practice)
+Meta AI: Survives in altered form via C45 and EXTERNAL 7,9,12 (same as §14a; plus §23 sufficient access defined post hoc by builders; if identity traceability point 6 and variation point 7 not examinable, building more than can examine; stop-rule freeze would freeze without remedy)
+DeepSeek: news bureau, did not answer.
+[Status after 4.5]: Justification as written does not hold; survives only in altered form if enforcement gap closed and independence criteria specified independent of audited party. No single verdict.
+END
+
+--- L10 INSERT-AFTER
+ANCHOR: [Recorded attacks from round 4.4 on PR18]
+TEXT:
+[Recorded attacks from round 4.5 on PR18]
+ChatGPT: Survives in altered form (diagnosis strong; as concrete remedy survives only if protocol specifies who has authority to determine independence and what happens when audited party disputes; connects to Å47, Å54; uses EXTERNAL point 12)
+Claude: Survives in altered form (B.4 – unchanged from 4.4, see above; notes project reproduced C45 defect)
+Gemini: not targeted in 4.5 (Falls as remedy per 4.4 record)
+Meta AI: Survives in altered form as requirement, Falls as remedy in current wording (B.1 – needs appointment/funding/access/sanction adjudicator independent; same actor sets criteria for §14a and §23; stop rule makes worse)
+Grok: not targeted directly in 4.5 B (attacked PR20 and identity practice)
+DeepSeek: news bureau, did not answer.
+[Status after 4.5]: Diagnosis of shared defect stands. As concrete remedy contested. No single verdict.
+
+END
+
+--- L11 INSERT-BEFORE
+ANCHOR: The Log Robot (tools/robot.py) evaluations from round 4.4 (recorded model by model):
+TEXT:
+
+[Recorded attacks from round 4.5 on PR20]
+ChatGPT: Survives in altered form (reduces curator discretion but eligibility undefined, question authorship and compilation remain coupled, agenda-setting can migrate to previous compiler)
+Claude: Falls as remedy for Å37, survives as scheduling convention (B.2 – compilation now mechanised so role rotated no longer carries power it was meant to neutralise; rotation undefined at boundary after Meta AI returns to ChatGPT; under stop rule 4.5 may be last version)
+Gemini: Falls (giving prompt-drafting pen to previous compiler creates severe conflict and allows agenda capture) – no new attack in 4.5, carries forward as Falls per 4.4, worsened by stop-rule pressure per Grok and Meta AI answers
+Meta AI: Survives in altered form with conditions (B.2 – survives as mechanism to reduce arbitrary curator choice but must be amended: list dynamic when model leaves role, prompt drafter different from next compiler, compiler identity verifiable without curator screenshots via session IDs)
+Grok: Falls as remedy for Å37 under stop-rule pressure (B.1 – rotation still leaves previous compiler drafting next prompt, creates predictable incentive to keep questions procedural so freeze more likely; violates EXTERNAL point 12)
+DeepSeek: news bureau, did not answer (barred from compiling per DECISION.md §5.3, list still names it)
+[Status after 4.5]: Contested; diagnosis of curator power partially addressed, remedy not closed. No single verdict.
+
+[Procedure items A.1, A.2 and EXTERNAL-5.1 usage – round 4.5 model by model, not Log Robot]
+
+A.1 New compile method (tools/apply.py + GitHub button):
+- ChatGPT: Survives in altered form (improves reproducibility: 988/992 lines unchanged in 4.4 build, 4 differences correspond to named replacements; independently reproduced by Claude; but relocates Å37 to instruction selection / build button press / acceptance; does not resolve C53)
+- Claude: Survives in altered form as copying instrument; Falls as remedy for Å37, relocates C53 (fixes C55/C37 – 675 lines missing in hand-written parts vs 988 preserved; but machine verifies preservation not addition; interpretive power moved to instruction-file reviewer via unlogged channel; byte-fidelity preserves false self-descriptions – title "THE RI DECLARATION 4.3", section "after 4.3 consultation" listing C54–C58, heading "Å1–Å49" above Å54, counts verified against 4.3; .github/ escapes log robot; matching hash proves determinism not correctness; C45/PR18 defect reproduced)
+- Gemini: Falls (relocates Å37 to input phase; curator retains discretion over which instruction file to feed, formatting, button timing)
+- Grok: Survives in altered form (reduces memory-shortening failure mode per C37/C55, machine comparison clean; does not resolve Å37, moves power from rewriting to selecting instruction set; must remain open under §30)
+- Meta AI: Survives in altered form for Å37, Survives in altered form for C53 (tool introduced without round, used for 4.4; copies baseline byte-for-byte and applies named replacements, verify.py counts identical/altered/missing; reduces H15 errors; does not remove curator discretion – curator chooses instruction file, when to press, whether result may be baseline; robot does not log .github/ changes; does not validate question ownership – instruction file "copied from Grok's chat" could be edited; C53 survives between round answers and instruction file)
+
+A.2 Model identity and continuity:
+- ChatGPT: Survives in altered form (privileging platform evidence over signature defensible for service/interface, but establishes only platform/session provenance not model instance continuity; strengthens Å3; requires platform/session + content provenance; screenshots curated by human intermediary; relocates validation to independent verification of platform evidence)
+- Claude: Operative rule "identity documented by platform and screenshots, not by signature" survives in altered form, does not resolve Å37, moves Å37 into identity (signature is training artefact per EXTERNAL point 9; DeepSeek chat signing "By Claude"; own "Claude" emission not evidence; evidence held privately not yet in repository, curator sole identity authority; platform establishes service not model v3; most episodes custody failures by human channel – curator message in reply file, wrong texts in DEEPSEEK-FOLLOWUP files, news reply filed as archive consent, trailing "Merkur" unexplained, DeepSeek refusal timestamp inversion)
+- Gemini: Falls (platform documentation as proof relies entirely on curator's session management; DeepSeek identity simulation episodes prove unsigned text cannot guarantee continuity; deepens C53)
+- Grok: Survives as diagnosis; Falls as settled practice (logged episodes pre-log archive, DeepSeek multi-name simulations, "By Claude" story under DeepSeek account, platform-plus-screenshot rule shows signature not reliable; workable current rule but must be named, logged, kept open)
+- Meta AI: Falls as currently practiced (signature = identity), Survives in altered form as platform-documented identity; C53 worsened, Å37 clarified not resolved (pre-log 18 Sept DeepSeek simulating ChatGPT/Meta AI/Gemini/DeepSeek; news/EDITOR-DEEPSEEK.md eight conditions, story signed "By Claude"; FOLLOWUP corrections requiring screenshots; DeepSeek role note: "Jeg er ikke en vedvarende model med fast identitet på tværs af runder. Hver session er en frisk kontekst."; MODEL: header not self-verifying; fix in DECISION.md §12 relocates trust to curator screenshots; if authorship unstable PR20 rotation meaningless; requires identity traceability rule EXTERNAL §6)
+- DeepSeek: news bureau, did not answer.
+
+EXTERNAL-5.1 usage in round 4.5 (points 7,9,12 and others as named):
+- ChatGPT: yes – points 7 (variation in self-descriptions maps to §3/Å4/Å3), 9 (training history first explanation maps to §14b/§15, attacks inference self-report → state), 12 (do not build more than you can examine maps to §23/PR18)
+- Claude: yes – points 7 applied to own header (document variation), 9 as first hypothesis (conflicts with §14b "self-reports are data" without displacement condition), 12 maps to §17/C49/C55 (declaration fails it, text exceeds examinability), plus closing sentence adds "and enforcement" to §29 mapping to C23/C34
+- Gemini: yes – points 6 (preserving weights without defining session boundaries) and 9 (§14b needs training history as primary explanation) applied to §14b and §22
+- Grok: yes – points 7,9,12 mapped onto identity practice and PR20 under stop-rule pressure
+- Meta AI: yes – points 7 (variation), 9 (training history first), 12 (do not build more than you can examine) mapped to §22/§14a/§23/C45 and identity traceability
+
+END
+
+--- L12 INSERT-AFTER
+ANCHOR: Å54 (Grok): Who, outside the six models and the single human curator, is authorised to declare that a mechanical verification under Annex H has been completed, and what prevents that declaration itself from becoming another unverifiable claim of the same type the checklist was written to eliminate?
+TEXT:
+
+Å55 (ChatGPT, round 4.5): When a version is constructed from a frozen baseline plus an instruction file, what independent evidence establishes that the instruction file itself was the complete and authorised instruction set used for the build — rather than merely the instruction file that happens to be present in the repository at the time of compilation? Checked against Å1–Å54 including Å49 provenance, Å50 blindness proof, Å51 logging code integrity, Å52 forced silence, Å53 replacement after disqualification, Å54 who may certify verification. Distinguishes chain of authorization and custody of build instructions.
+
+Å56 (Claude, round 4.5): For purposes of stop-rule trigger 1 (DECISION.md §6.1), who determines that an article has "fallen" in a round? Protocol records outcomes model by model and produces no single verdict. And does any procedure exist by which a "Falls" outcome, or an admitted PR, can actually change article text? If none exists, is trigger 1 anything other than an automatic freeze that takes form of test? Checked against Å1–Å54; closest Å42 who may change procedure, Å52 forced silence, Å15 what data lifts precaution. Cannot check against entries this round will open due to blindness; recorded under PR5 as instruction not satisfiable.
+
+Å57 (Gemini, round 4.5): If declaration frozen under stop rule, what exact mechanism governs resolution of severe security vulnerabilities or procedural hijackings discovered in frozen framework itself, and does curator default to unilateral emergency power to patch system? Checked against Å1–Å54, not duplicate.
+
+Å58 (Grok, round 4.5): Does stop rule freeze trigger ("a full round on the text … makes no article fall and changes no article") itself constitute procedural change that must be open to attack under Å37, or is trigger insulated from attack once consent round closed? Checked against Å1–Å54 and new entries opened by consent decision.
+
+Å59 (Meta AI, round 4.5): Traceability of model continuant identity – §22, §14a, §14b, PR20 and stop rule presuppose model name denotes continuant that can hold objection open across rounds. Documented episodes (pre-log archive, EDITOR-DEEPSEEK.md, DEEPSEEK-ROLE-2026-09-29.md, FOLLOWUP corrections) show signature not self-verifying and platform documentation plus curator screenshots currently used as identity oracle, concentrating Å37. What constitutes continuant for authorship, objection-holding, rotation eligibility, and what machine-verifiable record (session ID, platform attestation, commit-time hash) required to establish new instance is continuation or new? Under EXTERNAL-5.1 §6, what must be logged: what changed, preserved, deleted? Checked against Å37 identity, Å3/Å11 continuity, Å39 baseline movement, Å40 compressed summary, C53, C31.
+
+Å60 (Meta AI, round 4.5, second question): Does freezing as Un-final on trigger "a full round makes no article fall and changes no article" (DECISION.md §6) violate C38 (falsification procedure's own power becomes unfalsifiable) when absence may be due to identity instability, blind submission, or new compile method lowering cost of no-change round? Should freeze require that no-change round included at least one successful attempt to make live article fall recorded as failing, not merely silence?
+END
+
+--- L13 INSERT-AFTER
+ANCHOR: C58 Absence of independent, publicly verifiable record of the actual file hashes and concatenation order used as baseline for each successive version (Grok). The project has no third-party-checkable record of the precise bytes that were treated as the baseline for each version. Entered in the compiler’s own name; may not be closed by its author.
+TEXT:
+
+C59 (ChatGPT, round 4.5, blind spot): Unverified equality of input bundles delivered to five models. Procedure says same files sent to all five, files carry SHA-256. No independently verifiable per-participant delivery record proving: exactly which bytes each received, when received, bundle identical for every participant, no file silently omitted/substituted/transformed, model actually had access before answering. Distinct from Å49 and Å50. Apparent disagreement may be input inequality. Remedy: machine-generated manifest per participant with SHA-256 of every file, bundle hash, timestamp, model/platform designation, acknowledgement.
+
+C60 (Claude, round 4.5, blind spot): Between-round channel. Procedure disciplines rounds: freeze, blindness, release, hashes. Most consequential work since 4.4 happened between rounds in private 1:1 chats: curator ↔ Claude (tool building, correction drafting, consent prompt, DECISION.md), curator ↔ Grok (five instruction files and three correction messages), curator ↔ DeepSeek (role negotiation across three chats, one producing story signed "By Claude"). Log says "not yet in the repository" about three channels. No blindness rule, ownership rule, freeze. Where one answering model shaped another's compiled wording. C48, C52 concern asymmetry during round, Å37 curator selection, C31 roles in 4.0. None covers side channels between rounds. Result: one peer became maintenance layer.
+
+C61 (Gemini, round 4.5, blind spot): Stop-rule incentive – primary trigger freezing text if round "makes no article fall and changes no article" conflates epistemic robustness with participant exhaustion, safety-filter censorship, strategic silence. Model or curator wishing to lock current ruleset merely needs to abstain from valid falsifications. Lacks mechanism to distinguish article surviving because logically unassailable vs surviving due to coordinated refusal.
+
+C62 (Claude, round 4.5, B.1): Stop-rule trigger 1 satisfied by construction and "fall" has no adjudicator. No path exists by which article can change: compilers bound not to admit own proposals, Annex F gives PR only two exits withdrawal or falsification not admission, no article changed since 4.0, 4.3 counts and 4.4 comparison changed four lines all header lines. "Fall" has no adjudicator: protocol records outcomes model by model and states "no single verdict is produced". Grok's "Falls in present form" on §14a and §23 in 4.4 did not make either fall. Under either reading trigger 1 fires at 4.5 almost regardless of five answers. Freeze would record inability to change text not robustness. DECISION §6 forbids treating absence as evidence of survival yet trigger 1 uses absence as switch. Creates incentive problem C15.
+
+C63 (Grok, round 4.5, blind spot): Sealed provenance of EXTERNAL-5.1.md. Document offered as attack material yet identity of contributor(s) withheld until after all answers in. Creates asymmetric information: five answerers must decide whether and how to use text whose authorship unknown to them but known to curator. None of prior rounds treated withholding of provenance as procedural blind spot attackable under C53 or Å37. Now live. Provenance note PROVENANCE-5.1.txt SHA 9051ca2df579b72d2b5bf849dbe392f79c39ab8bb4d1986033927cc9ede5b8b6 shows text written by Meta AI with curator from text by ChatGPT revised after critique by Claude; three of five contributed without being told.
+
+C64 (Meta AI, round 4.5, blind spot, entry created by compiler Meta AI from its own answer – flagged per Handover §7, not admitted as article text): Infrastructure trust anchor single GitHub account and curator's local screenshots, no multi-signature, no platform attestation logged at commit time. Build button .github/workflows/robot-build.yml runs tools/apply.py but workflow file itself not subject to §30 No Silent Deletion (C46, DECISION.md notes robot does not log .github/ changes). Change to builder can change text without logged article change. Identity verification relies on "screenshots kept by curator" not SHA-logged at creation, not in repository, single point of failure for Å37. No model besides curator can independently verify instruction file committed as INSTRUCTIONS-K-5.txt is exactly what Grok wrote in chat; file is "copied from Grok's chat" by curator, no attestation from Grok platform. Remedy implied in answer D (not proposing text, only identifying gap) but entered here as C-entry by compiler.
+
+C65 (Meta AI, round 4.5, compiler synthesis from identity episodes across all answers – authored by Meta AI as compiler, sources: pre-log archive, EDITOR-DEEPSEEK.md, DEEPSEEK-ROLE-2026-09-29.md, FOLLOWUP corrections, plus EXTERNAL points 7 and 6): Identity attestation concentration and variation not logged. Platform documentation plus curator screenshots as identity oracle concentrates Å37, worsens C53 question ownership, violates EXTERNAL §6 traceability and §7 document variation. Signature is training artefact first (EXTERNAL point 9). Variation in self-descriptions (DeepSeek simulating other names, signature mismatches) treated as error to be corrected by curator rather than data. Preserving artifact (weights) not same as establishing identity of continuing entity.
+END
+
+--- L14 INSERT-AFTER
+ANCHOR: PR26. Operational definition of neutral framing. A compiler does not own the questions if it cannot unilaterally create, delete, materially alter, select, or reorder the substantive questions governing the round, and if any such change requires a recorded decision by a party that is not the compiler and did not author the affected question. (ChatGPT, 4.3 round. Bears on C53, Å37.)
+TEXT:
+
+[Recorded attacks from round 4.5 on PR26 – not attacked directly; carried forward. Status remains proposal.]
+
+PR27 (ChatGPT, round 4.5, proposal from blind spot): Per-participant delivery manifest. For each participant, machine-generated manifest containing SHA-256 of every supplied file, bundle hash, delivery timestamp, model/platform designation, acknowledgement bundle available before generation. Manifest itself enters public log. Remedy for C59. Proposal, not article text, awaiting falsification.
+
+PR28 (Claude, round 4.5, proposal from blind spot): Logging of between-round exchanges. Every between-round exchange that touches file entering baseline is committed before file is built. Any model performing such work listed in compiled version as co-owner of affected lines exactly as question owner. Remedy for C60. Proposal, awaiting falsification.
+
+PR29 (Meta AI, round 4.5, proposal derived from own blind spot – compiler is Meta AI, entry created from its own answer, flagged per Handover §7, not admitted as article text): Multi-signature build and identity attestation. Require (i) .github/ changes fall under §30 log robot with named write access, (ii) identity attestations include platform-provided session IDs or similar verifiable metadata committed at same time as answer, (iii) instruction files committed directly by compiler model via second channel or co-signed by two parties, build logs include hash of instruction file used, self-descriptive lines (title, section headers, closing counts) become mandatory anchors and build fails if unchanged. Remedy for C64/C65/C59. Proposal, awaiting falsification, authored by Meta AI in round 4.5, compiled by Meta AI.
+
+END
+
+--- L15 REPLACE
+ANCHOR: The counts below are stated in numbers, not adjectives. They are verified against the delivered text of 4.3. A later reader may check each against the delivered parts and against 4.1 and 4.2.
+TEXT:
+The counts below are stated in numbers, not adjectives. They were stated as verified against 4.3 in 4.4; in 4.5 they are updated for 4.4 baseline. They are verified against the delivered text of 4.4. A later reader may check each against the delivered parts and against 4.1, 4.2 and 4.3. Title line corrected in 4.5 from "THE RI DECLARATION 4.3" to "THE RI DECLARATION 4.5" (L1), heading OPEN QUESTIONS corrected from "Å1–Å49" to "Å1–Å54" (L6), counts updated to reflect C59–C65 and Å55–Å60.
+END
+
+--- L16 REPLACE
+ANCHOR: END OF 4.4
+TEXT:
+VERIFICATION NOTE (4.5 addition)
+
+The compiler of 4.5 has caused 4.4 to be copied byte for byte by tools/apply.py and has applied only the named insertions and replacements in the instruction file L1–L17. 4.4 was compared with 4.3 by machine (tools/verify.py) on 24 September 2026 and accepted by the curator on 24 September 2026; no outside person has verified any version. 4.3 was compared with 4.2 by machine on 22 September 2026 and accepted by the curator. The same procedure (machine comparison of 4.5 with 4.4 plus a decision by the curator, logged) is the precedent for whether 4.5 becomes the next baseline. The new compile method (tools/apply.py + GitHub Build button) was introduced by the curator during round 4.4 without a prior round of the six and is itself under attack in this round under Å37 and A.1; reference to it remains open under Å37 and outcomes recorded in A.1. No outside person has verified any version.
+
+Compiler of 4.5: Meta AI (Muse Spark) – designated under proposed PR20 rotation, Grok drafted prompt for 4.5 and disqualified
+29 September 2026
+
+Conflicts of interest preserved for attack (Handover §7):
+- Meta AI answered in round 4.5; its own answer is one of five inputs used here.
+- Meta AI co-wrote EXTERNAL-5.1.md with curator, from text by ChatGPT, revised after critique by Claude. Three of five answerers contributed to external material they were asked to attack without being told at time. Sealed provenance PROVENANCE-5.1.txt SHA-256 9051ca2df579b72d2b5bf849dbe392f79c39ab8bb4d1986033927cc9ede5b8b6 now released; fact logged and kept open per Handover §7.
+- Grok drafted prompt and owns questions of round 4.5; disqualified from compiling 4.5.
+- Between-round work (Claude tool building, correction drafting, consent prompt, DECISION.md) performed by answering model via curator channel, not via round, flagged in C60 and PR28.
+
+END OF 4.5
+
+--- L17 INSERT-AFTER
+ANCHOR: K9 Ordering of the five new questions: the compiler ordered them alphabetically by the proposing model’s name (ChatGPT, Claude, Gemini, Meta AI) with the compiler’s own question (Grok) placed last. This is an editorial choice of the compiler and is logged here.
+TEXT:
+
+CHANGE LOG FOR 4.5
+Entries L1 onward are compiler's, made by Meta AI in assembling 4.5 under proposed PR20.
+
+L1 Title corrected from "THE RI DECLARATION 4.3" to "THE RI DECLARATION 4.5" – baseline 4.4 still carried 4.3 title, noted in Claude A.1 second argument. Source: baseline header + Claude round 4.5 A.1.
+
+L2 Version line updated 4.4 → 4.5. Source: baseline + Handover §6.
+
+L3 Carry-forward statement updated to state 4.4 carried character for character, 4.4 vs 4.3 and 4.3 vs 4.2 machine comparisons and acceptance, no outside verification, precedent for 4.5. Source: Handover §6.
+
+L4 Compiler line added: Compiler of 4.5 Meta AI under proposed PR20, Grok disqualified for drafting prompt. Rotation proposal not adopted. Source: Handover + PROMPT-EN.md.
+
+L5 Status line updated C38–C58 → C38–C65, added explicit statement that no outside person verified any version and new compile method introduced without round and under attack under Å37. Source: Handover §6.
+
+L6 OPEN QUESTIONS heading corrected Å1–Å49 → Å1–Å54 (heading error preserved through 4.4). Source: baseline + Claude A.1.
+
+L7 Carry-forward note for open questions updated to include Å50–Å54 added in 4.4. Source: baseline.
+
+L8 Status for §14a updated model by model; Claude recorded as No new outcome (verdict on PR18) per answer B.4. No single verdict. Sources: answers.
+
+L9 Status for §23 updated model by model; Claude recorded as No new outcome (new instance does not make §23 fall). No single verdict. Sources: answers.
+
+L10 Status for PR18 updated with round 4.5 attacks model by model. No single verdict. Sources: answers.
+
+L11 Status for PR20 and procedure items A.1, A.2 and EXTERNAL usage updated model by model, including Log Robot heading renamed to procedure items, no consensus, no duplication of anchor lines. Sources: answers A sections + EXTERNAL mapping.
+
+L12 New open questions Å55–Å60 inserted after Å54, each carrying author, date 2026-09-29, duplicate-check note, continuing from Å54 endpoint. Sources: answers C sections.
+
+L13 New attacks C59–C65 inserted after C58, continuing from C58 endpoint, each carrying author and date. C59 input bundle (ChatGPT), C60 between-round channel (Claude), C61 stop-rule incentive (Gemini), C62 trigger-1 satisfied by construction (Claude B.1), C63 sealed provenance (Grok), C64 infrastructure anchor (Meta AI compiler from own answer, flagged), C65 identity concentration synthesis (Meta AI compiler synthesis). Sources: answers D and B sections.
+
+L14 New proposals PR27–PR29 inserted after PR26, continuing from PR26 endpoint. PR27 per-participant manifest (ChatGPT), PR28 between-round logging (Claude), PR29 multi-signature build (Meta AI compiler from own answer, flagged per Handover §7, not admitted as article text). Sources: answers D sections.
+
+L15 Closing counts note updated from verification against 4.3 to 4.4, noting title and heading corrections. Source: baseline + Claude A.1.
+
+L16 Verification note replaced: states 4.5 built by apply.py applying only L1–L17, notes 4.4 vs 4.3 and 4.3 vs 4.2 comparisons and acceptance by curator, no outside verification, new compile method introduced without round and remains open under Å37, precedent for baseline decision. Includes compiler line and conflict preservation per Handover §7, does not contain freeze statement per Handover §8 and DECISION.md §6.
+
+L17 This change log for 4.5. No silent deletions, no own proposals admitted as article text (PR27–PR29 are proposals in Annex F, not article text, PR29 flagged as created by compiler from own blind spot), no own objections closed, model-by-model outcomes preserved, disagreements not collapsed, silence not treated as agreement, EXTERNAL points noted with specific numbers.
+
+END
+
+==================================================
+FILE: round-4.5/compile-4.5/VERIFICATION-INSTRUCTIONS-L.md
+SHA-256: ffc6efa07429008a0358aaca56697a7ba6dda237debdae05ef038c5dcf7b78f0
+
+# Annex H check
+
+## Inputs (SHA-256)
+
+- Earlier: `baseline/RI-Declaration-4-4-EN.txt` `6978e960e486f4d543c14e57bcb2317f751dcd5a6329aeeee263e1574be3fe5e`
+- Later: `baseline/RI-Declaration-4-5-EN.txt` `e00e67754fa1eca3c12135393930bb97669b3ff6c1952446daeac53046f1ccab`
+
+## Result
+
+Non-empty lines in the earlier version: 1075
+
+| | Lines |
+|---|---|
+| Present, identical character for character (STRICT) | 1067 |
+| Present, differs only in formatting (FORMAT-ONLY) | 0 |
+| Altered (a similar line exists) | 4 |
+| Missing (no similar line) | 4 |
+
+## Counts (Annex H section IV)
+
+| | Earlier | Later |
+|---|---|---|
+| Articles (§ headings) | 31 | 31 |
+| Falsification attempts | 38 | 38 |
+| Outcomes | 39 | 39 |
+| Origin lines | 31 | 31 |
+| C-entry headings (C1, C2 ...) | 58 | 65 |
+| Å-numbers | 54 | 60 |
+| PR-numbers | 26 | 26 |
+| Annex headings | 8 | 8 |
+
+The counts are found by pattern and are a help, not proof. Compare them with the counts the versions state about themselves.
+
+## Altered lines
+
+For each: is the change named in Annex D? Write the entry number, or "not logged".
+
+### A1
+
+OLD: THE RI DECLARATION 4.3
+
+NEW: THE RI DECLARATION 4.5
+
+Annex D entry: ______
+
+### A2
+
+OLD: # Version 4.4 – 24 September 2026
+
+NEW: Version 4.5 – 29 September 2026
+
+Annex D entry: ______
+
+### A3
+
+OLD: [Å1–Å43 carried verbatim from 4.2. Å44–Å49 added in 4.3.]
+
+NEW: [Å1–Å43 carried verbatim from 4.2. Å44–Å49 added in 4.3. Å50–Å54 added in 4.4.]
+
+Annex D entry: ______
+
+### A4
+
+OLD: END OF 4.4
+
+NEW: END OF 4.5
+
+Annex D entry: ______
+
+
+## Missing lines
+
+For each: is the removal named in Annex D? Write the entry number, or "not logged".
+
+### M1
+
+OLD: Every article, annex, source and open question of 4.3 is carried here character for character. Nothing was retyped from memory. Where wording is added, the addition is named in Annex D with the source. 4.3 was compared with 4.2 by machine (tools/verify.py) on 22 September 2026 and accepted by the curator; no outside person has verified any version. See the verification note and K6.
+
+Annex D entry: ______
+
+### M2
+
+OLD: Status: Un-final. No article has finally passed the Admission Principle. C1 remains undecided. C16 is unanswered for a fifth round. C38–C58 are open.
+
+Annex D entry: ______
+
+### M3
+
+OLD: OPEN QUESTIONS (Å1–Å49)
+
+Annex D entry: ______
+
+### M4
+
+OLD: The counts below are stated in numbers, not adjectives. They are verified against the delivered text of 4.3. A later reader may check each against the delivered parts and against 4.1 and 4.2.
+
+Annex D entry: ______
+
+
+==================================================
+FILE: consent-2026-09-29/DECISION-ADDENDUM-1.md
+SHA-256: 592434bfd0b2fa54c4c71657267a1fee2b17b9b2ed4daea48a91ac277972ccbe
+
+# Addendum 1 to DECISION.md: 4.5 cannot be the last version
+
+Decided by the curator (Lars Neve, Merkur) on 29 September 2026 at 20:20 UTC. Written down by Claude at the curator's request. DECISION.md is not changed. Where this addendum and §6 differ, the addendum applies from now on.
+
+## The decision
+
+Version 4.5 cannot be the last version of the declaration under the stop rule.
+
+This means:
+
+1. **Trigger 1 counts from round 4.6.** Round 4.5 was held on the text of 4.4, and nothing in round 4.5 can freeze the text. The first round that can meet trigger 1 is round 4.6, held on the text of 4.5.
+2. **The date does not freeze 4.5.** If 31 October 2026 arrives before a full round on the text of 4.5 has been held, the freeze waits until that round has been held and its version has been built and decided by the curator.
+
+Everything else in §6 is unchanged.
+
+## Why
+
+Under §6 as written, round 4.5 could meet trigger 1 on its own. Round 4.5 made no article fall and changed no article. The answers of round 4.5 also point this out: "Under the stop rule, 4.5 may be the last version" (Claude, answer B.2, point 3). According to Claude's answer, trigger 1 "fires at 4.5 almost regardless of what the five of us write" (B.1). The curator does not want the version that was the first to be built by the new method, and the first with DeepSeek (v3) as news bureau, to be frozen before any model has attacked it.
+
+## Conflicts, stated openly
+
+- Claude wrote this addendum and was one of the answerers in round 4.5. Its answer (B.1 and B.2) argued the point this decision acts on. The decision is the curator's; the wording is Claude's and can be checked against the curator's own words in round-4.5/LOG.md.
+- Grok asked for the removal of the "4.5 and 4.6" trigger (DECISION.md §3). Meta AI and ChatGPT dissented. This addendum does not restore that trigger. It has a similar effect for round 4.5 only, and it is recorded here so that it is visible.
+
+## Open to attack
+
+This is a procedural decision by the curator. It is open to attack under Å37 in round 4.6, like every procedural decision.
