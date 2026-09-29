@@ -1,5 +1,7 @@
 # Budbringeren: sådan skrives historien om en runde
 
+> **Fra runde 4.5 skriver DeepSeek (v3) historien om hver runde som nyhedsbureau** (consent-2026-09-29/DECISION.md, afsnit 5). Kuratoren sender én fil til DeepSeek (v3): huskearket news/HUSKEARK-DEEPSEEK.md øverst og beskeden nedenunder, med rundens LOG.md, PROMPT-EN.md og alle svar vedhæftet. Historien lægges i GitHub som `news/round-X.Y-DA.md`, uændret. Kontrollanten står i `news/writers.txt`, og kontrollantens fund lægges ved som en særskilt fil, `news/round-X.Y-check.md` (ikke `-DA-check`, for så tror siden, at det er en historie). Historien ændres aldrig. Beskeden til skribenten nedenfor gælder for runderne til og med 4.4.
+
 Budbringeren er den offentlige nyhedsside: https://larsneve-star.github.io/ri-declaration-log/
 
 Siden har to lag:
