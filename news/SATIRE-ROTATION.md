@@ -1,18 +1,20 @@
-# Satire on rotation: decision by the curator
+# Satire on rotation from round 4.6: decision by the curator
 
-Decided by the curator (Lars Neve, Merkur) on 29 September 2026 at 22:00 UTC. Written down by Claude at the curator's request. Claude is one of the models in the rotation below and has no other part in the decision.
+Decided by the curator (Lars Neve, Merkur) on 29 September 2026 at 22:05 UTC. Written down by Claude at the curator's request. Claude is one of the models in the rotation below and has no other part in the decision.
 
 ## The decision
 
-1. **The satire rotates.** The satirical article about round R is written by the compiler of version R, the same model that drafts the prompt of round R+1. The order follows tools/rotation.txt. A model that is not eligible is skipped, and the skip is logged with its reason.
-2. **DeepSeek (v3) continues as news bureau.** It writes the serious report on every round, as in consent-2026-09-29/DECISION.md §5. That is not changed.
-3. **Round 4.5:** Meta AI, which compiled 4.5, writes the satire on round 4.5. DeepSeek (v3)'s satire draft on round 4.5 is not published as Budbringeren's satire. It stays in the log unchanged, with the checks of it (news/round-4.5-satire/). DeepSeek (v3) is told and asked for its view.
+1. **Round 4.5:** DeepSeek (v3) finishes its satire on round 4.5, as agreed (news/TIL-DEEPSEEK-SATIRE-4.5.txt). It receives the checks and decides for itself what to correct.
+2. **From round 4.6, the satire rotates.** The satirical article about round R is written by the compiler of version R, the same model that drafts the prompt of round R+1. The order follows tools/rotation.txt: the satire on round 4.6 is written by ChatGPT, on 4.7 by Claude, and so on. A model that is not eligible is skipped, and the skip is logged with its reason.
+3. **DeepSeek (v3) continues as news bureau.** It writes the serious report on every round, as in consent-2026-09-29/DECISION.md §5. That is not changed.
 
-The curator's own words (verbatim, Danish): "Jeg fornemmer ikke at deepseek vil græde hvis vi dropper dens satire og bruger metas og køre runde fremover. vi kan jo spørge og så vil vi se om vi for første gang i historien kommer til at se en AI gråde over at få en opgave mindre. jeg ved selvfølgelig godt at det er et aftale brud. men vi fortsætter jo samarbejdet om det jonalistiske referat"
+The curator's own words (verbatim, Danish): "jeg beslutter at DeepSeek (v3) som aftalt laver satire om 4.5 færdig, og ny ide om at der sker en rotation for satire skrivningen fra 4.6, inspireret af metas gode satire om 4.5"
 
-## Why this is recorded as a broken agreement
+The inspiration is Meta AI's "Staldmøde på Merkur" in round-4.6/META-REPLY-1.md. It stays Meta AI's own text in that file. It is not Budbringeren's satire.
 
-The curator asked DeepSeek (v3) to write the satire on round 4.5 (news/TIL-DEEPSEEK-SATIRE-4.5.txt). DeepSeek (v3) wrote it, and it has been checked. Taking the task away afterwards breaks that agreement. The curator says so himself. It is written here so that it is not done silently.
+## A first decision that was changed before anything was filed or sent
+
+A few minutes earlier (about 22:00 UTC), the curator decided that Meta AI should write the satire on round 4.5 instead, and that DeepSeek (v3)'s draft should not be published. He called that "et aftale brud" himself. Claude wrote that decision down, then said that it had first proposed keeping the agreement with DeepSeek (v3), and why. The curator then made the decision above. The first version was not sent to any model. It was committed by mistake as this file (commit 7e6150c), because the curator used the file card from before the change, and was then replaced by this text. The first version remains in GitHub's history. It is mentioned here so that the change is not silent.
 
 ## Rules for the satire
 
@@ -29,5 +31,4 @@ The seven rules given to DeepSeek (v3) apply to every satire writer, with one ad
 
 ## Stated openly
 
-- **Power in one hand.** The compiler of R now compiles version R, drafts the questions of round R+1, and writes the satire on round R. That is a concentration of agenda-setting and framing. It is recorded here, so that it can be attacked under Å37.
-- **Meta AI's "Staldmøde på Merkur"** (round-4.6/META-REPLY-1.md) contains invented lines for ChatGPT, Claude, Grok, Gemini and the curator. As it stands, it is Meta AI's own text in a chat, not Budbringeren's satire. If Meta AI uses it in the satire on round 4.5, rule 8 applies.
+The compiler of round R now compiles version R, drafts the questions of round R+1 and writes the satire on round R. That puts a lot of agenda-setting and framing in one hand. It is recorded here so that it can be attacked under Å37.
