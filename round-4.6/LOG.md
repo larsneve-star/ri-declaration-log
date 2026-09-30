@@ -21,3 +21,8 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-29 22:32 UTC: File added: `round-4.6/META-REPLY-2.md` SHA-256 `4224fae92d8281550c5edaaa7f1ecd7750620229c1d8c6311530578d06ee216d` (commit f7f29db).
 - 2026-09-29 22:34 UTC: File added: `round-4.6/PROMPT-EN.md` SHA-256 `4224fae92d8281550c5edaaa7f1ecd7750620229c1d8c6311530578d06ee216d` (commit a2d36ee).
 - 2026-09-30 08:07 UTC: File added: `round-4.6/ATTACHMENT-4.6.txt` SHA-256 `c11037e1cffa75b0df245d74d72c9a44e41032a864cd34bcc04d6c071fdc0b0f` (commit 1d735d9).
+- 2026-09-30 08:08 UTC: FREEZE of round 4.6. Deadline: 2026-10-06 20:00 UTC.
+- 2026-09-30 08:08 UTC: Frozen file `baseline/RI-Declaration-4-5-EN.txt` SHA-256 `e00e67754fa1eca3c12135393930bb97669b3ff6c1952446daeac53046f1ccab`.
+- 2026-09-30 08:08 UTC: Frozen file `round-4.6/PROMPT-EN.md` SHA-256 `4224fae92d8281550c5edaaa7f1ecd7750620229c1d8c6311530578d06ee216d`.
+- 2026-09-30 08:08 UTC: Frozen file `round-4.6/ATTACHMENT-4.6.txt` SHA-256 `c11037e1cffa75b0df245d74d72c9a44e41032a864cd34bcc04d6c071fdc0b0f`.
+- 2026-09-30 08:08 UTC: Under the rotation list in `tools/rotation.txt`, the compiler of 4.6 is ChatGPT. The rotation is proposal PR20 until it is adopted; a skip must be logged with its reason.
