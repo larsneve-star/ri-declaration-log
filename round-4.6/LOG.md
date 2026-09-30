@@ -38,3 +38,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 08:28 UTC: Answer from Claude added: `round-4.6/answers/Claude` SHA-256 `4aedba16c226e45b2b672bc368a3b0b6ac0fa54634a128578f1d07a8158d926e` (commit 5409369).
 - 2026-09-30 08:30 UTC: WARNING: renamed `round-4.6/answers/ChatGPT` → `round-4.6/answers/ChatGPT.md` (commit 139fdbc). A person should say why in the notes.
 - 2026-09-30 08:30 UTC: WARNING: renamed `round-4.6/answers/Meta AI` → `round-4.6/answers/Meta AI.md` (commit 2887a0d). A person should say why in the notes.
+- 2026-09-30 08:30 UTC: WARNING: renamed `round-4.6/answers/Claude` → `round-4.6/answers/Claude.md` (commit 68d0c8d). A person should say why in the notes.
