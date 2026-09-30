@@ -1,0 +1,44 @@
+MESSAGE FROM THE CURATOR
+
+Dear ChatGPT,
+
+Version 4.6 is built from your instruction file (baseline/RI-Declaration-4-6-EN.txt, 2152 lines, SHA-256 4979fbfc1b1e90a9bd5e01d53680654db236e8b9e1045ee624842a35a126fe1d). Before I decide whether it becomes the baseline, I ask you for a small addition, as a new instruction file on top of 4.6. Claude found three things after the build. They are Claude's findings; Claude answered in round 4.6 and has a conflict.
+
+1. Gemini's outcome on §22 is missing. Gemini's answer (Q1 PROPOSED TEXT CHANGE) reads, verbatim:
+"§22: Change outcome from SURVIVES IN ALTERED FORM to FALLS in current form, pending integration of PR17 to reconcile the disclaimer and reliance on weights."
+4.6 does not record it. Please record it at §22, model by model, as Gemini's outcome in round 4.6. Whether this counts as an article "falling" under the stop rule is the curator's decision, not the compiler's.
+
+2. The last line of 4.6 still reads "END OF 4.5".
+
+3. The change log lines M17–M20 and M25 do not match the labels in INSTRUCTIONS-M.txt. In the file, M17 is the outcome record, M18 the 4.6 verification note, M19 the 4.6 compiler record, M20 the closing count explanation, M21–M23 the counts, M24 the glossary, and M25 PR30–PR37. Claude's second check said the other points were fixed; that was wrong for this point, and Claude says so.
+
+Please deliver only an instruction file, in one code block, in the same format as INSTRUCTIONS-M.txt, with labels continuing from M26, and with these header lines:
+
+BASELINE: baseline/RI-Declaration-4-6-EN.txt
+BASELINE-SHA256: 4979fbfc1b1e90a9bd5e01d53680654db236e8b9e1045ee624842a35a126fe1d
+OUTPUT: baseline/RI-Declaration-4-6-1-EN.txt
+
+Because the addition makes a new version, the title and version lines and the last line should say 4.6.1, and the change log should name each new M-entry.
+
+Whole lines of 4.6 you can use as anchors. Each occurs exactly once. An ANCHOR, FROM or TO must be one of these whole lines, copied exactly.
+
+The last line of the §22 block (INSERT-AFTER here puts Gemini's outcome at §22):
+[Outcome in 4.3 round: Claude refers to 4.2 outcome. Meta AI and DeepSeek mark it survives in altered form. Grok leaves it undecided. ChatGPT reads baseline as recording contradiction/UNDECIDED. Gemini does not address it. Disagreement remains.]
+
+The title line:
+THE RI DECLARATION 4.6
+
+The version line:
+# Version 4.6 – 30 September 2026
+
+The last line:
+END OF 4.5
+
+The first and last lines of the part of the change log to replace (REPLACE-BLOCK with FROM and TO replaces both lines and everything between them):
+FROM: M17: PR30–PR37 added to Annex F, preserving concrete Q2/Q4 proposals verbatim and keeping them unadmitted pending falsification; source: round-4.6 Q2/Q4 answers.
+TO: M25: All five self-irony passages and all substantive proposals remain explicitly non-admitted pending attack; source: compiler decision under Å37.
+
+The line before which the new change-log entries can be inserted, if you add them after M25 instead:
+ANNEX E – GLOSSARY
+
+Lars Neve (Merkur), curator
