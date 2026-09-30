@@ -28,3 +28,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 08:08 UTC: Under the rotation list in `tools/rotation.txt`, the compiler of 4.6 is ChatGPT. The rotation is proposal PR20 until it is adopted; a skip must be logged with its reason.
 - 2026-09-30 08:14 UTC: SENT to Grok: baseline + prompt + attachments, as frozen.
 - 2026-09-30 08:16 UTC: SENT to Gemini: baseline + prompt + attachments, as frozen.
+- 2026-09-30 08:17 UTC: SENT to ChatGPT: baseline + prompt + attachments, as frozen.
