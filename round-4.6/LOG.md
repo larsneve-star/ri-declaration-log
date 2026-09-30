@@ -39,3 +39,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 08:30 UTC: WARNING: renamed `round-4.6/answers/ChatGPT` → `round-4.6/answers/ChatGPT.md` (commit 139fdbc). A person should say why in the notes.
 - 2026-09-30 08:30 UTC: WARNING: renamed `round-4.6/answers/Meta AI` → `round-4.6/answers/Meta AI.md` (commit 2887a0d). A person should say why in the notes.
 - 2026-09-30 08:30 UTC: WARNING: renamed `round-4.6/answers/Claude` → `round-4.6/answers/Claude.md` (commit 68d0c8d). A person should say why in the notes.
+- 2026-09-30 08:32 UTC: WARNING: renamed `round-4.6/answers/Meta AI.md` → `round-4.6/answers/meta-ai.md` (commit de244ff). A person should say why in the notes.
