@@ -27,3 +27,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 08:08 UTC: Frozen file `round-4.6/ATTACHMENT-4.6.txt` SHA-256 `c11037e1cffa75b0df245d74d72c9a44e41032a864cd34bcc04d6c071fdc0b0f`.
 - 2026-09-30 08:08 UTC: Under the rotation list in `tools/rotation.txt`, the compiler of 4.6 is ChatGPT. The rotation is proposal PR20 until it is adopted; a skip must be logged with its reason.
 - 2026-09-30 08:14 UTC: SENT to Grok: baseline + prompt + attachments, as frozen.
+- 2026-09-30 08:16 UTC: SENT to Gemini: baseline + prompt + attachments, as frozen.
