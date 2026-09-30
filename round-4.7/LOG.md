@@ -33,3 +33,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 12:38 UTC: Answer from ChatGPT added: `round-4.7/answers/chatgpt.md` SHA-256 `b4946fe5329a881cf20491176209344da673e65a81b1bdd296d030ff975209de` (commit fa74bf9).
 - 2026-09-30 12:47 UTC: Answer from Claude added: `round-4.7/answers/claude.md` SHA-256 `b06cbd4690d0743c4cbc28c74c27f5d830c09a7fd7e81344ef48af0abb975c8c` (commit 86d7e29).
 - 2026-09-30 12:52 UTC: WARNING: renamed `round-4.7 / answers / grok.md` → `round-4.7/answers/grok.md` (commit 77c437c). A person should say why in the notes.
+- 2026-09-30 20:20 UTC: File added: `round-4.7/FILES-FOR-CHATGPT-HANDOVER-4.7.txt` SHA-256 `c084bf5099d8d597665f41218caf0cb6d428617af10eb43d2c5fac4bbf671f19` (commit 3574219).
