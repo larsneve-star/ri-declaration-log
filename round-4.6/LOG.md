@@ -2,6 +2,10 @@
 
 All times UTC.
 
+## Notes
+
+- 2026-09-29 22:45 UTC (curator): round-4.6/PROMPT-EN.md and round-4.6/META-REPLY-2.md are identical, because both were copied from the code block of Meta AI's second reply. Outside the block, Meta AI wrote (verbatim): "Uden for blokken: Jeg har accepteret punkt 1-3 om header-linjer, round rules og deadline, punkt 4 om filstien `round-4.5/EXTERNAL-5.1.md`, punkt 5 om at Q1 nu peger på §-paragrafferne + ny entry, og punkt 6 om at bruge kuratorens verbatim "knas tørt / gabende kendeligt". Satire-reglen noteret: compiler skriver satire fra 4.6, DeepSeek færdiggør 4.5." The baseline line of the prompt reads "SHA-256 [STRIPPED 66 bytes]" as it came from Meta AI's chat; it is not edited. The baseline SHA-256 is e00e67754fa1eca3c12135393930bb97669b3ff6c1952446daeac53046f1ccab. It is also written into the answer format, so an answerer can copy it without checking its file; this is noted, not changed.
+
 ## Machine log
 
 Lines below are written by the log robot (tools/robot.py), not by a person. It only adds lines.
