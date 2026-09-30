@@ -16,3 +16,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 12:11 UTC: Under the rotation list in `tools/rotation.txt`, the compiler of 4.7 is Claude. The rotation is proposal PR20 until it is adopted; a skip must be logged with its reason.
 - 2026-09-30 12:16 UTC: SENT to Claude: baseline + prompt + attachments, as frozen.
 - 2026-09-30 12:26 UTC: SENT to Gemini: baseline + prompt + attachments, as frozen.
+- 2026-09-30 12:26 UTC: SENT to Grok: baseline + prompt + attachments, as frozen.
