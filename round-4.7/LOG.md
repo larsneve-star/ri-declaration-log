@@ -2,6 +2,10 @@
 
 All times UTC.
 
+## Notes
+
+- 2026-09-30 13:00 UTC (curator): Answers and release. All five answerers answered on 30 September 2026; the machine log shows the answers committed between 12:34 and 12:47 UTC. The blind period is over. Three points: (1) The SENT line for ChatGPT is missing and "SENT to Gemini" appears twice (12:26 and 12:27 UTC); the curator chose Gemini instead of ChatGPT by mistake the second time. ChatGPT was sent the round in a new chat, and its answer was committed at 12:38 UTC. (2) Grok's answer was first committed as round-4.7/Answers/Grok.md (capital letters) and was then moved to round-4.7/answers/grok.md without any change to its content. (3) Claude's answer begins with a sentence written before the "MODEL:" line ("Large file (~445 KB). Let me orient on the prompt at the start."), copied from the chat together with the answer. Answers are committed as received, so it is not removed. DeepSeek (v3) is the news bureau and does not answer; the log robot may log it as missing at the deadline, which is not a missing answer.
+
 ## Machine log
 
 Lines below are written by the log robot (tools/robot.py), not by a person. It only adds lines.
