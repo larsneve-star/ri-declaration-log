@@ -52,3 +52,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 09:11 UTC: File added: `round-4.6/compile-4.6/CHECK-2-CLAUDE.md` SHA-256 `4ee1f95c39b1fdd4b229492e1723706554975410d1c59d4918bf45556f2d8343` (commit 478e198).
 - 2026-09-30 09:15 UTC: File added: `round-4.6/compile-4.6/CHATGPT-REPLY-3.md` SHA-256 `9485e29dcac30d7d4308796acbef975640093df65d5b003cd8fc27073d1f9a72` (commit 55341dd).
 - 2026-09-30 09:16 UTC: File added: `round-4.6/compile-4.6/CHATGPT-REPLY-4.md` SHA-256 `3c14850afcf0ffa03169e9a64bacd8fa22db560a6da1e719da6a4161e703fb29` (commit a58dbed).
+- 2026-09-30 09:19 UTC: File added: `round-4.6/compile-4.6/INSTRUCTIONS-M.txt` SHA-256 `87e902d80d1ba0c2ff21e3218a7eb202f345fbf58f2dab5fe75198d1da846f5a` (commit 47261e0).
