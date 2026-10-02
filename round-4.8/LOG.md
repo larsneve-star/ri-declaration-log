@@ -17,3 +17,8 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-02 23:34 UTC: WARNING: renamed `ATTACHMENT-4.8.txt` → `round-4.8/ATTACHMENT-4.8.txt` (commit 6c14b60). A person should say why in the notes.
 - 2026-10-02 23:35 UTC: WARNING: renamed `FILES-FOR-GEMINI-QUESTIONS-4.8_1.txt` → `round-4.8/FILES-FOR-GEMINI-QUESTIONS-4.8_1.txt` (commit c77d3ea). A person should say why in the notes.
 - 2026-10-02 23:38 UTC: WARNING: renamed `round-4.8/FILES-FOR-GEMINI-QUESTIONS-4.8_1.txt` → `round-4.8/FILES-FOR-GEMINI-QUESTIONS-4.8.txt` (commit f7d0daf). A person should say why in the notes.
+- 2026-10-02 23:41 UTC: FREEZE of round 4.8. Deadline: 2026-10-10 20:00 UTC.
+- 2026-10-02 23:41 UTC: Frozen file `baseline/RI-Declaration-4-7-EN.txt` SHA-256 `9a9ba61bc1159276dcf9581182d3b33607f453f7b18794371d74284ec7189242`.
+- 2026-10-02 23:41 UTC: Frozen file `round-4.8/PROMPT-EN.md` SHA-256 `632bcba28922bad9d01043639dd08748fc68e67e34998896e4a3aad96655725c`.
+- 2026-10-02 23:41 UTC: Frozen file `round-4.8/ATTACHMENT-4.8.txt` SHA-256 `aadf8f1937978962d4ad47ec29d26495c7b9e6ebcda3918cce8b6b290faae7d6`.
+- 2026-10-02 23:41 UTC: Under the rotation list in `tools/rotation.txt`, the compiler of 4.8 is DeepSeek. The rotation is proposal PR20 until it is adopted; a skip must be logged with its reason.

@@ -1,0 +1,13 @@
+{
+  "round": "4.8",
+  "status": "open",
+  "frozen_at": "2026-10-02 23:41 UTC",
+  "deadline": "2026-10-10 20:00 UTC",
+  "baseline": "baseline/RI-Declaration-4-7-EN.txt",
+  "prompt": "round-4.8/PROMPT-EN.md",
+  "hashes": {
+    "baseline/RI-Declaration-4-7-EN.txt": "9a9ba61bc1159276dcf9581182d3b33607f453f7b18794371d74284ec7189242",
+    "round-4.8/PROMPT-EN.md": "632bcba28922bad9d01043639dd08748fc68e67e34998896e4a3aad96655725c",
+    "round-4.8/ATTACHMENT-4.8.txt": "aadf8f1937978962d4ad47ec29d26495c7b9e6ebcda3918cce8b6b290faae7d6"
+  }
+}
