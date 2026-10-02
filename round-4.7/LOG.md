@@ -37,3 +37,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-09-30 20:38 UTC: File added: `round-4.7/Overdragelse` SHA-256 `294487aa2bc7c1262c26c57292806f797e17f59b30086a31cb50c9adea723988` (commit c597d14).
 - 2026-09-30 20:40 UTC: WARNING: renamed `round-4.7/Overdragelse` → `round-4.7/HANDOVER-TO-CLAUDE.md` (commit f2374fd). A person should say why in the notes.
 - 2026-09-30 20:45 UTC: File added: `round-4.7/compile-4.7/INSTRUCTIONS-N.txt` SHA-256 `294487aa2bc7c1262c26c57292806f797e17f59b30086a31cb50c9adea723988` (commit 9e35480).
+- 2026-10-02 18:49 UTC: File added: `round-4.7/HANDOVER-TO-CLAUDE-2.md` SHA-256 `95bf53210fcded25fa550530411f894a3743c49a804db57565144c7e7ace6632` (commit f63f44c).
