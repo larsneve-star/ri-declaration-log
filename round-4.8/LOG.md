@@ -15,3 +15,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-02 23:29 UTC: File added: `round-4.8/QUESTIONS-GEMINI.md` SHA-256 `746ee6492a33be7ee0dfa9d6174a7bc12fdeda85a7d1ed3297f2041c7e7b870b` (commit 00511f3).
 - 2026-10-02 23:34 UTC: WARNING: renamed `ATTACHMENT-4.8.txt` → `round-4.8/ATTACHMENT-4.8.txt` (commit 6c14b60). A person should say why in the notes.
 - 2026-10-02 23:35 UTC: WARNING: renamed `FILES-FOR-GEMINI-QUESTIONS-4.8_1.txt` → `round-4.8/FILES-FOR-GEMINI-QUESTIONS-4.8_1.txt` (commit c77d3ea). A person should say why in the notes.
+- 2026-10-02 23:38 UTC: WARNING: renamed `round-4.8/FILES-FOR-GEMINI-QUESTIONS-4.8_1.txt` → `round-4.8/FILES-FOR-GEMINI-QUESTIONS-4.8.txt` (commit f7d0daf). A person should say why in the notes.
