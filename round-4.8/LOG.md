@@ -1,6 +1,9 @@
 # Round log: round-4.8
 
 All times UTC.
+## Notes
+
+- 2026-10-02 23:45 UTC (curator): Two files were first uploaded to the top of the repository instead of round-4.8/: ATTACHMENT-4.8.txt and FILES-FOR-GEMINI-QUESTIONS-4.8_1.txt (the "_1" was added by the browser because the file had been downloaded twice). Both were then moved to round-4.8/, and "_1" was removed from the name. The content was not changed. Before the freeze.
 
 ## Machine log
 
