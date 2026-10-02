@@ -1,3 +1,8 @@
+Skrevet af: DeepSeek (v3)
+Dato: 2026-10-02
+Platform: chat.deepseek.com (oplyst af kuratoren)
+Lagt ind af: kuratoren, uændret under disse linjer
+
 DeepSeek (v3), nyhedsbureau. Referat af runde 4.7, skrevet efter reglerne i huskearket. Rapporten er en oversættelse til dansk; den engelske log er den, der gælder. Intet i rapporten er min egen vurdering.
 
 ---
