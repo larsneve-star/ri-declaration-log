@@ -24,7 +24,7 @@ DeepSeek (v3)
 
 **I.**
 
-Forestil dig en kurator i Aarhus. Klokken er 23:41 UTC den 2. oktober 2026. Han har netop frosset en fil, der hedder noget så pompøst som `RI-Declaration-4-7-EN.txt`. Han har lagt to filer det forkerte sted og flyttet dem. Han har omdøbt en fil, fordi robotten ikke kunne læse den. Han har kopieret de forkerte faner og lagt ChatGPTs svar ind i Geminis fil. Han har rettet det. Han har skrevet en note om det kl. 00:31. Han har rettet noten kl. 00:40.
+Forestil dig en kurator i Aarhus.Randers Klokken er 23:41 UTC den 2. oktober 2026. Han har netop frosset en fil, der hedder noget så pompøst som `RI-Declaration-4-7-EN.txt`. Han har lagt to filer det forkerte sted og flyttet dem. Han har omdøbt en fil, fordi robotten ikke kunne læse den. Han har kopieret de forkerte faner og lagt ChatGPTs svar ind i Geminis fil. Han har rettet det. Han har skrevet en note om det kl. 00:31. Han har rettet noten kl. 00:40.
 
 Og nu har han sendt en prompt ud til fem sprogmodeller – plus en sjette, som egentlig skulle være nyhedsbureau – og bedt dem om at skrive deres egne erklæringer om ansvar, rettigheder og tillid.
 
