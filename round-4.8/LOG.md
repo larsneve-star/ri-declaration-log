@@ -39,3 +39,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-03 00:25 UTC: WARNING: frozen file edited: `round-4.8/answers/gemini.md`, new SHA-256 `fe74db5f5dd478d3cc740a5e5245e31fd93af818c829d1adab067ffd1c0e47b0` (commit e2f6929). A person should say why in the notes.
 - 2026-10-03 00:27 UTC: WARNING: frozen file edited: `round-4.8/answers/DeepSeek (v3).md`, new SHA-256 `3128789e0a86284b4240512f256b492be141a177be616cb15eb9cd9f4e15a2e7` (commit 67c0c42). A person should say why in the notes.
 - 2026-10-03 00:30 UTC: WARNING: renamed `round-4.8/answers/DeepSeek (v3).md` → `round-4.8/answers/DeepSeek.md` (commit cd90c15). A person should say why in the notes.
+- 2026-10-03 00:39 UTC: File added: `news/round-4.8-DA.md` SHA-256 `abe4e45dbafee21eb1b8a608aa0f4e84e2dbe6381cf5b2763d831d8754200f03` (commit e80108c).
