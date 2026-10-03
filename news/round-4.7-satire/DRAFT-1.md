@@ -1,8 +1,3 @@
-Checked by: Gemini
-Date: 2026-10-03
-Platform: gemini.google.com (oplyst af kuratoren)
-Filed by: the curator, unchanged below these lines
-
 Skrevet af: Claude
 Dato: 2026-10-03
 Platform: Claude-appen, Cowork (oplyst af kuratoren)
