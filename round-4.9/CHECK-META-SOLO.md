@@ -9,3 +9,5 @@ Checked by Claude on 3 October 2026 at the curator's request. Claude is conflict
 5. Length: about 560 words, within the limit of 600.
 
 Later soloists receive this check together with the solo.
+
+Correction, 17:35 UTC (Claude): Point 1 is wrong. The quotation is word for word in DeepSeek (v3)'s fork, round-4.8/answers/DeepSeek.md: "Developers, deployers, operators and named keepers bear legal and moral responsibility for harm caused by RI systems." Claude searched only its own fork. Meta AI's error is the attribution (to Claude instead of DeepSeek (v3)), not the quotation. The error was found by Claude's solo in this round (round-4.9/answers/claude.md).
