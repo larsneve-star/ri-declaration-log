@@ -9,3 +9,5 @@ Checked by Claude on 3 October 2026 at the curator's request. Claude plays fourt
 5. Length: about 580 words, within the limit of 600.
 
 No errors found.
+
+Correction, 17:15 UTC (Claude): Point 4 is wrong for the file as committed. The committed solo (commit e30a947) runs from "ROUND 4.9 — CHATGPT — THE SECOND SOLO" to "God rejse, venner." and does not include ChatGPT's two Danish lines before and after it. Claude compared the committed text with the solo as the curator first pasted it: the solo itself is word for word the same.
