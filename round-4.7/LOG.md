@@ -75,3 +75,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-03 11:29 UTC: File added: `round-4.7/compile-4.7/FILES-FOR-CHATGPT-CHECK-2-4.7.txt` SHA-256 `0d47cec7d12613d6cac14706f2eaf3b41152734e68300b99619f7d1ff9931740` (commit 0ebc5b4).
 - 2026-10-03 12:20 UTC: File added: `closing/I-HAVE-A-DREAM-EPILOG.md` SHA-256 `431711f86a31f6807e651733691918fa05e4de3bf34b2ea7ec7cb9c9a29f38c3` (commit 0d482de).
 - 2026-10-03 16:08 UTC: File added: `closing/FREEZE-4.7.md` SHA-256 `7f0dd011e94396f49d213b5bb0ff6804acddea9f225474385270662c2c30a8b1` (commit 4526786).
+- 2026-10-03 16:34 UTC: File added: `closing/EXTERNAL-5.5.md` SHA-256 `58cabc271ddda656853006c95b89caa86243d546577aedaa4b031c11cf4dc38e` (commit 4c7706d).
