@@ -5,6 +5,7 @@ All times UTC.
 ## Notes
 
 - 2026-10-03 16:45 UTC (curator): Round 4.9, the solos. After the freeze, each of the six plays its own epilogue in this order: Meta AI, ChatGPT, Gemini, Claude, Grok, DeepSeek (v3). Unlike every earlier round, this round is not blind: each receives the solos already played. The order shapes the round, and DeepSeek (v3) plays last while also being the news bureau. Nothing in the frozen text is changed. The prompt, round-4.9/PROMPT-EN.md, was drafted by Claude, who plays fourth. The curator's two questions are included as optional (Å37). The earlier draft CURATOR-WISH-FOR-4.9 was not used. Solos are committed unchanged as round-4.9/answers/<model>.md.
+- 2026-10-03 17:10 UTC (curator): round-4.9/answers/chatgpt.md was first committed (commit 89252e0) with the wrong text: the file of material sent to ChatGPT (FILES-FOR-SOLO-CHATGPT-4.9), not ChatGPT's answer. It was a pasting mistake by the curator, found by Claude. The content was then replaced with ChatGPT's answer, copied from ChatGPT's chat. The first version remains in GitHub's history and is not ChatGPT's solo.
 
 ## Machine log
 
