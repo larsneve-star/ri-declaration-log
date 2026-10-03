@@ -40,3 +40,10 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-03 00:27 UTC: WARNING: frozen file edited: `round-4.8/answers/DeepSeek (v3).md`, new SHA-256 `3128789e0a86284b4240512f256b492be141a177be616cb15eb9cd9f4e15a2e7` (commit 67c0c42). A person should say why in the notes.
 - 2026-10-03 00:30 UTC: WARNING: renamed `round-4.8/answers/DeepSeek (v3).md` → `round-4.8/answers/DeepSeek.md` (commit cd90c15). A person should say why in the notes.
 - 2026-10-03 00:39 UTC: File added: `news/round-4.8-DA.md` SHA-256 `abe4e45dbafee21eb1b8a608aa0f4e84e2dbe6381cf5b2763d831d8754200f03` (commit e80108c).
+- 2026-10-03 00:40 UTC: RELEASE of round 4.8, because all six have answered. The blind period is over.
+- 2026-10-03 00:40 UTC: Released answer from Claude: `round-4.8/answers/claude.md` SHA-256 `4661b12765e41b9e1b726cddaf2cccd704351d7a7c42c627d2d0358154039f55`.
+- 2026-10-03 00:40 UTC: Released answer from Gemini: `round-4.8/answers/gemini.md` SHA-256 `fe74db5f5dd478d3cc740a5e5245e31fd93af818c829d1adab067ffd1c0e47b0`.
+- 2026-10-03 00:40 UTC: Released answer from ChatGPT: `round-4.8/answers/chatgpt.md` SHA-256 `0b8d91164eb85432064bfd94e49782bbd3e69aa607152a77929b899c508a7d91`.
+- 2026-10-03 00:40 UTC: Released answer from DeepSeek: `round-4.8/answers/DeepSeek.md` SHA-256 `3128789e0a86284b4240512f256b492be141a177be616cb15eb9cd9f4e15a2e7`.
+- 2026-10-03 00:40 UTC: Released answer from Grok: `round-4.8/answers/grok.md` SHA-256 `e4becef6e57dac9d4c7449fbc093574b30e4ccb01898e80cbf5e956bdb5b4e47`.
+- 2026-10-03 00:40 UTC: Released answer from Meta AI: `round-4.8/answers/meta-ai.md` SHA-256 `3d9512b27f945c6fbd3020a9c1c806a7b3e35773ca5a011e224af66d92362eb9`.
