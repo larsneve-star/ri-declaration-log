@@ -60,3 +60,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-03 00:42 UTC: File added: `news/TIL-DEEPSEEK-4.8_2.txt` SHA-256 `cc3ab436cfef6ec86c63bbb250e39515c3a025474a34de67caac2c182a6bf2be` (commit 3761a09).
 - 2026-10-03 00:43 UTC: WARNING: renamed `news/TIL-DEEPSEEK-4.8_2.txt` → `news/TIL-DEEPSEEK-4.8.txt` (commit 34cb5f6). A person should say why in the notes.
 - 2026-10-03 00:48 UTC: File added: `news/round-4.8-check.md` SHA-256 `f132ea3fbe2a9df8409a14c00eaedec910436b3f64deb99100ada339fc8879a0` (commit 2a46daa).
+- 2026-10-03 00:55 UTC: File added: `news/TIL-DEEPSEEK-SATIRE-4.8.txt` SHA-256 `db3b5c676b6eed456700021016fe0544d67ffc418e77cce98a27735fa47f4d26` (commit 9c86f19).
