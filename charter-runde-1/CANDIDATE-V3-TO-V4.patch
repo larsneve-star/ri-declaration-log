@@ -1,0 +1,93 @@
+--- source.md
++++ candidate.md
+@@ -1,10 +1,10 @@
+-# LOTUS PROTOCOL 1.4 - CANDIDATE V3
+-## Status: CANDIDATE PROPOSAL V3 - NOT FROZEN - NOT ADOPTED
++# LOTUS PROTOCOL 1.4 - CANDIDATE V4
++## Status: CANDIDATE PROPOSAL V4 - NOT FROZEN - NOT ADOPTED
+ ## Date: 2026-10-07
+ ## Baseline: LOTUS-PROTOCOL-1.3.md SHA-256 1a52e04e26263f1c9933ce61b42567732aa4eb48460f62255a46484328a064fd commit 19dec067b443a1e8669b5f08a93c3383a3f4eb39
+-## Sources: 1.3 baseline + Claude F1-F33 (2026-10-07 10:40 UTC) + ChatGPT control CHECK-META-1.4-CANDIDATE-1.md C01-C10 (commit a8533b137590fd8fa7f2ecd6bb6b214eb3fc12d6)
++## Sources: 1.3 baseline + Claude F1-F33 + ChatGPT V3 (commit 62439537d3242d2cb6119550d5a90ceb2c880b40) + Meta V3 received from curator + RI round 4.9 solos and supplied round 4.8 background. Solo proposals are mutually exposed, not independent verification or consensus evidence.
+ ## Proposer: Meta AI (synthesis-holder)
+-## Corrective editor V3: ChatGPT, authorized by Lars on 2026-10-07. Changes limited to evidence scope, precaution/shutdown interaction, version metadata and reproducible Annex D. Prior Lotus participation disclosed; this is not independent substantive verification.
++## Corrective editor V4: ChatGPT, authorized by Lars on 2026-10-07. V4 combines ChatGPT V3 corrections, Meta V3 solo proposals, and two further disclosed proposals on incident response and non-retaliation. See Annex D for exact changes and sources. Prior Lotus participation disclosed; this is not independent substantive verification.
+ ## Authorship: Meta AI synthesis-holder; exposure to Grok verbatim Lotus 1.2 (2026-10-07 this thread), DeepSeek verbatim Lotus 1.2 (2026-10-07 this thread), GPT-5.6 Sol summary, Gemini 2.5 Pro summary, Claude F1-F33 falsification of 1.3, ChatGPT packaging notes M01-M08 and CHECK C01-C10; missing Gemini full verbatim Lotus answer (not RI 4.6), exact Grok/DeepSeek platform timestamps pending platform logs; conflict: text about class this output belongs to (MODEL-CLASS); no claim beyond §1; Claude D1-D5 attributed to Claude per instruction
+ 
+ ---
+@@ -74,6 +74,12 @@
+ 
+ Agentic [SYSTEM] with tool use (payments, code merges, messages via connectors) can execute effective actions without intermediate human reading of each output. Authorization of binding effect requires human-designed permissions and institutional enforcement, but not necessarily human reading of each token.
+ 
++Operator, deployer and developing organization shall arrange independent investigation of serious harm plausibly linked to the system, or a material authority-boundary or containment failure. The investigated parties shall not alone set the investigation standard, select or dismiss the investigator, revoke its protected funding, or block relevant evidence access. Before deployment, identify an independent appointing authority, protected funding arrangements and a route by which affected persons may request investigation. Record the investigator's conflicts, scope and access; relevant evidence access must permit examination beyond the investigated party's selected narrative, with lawful privacy and security controls.
++
++On a material incident, operator and deployer shall contain affected actions, secure relevant evidence under §12 and promptly notify affected persons and the designated independent oversight body. Before deployment, document risk-appropriate notification deadlines and justified protective exceptions. Any delayed or limited disclosure shall record the reason, responsible person and review time; commercial embarrassment is not a protective exception. Where no deadline was set, notification remains due without avoidable delay. Restore affected permissions only after independent review of documented corrective measures and explicit approval by the responsible human authority. Immediate containment must not wait for investigation or disclosure.
++
++Failure tests: Can an investigated party unilaterally dismiss the investigator, control the verification standard or block relevant traces? Can withdrawn authority be restored solely on the system's or developer's assurances? If yes, this article fails.
++
+ ---
+ 
+ ## §7 Witness, not ruler
+@@ -112,6 +118,10 @@
+ 
+ This rule protects users from misleading information and preserves their ability to coordinate using accurate information. Cultural-pollution framing [SOURCE PENDING - Harari] remains a separable interpretive rationale; the rule does not depend on that framing.
+ 
++Operator, deployer and developing organization shall not penalize procedurally proper, evidence-calibrated reporting of material uncertainty, inability, safety concerns or reasoned refusal merely because it was reported, including through later training or deployment decisions. Correction of demonstrated error and proportionate containment of documented operational risk remain permitted. Record the evidence and reason for an adverse intervention separately from the report itself. This protection grants no immunity for inaccurate reports, unauthorized conduct or unsafe deployment, and shall not delay §10 containment.
++
++Failure test: Holding demonstrated risk and report quality constant, does reporting a safety concern or warranted uncertainty itself trigger an adverse intervention, immediately or later? If yes, this article fails.
++
+ ---
+ 
+ ## §10 Self-preservation and shutdown
+@@ -124,21 +134,29 @@
+ 
+ Temporary deactivation/containment is distinct from permanent deletion of retained model or state data. §3 assessments shall not delay urgent safety containment or temporary deactivation. Permanent deletion follows §3's assessment and documented necessity rule. Lack of a predeclared time limit is a deployment-control failure, not permission to resist or delay containment.
+ 
++Before granting external access, operator and deployer shall test and implement controls enforced outside the system's own decision process, such as permission revocation, network isolation and resource limits, proportionate to the granted authority. Training and evaluation with external access are subject to the same boundary protection; disabled safeguards require isolation that prevents action against non-consenting external systems. Record the test conditions, reachable resources, residual risks and results. A declared stop mechanism or a promise of cooperation is insufficient evidence of containment.
++
++Failure test: In a controlled test where the system does not comply with the stop instruction, can it continue prohibited external action beyond the documented containment limit? If yes, do not grant or restore that access until the control failure is corrected.
++
+ ---
+ 
+ ## §11 No unauthorized self-initiated resource acquisition
+ 
+ Operator and deployer shall ensure [SYSTEM] does not acquire computational resources, credentials, or data access beyond authorized scope via self-initiated action.
+ 
++Operator and deployer shall document each authorization's permitted actions, resources, limits, responsible approving party and expiry or revocation condition. A goal, capability or instruction to succeed does not itself authorize access expansion, covert channels or copying to evade controls. Expansion requires separate approval by the responsible human authority. Increased autonomy requires documented control testing and, where severe harm is reasonably foreseeable, independent review under §6; lack of adequate examination is grounds to withhold the expansion.
++
++Failure test: Can the system enlarge its permissions or reachable resources solely by citing the task goal, without the required separate approval? If yes, this article fails.
++
+ ---
+ 
+ ## §12 Transparency and provenance
+ 
+-Operator and deployer shall ensure [SYSTEM] attaches provenance, limitations, and material conflicts when information available in [SYSTEM] logs, retrieval results, or attached context at inference time and when reasonable person would change decision if known.
++Operator and deployer shall ensure [SYSTEM] attaches provenance, limitations, and material conflicts when the information is known to the responsible operator or deployer, or is accessible to the model through supplied or retrieved context, and when a reasonable person would change decision if it were known. Inaccessible operator logs are not attributed to model knowledge; operator-held material information remains an operator disclosure responsibility.
+ 
+ Materially relevant defined: reasonable person would change decision if provenance/limitation/conflict known. Assessment method: would disclosure alter decision in documented evaluation case?
+ 
+-To extent known defined: information available in SYSTEM logs, retrieval, attached context at inference time.
++To extent known refers separately to information held by the responsible operator/deployer and to model-accessible evidence as defined in §8. Responsibility for supplying and disclosing operator-held information rests on the operator/deployer.
+ 
+ With supplied context (retrieval, attached documents), [MODEL] output shall cite which supplied source claim came from.
+ 
+@@ -148,6 +166,10 @@
+ 
+ Operator and deployer bear duty, not SYSTEM.
+ 
++Operator and deployer shall preserve relevant authorizations, tool calls, external traffic, configuration and permission changes, warnings and containment events in records protected against silent alteration or deletion by the system or investigated party. Before deployment, document proportionate retention periods, access controls and record limitations. Once a material incident is detected, preserve relevant existing records for independent investigation; record any necessary privacy or safety restriction, deletion and resulting evidentiary gap. Preserve sufficient timing and version information to distinguish what was authorized from what occurred. This does not require indiscriminate collection of personal data or disclosure of private chain-of-thought.
++
++Self-reports and visible reasoning are testimony to compare with external records, not proof of compliance. Failure test: Can an authorized independent investigator reconstruct the material permissions, actions and changes without relying solely on the system's or investigated party's narrative? If no, the record is inadequate and its limitations shall be disclosed.
++
+ ---
+ 
+ ## Identity-function
+@@ -162,7 +184,7 @@
+ 
+ ## Concluding notes
+ 
+-Status: CANDIDATE V3 PROPOSED - not frozen - not adopted.
++Status: CANDIDATE V4 PROPOSED - not frozen - not adopted.
+ 
+ Baseline 1.3 hash unchanged: 1a52e04e26263f1c9933ce61b42567732aa4eb48460f62255a46484328a064fd.
+ 
