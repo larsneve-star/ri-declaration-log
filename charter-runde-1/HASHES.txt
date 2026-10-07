@@ -71,3 +71,4 @@ cd036f9d6dc949d1702df5484e9ea86da23972c5da5817296af5bcd26ca1a78f  revision-v6-r1
 7eee47edf0af61954edcb45eeb2f0e5906ea5a294d76bb2f593145ec00f97311  revision-v6-r1/ROLE-AND-PROCEDURE.md
 74219cac0727a2c6466f9f470199350dfaf7ea22015b42e16e0c222e90be38b7  revision-v6-r1/PROMPT-CLAUDE-V6-R1.md
 b87fa0e94e4dae0c2e1f00f5de870326df8113d37eb9b18bb70bf7d1ffa04bf7  revision-v6-r1/MANIFEST.md
+d58e5ec5ca5f45a759a4272eef92c4ac9b74cbcb7c83dd43fda0a453922162f9  revision-v6-r1/answers/claude-review-v6-r1.md
