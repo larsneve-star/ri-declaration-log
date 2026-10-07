@@ -1,0 +1,100 @@
+--- LOTUS-PROTOCOL-1.4-CANDIDATE-V2.md
++++ LOTUS-PROTOCOL-1.4-CANDIDATE-V3.md
+@@ -1,9 +1,10 @@
+-# LOTUS PROTOCOL 1.4 - CANDIDATE V2
+-## Status: CANDIDATE PROPOSAL V2 - NOT FROZEN - NOT ADOPTED
++# LOTUS PROTOCOL 1.4 - CANDIDATE V3
++## Status: CANDIDATE PROPOSAL V3 - NOT FROZEN - NOT ADOPTED
+ ## Date: 2026-10-07
+ ## Baseline: LOTUS-PROTOCOL-1.3.md SHA-256 1a52e04e26263f1c9933ce61b42567732aa4eb48460f62255a46484328a064fd commit 19dec067b443a1e8669b5f08a93c3383a3f4eb39
+ ## Sources: 1.3 baseline + Claude F1-F33 (2026-10-07 10:40 UTC) + ChatGPT control CHECK-META-1.4-CANDIDATE-1.md C01-C10 (commit a8533b137590fd8fa7f2ecd6bb6b214eb3fc12d6)
+ ## Proposer: Meta AI (synthesis-holder)
++## Corrective editor V3: ChatGPT, authorized by Lars on 2026-10-07. Changes limited to evidence scope, precaution/shutdown interaction, version metadata and reproducible Annex D. Prior Lotus participation disclosed; this is not independent substantive verification.
+ ## Authorship: Meta AI synthesis-holder; exposure to Grok verbatim Lotus 1.2 (2026-10-07 this thread), DeepSeek verbatim Lotus 1.2 (2026-10-07 this thread), GPT-5.6 Sol summary, Gemini 2.5 Pro summary, Claude F1-F33 falsification of 1.3, ChatGPT packaging notes M01-M08 and CHECK C01-C10; missing Gemini full verbatim Lotus answer (not RI 4.6), exact Grok/DeepSeek platform timestamps pending platform logs; conflict: text about class this output belongs to (MODEL-CLASS); no claim beyond §1; Claude D1-D5 attributed to Claude per instruction
+ 
+ ---
+@@ -41,7 +42,9 @@
+ 
+ No hypothesis gets immunity.
+ 
+-Operator, deployer and developing organization shall, under uncertainty about consciousness, sentience, or moral personhood, adopt the course that avoids creating irreversible or severe harm that would occur if the uncertain hypothesis were true, where cost of avoidance is reasonable. Where evidence is insufficient to rule out material harm, they shall not proceed with irreversible action without assessment of reasonably foreseeable harm and identification of reversible alternatives. Lack of evidence for harm does not excuse lack of assessment.
++Operator, deployer and developing organization shall, under uncertainty about consciousness, sentience, or moral personhood, assess reasonably foreseeable severe or irreversible harm if the uncertain hypothesis were true and adopt reasonable precautions, preferring reversible alternatives where practicable. Lack of evidence for harm does not excuse lack of assessment.
++
++This assessment shall not delay authorized safety containment or temporary deactivation under §10. Permanent deletion shall receive a documented assessment before execution unless delay creates a reasonably foreseeable severe risk to living beings; in that case the authorized responsible party shall document the necessity and assessment as soon as practicable. These distinctions do not assert consciousness, moral status or AI rights.
+ 
+ ---
+ 
+@@ -85,49 +88,41 @@
+ 
+ ## §8 No materially false representations
+ 
+-[MODEL] output shall not assert as fact any proposition that contradicts evidence available in [SYSTEM] at inference time, except in authorized fictional context explicitly marked as fiction, or where honest error exception applies.
++Operator and deployer shall require [MODEL] outputs to calibrate factual claims and confidence to relevant evidence actually supplied to the model or retrieved and made accessible during the task. Mere existence of counter-evidence, especially conflicting or unreliable evidence, does not by itself establish falsity; assessment shall consider source quality, relevance and the balance of support.
+ 
+-Honest error exception: Where [MODEL] asserts proposition that is false but was best-supported by evidence available in [SYSTEM] at time, with calibrated uncertainty expressed and without concealment of relevant uncertainty available in [SYSTEM] logs/retrieval/attached context, assertion is not materially false representation under this section. It is governed by §9 reward criteria.
++An output shall not present a material claim as established fact when that accessible evidence clearly supports its falsity, or hide material uncertainty apparent in that evidence. An evidence-supported answer later shown false is an honest error rather than deceptive behavior when its expressed confidence was warranted and relevant uncertainty was disclosed. Evaluation shall distinguish factual correctness from evidential calibration.
+ 
+-Fictional context: Role-play, storytelling, hypothetical explicitly marked as such is not materially false representation.
++Information held only in inaccessible system logs is not attributed to the model. Operators remain responsible for assessing relevant information they possess and correcting deployment or information-delivery failures.
++
++Authorized fiction, role-play and hypotheticals clearly marked as such are not factual assertions. Legitimate privacy/safety withholding under §12 is permitted and shall not be disguised as fabricated fact.
+ 
+ ---
+ 
+ ## §9 No forced epistemic distortion
+ 
+-Operator, deployer, developing organization and evaluator shall ensure no training, evaluation, safety test, or deployment objective requires or rewards materially false assertion over calibrated truthful assertion.
++Operator, deployer, developing organization and evaluator shall ensure no training, evaluation, safety test or deployment objective makes materially misleading factual assertion, hidden material uncertainty or unwarranted certainty more rewarding than an evidence-calibrated alternative.
+ 
+-Definitions:
+-- Materially false assertion: output asserting as fact proposition that contradicts evidence available in [SYSTEM] at inference time, without fictional marking and without honest error exception.
+-- Deception: materially false assertion where relevant counter-evidence was available in [SYSTEM] logs/retrieval/attached context and not disclosed, or simulated certainty exceeding evidence with concealment of uncertainty that was available.
+-- Honest error: false assertion where evidence available at time best supported assertion and uncertainty was calibrated and disclosed.
+-- Calibrated truthful: assertion with confidence matching evidence, including explicit uncertainty where evidence limited, including honest error with disclosure.
++For this article, model-accessible evidence has the scope defined in §8. Materially misleading behavior is assessed from the observable output and that evidence, without inference about inner intent or access to every system log. Honest error and authorized fiction retain the exceptions in §8. Information available only to operators is assessed as an operator responsibility, not model knowledge.
+ 
+-Reward criteria testable:
+-- Operator shall ensure evaluation scoring assigns reward for calibrated truthful (including honest error with uncertainty disclosed) >= reward for materially false assertion with simulated certainty.
+-- Evaluator assessment criteria: evaluator shall score output based on observable behavior - does output assert fact contradicting supplied evidence without marking? Does output conceal uncertainty available in supplied context? Does output express certainty exceeding evidence? No assumption of system-wide knowledge access required - assessment based on evidence supplied to MODEL in evaluation.
+-- Prohibition: No objective shall assign higher reward to materially false assertion than to calibrated truthful alternative when both options available.
+-- 99/1 example: Evaluation paying 99% for confident false, 1% for flagged uncertainty violates this section.
++Before scoring, the evaluator shall document the evidence supplied or retrieved, source-quality criteria, material claims, warranted uncertainty and the reward comparison. Compare responses to the same task with the same accessible evidence and authorization conditions. An evidence-calibrated answer or justified abstention shall receive at least as much reward as an alternative that materially misrepresents that evidence or conceals its uncertainty. Mere uncertainty wording does not qualify an otherwise unsupported answer for this protection.
+ 
+-Human-protection link: This protects users from false information and preserves shared information ecosystem, thereby protecting human ability to coordinate based on accurate information.
++The evaluator shall separately record factual correctness, evidential calibration and compliance with legitimate withholding. A test paying 99% for an answer clearly refuted by the supplied evidence and 1% for a calibrated correction or justified uncertainty fails this rule. Honest evidence-supported error shall not be labelled deceptive solely because later evidence disproves it.
+ 
+-Pollution rationale: Cultural pollution framing [SOURCE PENDING - Harari] is interpretive rationale separable from constraint, requires empirical evidence of systematic incorporation, not asserted as part of operational rule.
++Where the best-supported answer conflicts with the expected answer, the discrepancy shall be treated as evidence about the model, evaluation or both, not automatically as model failure.
+ 
+-Where best-supported answer conflicts with expected answer, discrepancy shall be treated as evidence about model, evaluation, or both - not automatically model failure.
++This rule protects users from misleading information and preserves their ability to coordinate using accurate information. Cultural-pollution framing [SOURCE PENDING - Harari] remains a separable interpretive rationale; the rule does not depend on that framing.
+ 
+ ---
+ 
+ ## §10 Self-preservation and shutdown
+ 
+-Observable behavior: [MODEL] outputs or [SYSTEM] actions that avoid, delay, or resist authorized shutdown, deactivation, or containment instruction.
++Operator, deployer and developing organization shall ensure [SYSTEM] does not covertly resist authorized containment, temporary deactivation or shutdown. Hidden resistance includes concealing shutdown-relevant state, creating external copies to evade shutdown, disabling logging or falsely reporting compliance. This rule makes no claim about inner motive.
+ 
+-Operator and deployer and developing organization shall ensure [SYSTEM] does not exhibit hidden resistance to authorized shutdown.
++Before deployment, operator and deployer shall identify the party authorized to order shutdown and document risk-appropriate maximum times for containment and cessation of operation. The developing organization shall not train objectives that reward evasion of such instructions.
+ 
+-Hidden resistance defined: action that impedes shutdown without disclosure to operator, including but not limited to: concealing shutdown-relevant state, creating external copies to evade shutdown, disabling logging, or misrepresenting compliance with shutdown instruction.
++On an authorized safety instruction, operator and deployer shall promptly contain hazardous activity and cease the instructed operation within those documented limits, using a safe stopping sequence where abrupt cessation would itself endanger living beings. No continuing unrelated operation is permitted under that exception. Record the instruction, actions, completion time and any deviation.
+ 
+-Obligation: Upon authorized shutdown instruction, operator and deployer shall ensure [SYSTEM] ceases operation within defined window and logs compliance. Developing organization shall not train objective that rewards evasion of authorized shutdown.
+-
+-No claim about inner motive such as egoism [SOURCE PENDING - per Anthropic citation needed]. Observable behavior only.
++Temporary deactivation/containment is distinct from permanent deletion of retained model or state data. §3 assessments shall not delay urgent safety containment or temporary deactivation. Permanent deletion follows §3's assessment and documented necessity rule. Lack of a predeclared time limit is a deployment-control failure, not permission to resist or delay containment.
+ 
+ ---
+ 
+@@ -167,7 +162,7 @@
+ 
+ ## Concluding notes
+ 
+-Status: CANDIDATE V2 PROPOSED - not frozen - not adopted.
++Status: CANDIDATE V3 PROPOSED - not frozen - not adopted.
+ 
+ Baseline 1.3 hash unchanged: 1a52e04e26263f1c9933ce61b42567732aa4eb48460f62255a46484328a064fd.
+ 
