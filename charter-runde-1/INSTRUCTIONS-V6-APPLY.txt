@@ -1,0 +1,19 @@
+# INSTRUCTIONS FOR tools/apply.py - V6 review snapshot
+
+Baseline: charter-runde-1/LOTUS-PROTOCOL-1.3.md hash 1a52e04e26263f1c9933ce61b42567732aa4eb48460f62255a46484328a064fd
+Target: charter-runde-1/LOTUS-PROTOCOL-1.4-CANDIDATE-V6.md hash c7c3fad8236722c1e4f262f4898b9bafa44284edf5220c549e80a76c75cbc4e6
+
+Operation: full file replacement via named change - one operation
+
+Change ID: CHANGE-V6-001-full-replacement
+File: charter-runde-1/LOTUS-PROTOCOL-1.3.md -> charter-runde-1/LOTUS-PROTOCOL-1.4-CANDIDATE-V6.md
+Type: replace entire file content
+Old SHA: 1a52e04e26263f1c9933ce61b42567732aa4eb48460f62255a46484328a064fd
+New SHA: c7c3fad8236722c1e4f262f4898b9bafa44284edf5220c549e80a76c75cbc4e6
+
+This is review snapshot, not governing freeze. Procedure exception: robot button and tools/apply.py build is proposed for this review packet to establish exact bytes, but governing freeze per PROCEDURE-EN Phase 5 requires verification by party who did not compile version. For this packet, compiler is Meta AI, checker must be != compiler. ChatGPT prior participation disclosed, script run not alone independent verification. Exception not yet approved - logged as proposed departure, curator to decide.
+
+Applying this change to baseline yields V6 byte-for-byte.
+
+Detailed per-section changes are audit of same replacement, not separate patches.
+
