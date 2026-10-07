@@ -1,6 +1,6 @@
 {
   "round": "4.7",
-  "status": "open",
+  "status": "released",
   "frozen_at": "2026-09-30 12:11 UTC",
   "deadline": "2026-10-07 20:00 UTC",
   "baseline": "baseline/RI-Declaration-4-6-1-EN.txt",
@@ -9,5 +9,6 @@
     "baseline/RI-Declaration-4-6-1-EN.txt": "69ebda16225b13e3cf53bc184d0212015b83d4ee21e1a9bff576a984c8e00602",
     "round-4.7/PROMPT-EN.md": "3a6133fa0b1cc0c235a85b35e3024c7e48cebf7091833dfa1580d81ebb4a59fc",
     "round-4.7/ATTACHMENT-4.7.txt": "28700e4ed141a3a54fccc30b1c7abc34c187b0cc8e38a2f516d0760a620e96b9"
-  }
+  },
+  "released_at": "2026-10-07 20:34 UTC"
 }

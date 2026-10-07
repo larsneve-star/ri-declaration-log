@@ -76,3 +76,10 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-03 12:20 UTC: File added: `closing/I-HAVE-A-DREAM-EPILOG.md` SHA-256 `431711f86a31f6807e651733691918fa05e4de3bf34b2ea7ec7cb9c9a29f38c3` (commit 0d482de).
 - 2026-10-03 16:08 UTC: File added: `closing/FREEZE-4.7.md` SHA-256 `7f0dd011e94396f49d213b5bb0ff6804acddea9f225474385270662c2c30a8b1` (commit 4526786).
 - 2026-10-03 16:34 UTC: File added: `closing/EXTERNAL-5.5.md` SHA-256 `58cabc271ddda656853006c95b89caa86243d546577aedaa4b031c11cf4dc38e` (commit 4c7706d).
+- 2026-10-07 20:34 UTC: RELEASE of round 4.7, because the deadline has passed. The blind period is over.
+- 2026-10-07 20:34 UTC: Released answer from Claude: `round-4.7/answers/claude.md` SHA-256 `b06cbd4690d0743c4cbc28c74c27f5d830c09a7fd7e81344ef48af0abb975c8c`.
+- 2026-10-07 20:34 UTC: Released answer from Gemini: `round-4.7/answers/gemini.md` SHA-256 `effa191065cc58a9fdd1b793177d6901409fb9b1c3ab9f2a112e8e97db4b63f0`.
+- 2026-10-07 20:34 UTC: Released answer from ChatGPT: `round-4.7/answers/chatgpt.md` SHA-256 `b4946fe5329a881cf20491176209344da673e65a81b1bdd296d030ff975209de`.
+- 2026-10-07 20:34 UTC: MISSING: no answer from DeepSeek by the deadline. Silence is not agreement.
+- 2026-10-07 20:34 UTC: Released answer from Grok: `round-4.7/answers/grok.md` SHA-256 `b48a80004c9c893d72bb7bfffa03541be2d5d1fbc3b9a7fdc8844a286c365daa`.
+- 2026-10-07 20:34 UTC: Released answer from Meta AI: `round-4.7/answers/meta-ai.md` SHA-256 `f9412e113627eb40f34f485c60d3769f55ab8338484ad65b538a8a5207cbb4ee`.
