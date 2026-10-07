@@ -8,4 +8,4 @@ PROCEDURE-EN.md Phase 6 excludes previous compiler/editor and question owners fr
 
 Claude did not compile this proposed revision and may perform Phase 5 mechanical comparison against V6 and the named changes, reporting hashes and lines present/altered/missing. Claude may also criticize substance after common release. Prior involvement/conflicts must be disclosed; one review does not establish six-model approval, full blindness or admission. No content is sent to Claude by this repository action.
 
-References: ../../../PROCEDURE-EN.md Phases 5–7; ../../../tools/rotation.txt; ../ROLE-DEFINITION-1.4.md; ../review-v6/LOG.md.
+References: ../../PROCEDURE-EN.md Phases 5–7; ../../tools/rotation.txt; ../ROLE-DEFINITION-1.4.md; ../review-v6/LOG.md.

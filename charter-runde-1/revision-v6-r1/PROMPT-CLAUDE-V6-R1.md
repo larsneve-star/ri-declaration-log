@@ -1,0 +1,13 @@
+# Claude review — V6-R1 editorial proposal
+
+Status: proposed targeted review request, not sent, not an adoption round. Drafted by ChatGPT at the curator's request; the curator decides whether to send it. This review follows common release of all six V6 answers. Do not treat prior involvement as blindness or yourself as compiler of this revision.
+
+Read the actual attached files listed in MANIFEST.md. Compare the unchanged V6 with LOTUS-PROTOCOL-1.4-CANDIDATE-V6-R1.md, the exact old/new Annex and executable instructions. ROLE-AND-PROCEDURE.md explains why ChatGPT's proposal is not a formally eligible next compilation. PROCEDURE-EN.md and rotation.txt are supplied as actual files. ANALYSIS-V6-SIX-MODELS.md is a proposed synthesis, not authority or consensus.
+
+1. Disclose identity attribution, previous exposure, class conflict, file access and what you can actually calculate. Do not attest hash recomputation if not performed.
+2. Independently reconstruct V6-R1 with the supplied unchanged tools/apply.py where tools permit. Report input/output hashes and physical line counts present unchanged, altered and missing, stating your method. Test every named change against the Annex; identify unlogged alterations, omissions or unsupported compression. If you cannot execute, say so and distinguish textual checking from a mechanical certificate.
+3. Criticize substance, focusing on conflicts/regressions introduced by the edits. Does no-rights scope preserve duties to humans without giving AI a veto? Are shutdown, evidence retention, context quality, consent, access scope and independent investigation operational? Identify precise quotations, responsible parties, counterexamples and observable failure tests. A proposed fix or disagreement is not automatically a falsification.
+4. Assess whether the proposed handling complies with PROCEDURE-EN Phases 5–7. Do not invent an adopted Lotus rotation, appoint yourself or waive eligibility. Identify what decision/check remains before formal compilation or a governing freeze. Your mechanical checking may qualify as noncompiler checking of this working proposal; it does not silently cure compiler eligibility or adopt text.
+5. End with your three strongest remaining problems, missing evidence, and a separate mechanical verdict: VERIFIED / FAILED / NOT PERFORMED, justified by actual checks. No rewrite or next compilation is requested. Do not state that six-model agreement adopts an article.
+
+Return your complete answer for verbatim archiving. No deadline. No decision to send a next common round or to freeze follows from this request alone.
