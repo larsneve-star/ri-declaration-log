@@ -60,3 +60,5 @@ adc5375c515514cedcf643c59c37af2bc7ba31bf6b9073577e3cf96b28779a7d  review-v6/answ
 755781bef5d4fe5f6afe4924bf06c5e9c5c80e98da72ca494c1d758429a6811f  review-v6/answers/gemini-supplement-1.md
 e4a7f2a19caa2ed4bef131db2c0cecf6d70ffc4a95a445109c451e26f367043a  review-v6/answers/meta.md
 ec43a6459e7f49a53a49f2d100104ebe521a3435f279a7097679d4a01c4e9a36  review-v6/answers/deepseek.md
+973c6d902962c3c5e82277ea034a052a3675992cd960dadea387d12ade90a61a  review-v6/ANALYSIS-V6-SIX-MODELS.md
+a18f8da40b2a3129e96953f10a14160a7ebd1788ab73ea9d0201c866887fda72  review-v6/FINDINGS-INDEX-V6.md

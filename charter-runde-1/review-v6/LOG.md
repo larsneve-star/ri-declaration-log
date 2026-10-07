@@ -44,3 +44,7 @@ Curator supplied five uploaded files plus a Gemini answer pasted in the message.
 ## Common release correction
 
 Earlier receipt statements describing absent Meta/incomplete DeepSeek are historical. All six attributed responses are now received, satisfying PROMPT-V6-COMMON.md's all-six terminal-response release condition. Common release occurs through this final-batch archive commit. No further withholding between participants is required by that round rule after this commit. This is release for examination, not adoption, consensus, substantive verification or modification of V6. Send/generation timestamps remain unknown. Five original charter principles remain unchanged. No messages are sent to participants by this action.
+
+## Combined analysis — 2026-10-07
+
+Curator asked to proceed to combined analysis after all-six release. ANALYSIS-V6-SIX-MODELS.md groups substantive and implementation issues into A01–A12 and distinguishes inaccurate critiques, normative expansions, and unresolved source claims. FINDINGS-INDEX-V6.md indexes 162 source-scoped numbered posts, including holds/no-findings; it is not an acceptance ledger. Author is ChatGPT repo maintainer with prior participation; no independent Phase 5 certificate is claimed. Revisions are proposed, not applied. V6 remains unchanged and not adopted; 1.3 baseline remains unchanged. Artifact hashes are recorded in ../HASHES.txt. No participant messages sent.
