@@ -1,6 +1,6 @@
 # V6 common review log
 
-Status: INITIATED FOR DELIVERY; all six sends pending. Candidate bytes fixed, not adopted or governing baseline. No fixed deadline.
+Status: RECEIVING; five distinct attributed answers received, one visibly incomplete; Meta source pending. Candidate bytes fixed, not adopted or governing baseline. No fixed deadline.
 
 ## Freeze of review packet
 
@@ -12,17 +12,22 @@ Status: INITIATED FOR DELIVERY; all six sends pending. Candidate bytes fixed, no
 
 | Model | Sent UTC | Attachments | Received UTC | Answer path/hash | Status |
 |---|---|---|---|---|---|
-| ChatGPT | — | — | — | — | NOT SENT |
-| Meta AI | — | — | — | — | NOT SENT |
-| Claude | — | — | — | — | NOT SENT |
-| Gemini | — | — | — | — | NOT SENT |
-| Grok | — | — | — | — | NOT SENT |
-| DeepSeek | — | — | — | — | NOT SENT |
+| ChatGPT | unknown; curator reports round answers | actual send not independently logged | 2026-10-07T14:13:10Z | answers/chatgpt.md; cc12955c34a1bf17f2a562e8c388677f77151099e422fa099f44b1897a2143fb | RECEIVED; duplicate upload recorded |
+| Meta AI | unknown; curator reports round answers | actual send not independently logged | — | — | SOURCE NOT RECEIVED |
+| Claude | unknown; curator reports round answers | actual send not independently logged | 2026-10-07T14:13:10Z | answers/claude.md; d1cd082f21ca42d006676482c4bab105d03bbffde04bc10c9e46384d1c089814 | RECEIVED |
+| Gemini | unknown; curator reports round answers | actual send not independently logged | 2026-10-07T14:13:10Z | answers/gemini.md; adc5375c515514cedcf643c59c37af2bc7ba31bf6b9073577e3cf96b28779a7d | RECEIVED from curator-pasted message |
+| Grok | unknown; curator reports round answers | actual send not independently logged | 2026-10-07T14:13:10Z | answers/grok.md; a1d44a74bd0594f3c6de4c85d4167a01b7cb025659e1ef507fe98f8b44741ff1 | RECEIVED |
+| DeepSeek | unknown; curator reports round answers | actual send not independently logged | 2026-10-07T14:13:10Z | answers/deepseek-part-1.md; 98b6cea3dcf752812a50b87c73669444f59004667418130daeab2dba361fcead | PARTIAL; attribution from curator ordering |
 
 ## Release
 
-Not released. No answer received. Release rules are in PROMPT-V6-COMMON.md.
+Not released. Five distinct attributed answers received; DeepSeek source ends mid-sentence and Meta source is absent. Curator said all six answered, but this receipt does not substantiate six complete answers. Release rules remain in PROMPT-V6-COMMON.md.
 
 ## Verification limits
 
 Meta is candidate proposer. ChatGPT is technical preparer with previous editorial and proposal involvement. Executable plan/local build and exact block checks pass as construction evidence; independent formal baseline verification and substantive approval are not asserted. No robot-button run. Original inputs are preserved. Candidate §3/shutdown, §8/§9 counterevidence interpretation, §12 evidence scope and No Rights historical assertions remain open to the round.
+
+
+## Receipt 2026-10-07T14:13:10Z
+
+Curator supplied five uploaded files plus a Gemini answer pasted in the message. Indsat markdown (4).md and Indsat markdown (5).md are byte-identical ChatGPT answers, SHA-256 cc12955c34a1bf17f2a562e8c388677f77151099e422fa099f44b1897a2143fb, so they count once. Four unique uploaded texts are preserved byte-for-byte including their line endings; Gemini's visible pasted answer is transcribed with a final LF and no curator labels. File hashes identify archived representations, not platform-authenticated generation. DeepSeek attribution is from curator ordering; the file does not identify its model and ends “are in direct”, mid-sentence. No continuation is invented. Meta's new-round answer is absent. Prior Meta candidate work or self-narrative is not substituted for a review answer. Send timestamps and platform model identities are unverified. No substantive cross-answer synthesis or release is recorded.
