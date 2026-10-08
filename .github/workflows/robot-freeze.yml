@@ -1,4 +1,4 @@
-name: "1. Freeze a round"
+name: "PAUSED: legacy round freeze"
 
 # Press "Run workflow" on the Actions page and fill in the form.
 # The robot hashes the files, writes the freeze and the deadline in the round's
@@ -34,6 +34,7 @@ concurrency:
 
 jobs:
   run:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
