@@ -1,3 +1,5 @@
+> **SOURCE STATUS CORRECTION (2026-10-08):** This file was assembled by ChatGPT from a curator-relayed account of Claude's review, not independently copied and authenticated against the original Claude chat transcript. Its title and prior dispatch descriptions must **not** be taken as proof that every sentence is verbatim Claude output. Treat as a reconstructed working document until the curator supplies and verifies the original. This correction does not alter the historical Git revisions.
+
 # Claude — review of V6-R1 editorial proposal
 
 Delivered: 2026-10-07, ca. 14:55 UTC, in a Claude chat inside the curator's project thread (not a fresh chat).
