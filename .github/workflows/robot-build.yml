@@ -1,4 +1,4 @@
-name: "3. Build a version from instructions"
+name: "Manual: approved final build only"
 
 # Press "Run workflow" and give the path of a compiler's instruction file,
 # for example round-4.4/compile-4.4/INSTRUCTIONS-K-5.txt
@@ -12,6 +12,9 @@ name: "3. Build a version from instructions"
 on:
   workflow_dispatch:
     inputs:
+      curator_approval:
+        description: "Type APPROVED-FINAL-BUILD to authorize this one-time build"
+        required: true
       instructions:
         description: "Instruction file, for example round-4.4/compile-4.4/INSTRUCTIONS-K-5.txt"
         required: true
@@ -25,6 +28,7 @@ concurrency:
 
 jobs:
   run:
+    if: ${{ inputs.curator_approval == 'APPROVED-FINAL-BUILD' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
