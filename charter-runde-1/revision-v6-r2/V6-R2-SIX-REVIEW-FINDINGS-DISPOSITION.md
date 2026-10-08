@@ -35,6 +35,33 @@ R3 consequence: anchor the actor and expressly bar conversion of §12 into a gen
 Restore (a) the broader “serious incident OR credible allegation” preservation trigger without requiring the allegation first to qualify as severe harm, subject to relevance/proportionality; and (b) the requirement that the event be reconstructable without trusting the model’s own narrative as authoritative.
 R3 consequence: reverse the unintended R2 narrowing and restore independent reconstruction.
 
+### K5 — machine-speed emergency response and bounded external review
+Emergency containment and preservation begin immediately at the fastest safely practicable rate appropriate to the system and risk. “As soon as safely practicable” is the operative duty. A numerical external-review deadline may serve only as an outer backstop, never as a waiting period or safe harbour. Where traces may disappear, change, be overwritten or manipulated, preservation begins immediately subject only to strictly necessary containment/safety action. If an outer backstop cannot safely or actually be met, the reason is documented and escalation occurs as soon as practicable.
+R3 consequence: separate machine-speed containment/preservation from human institutional review time; do not let administrative clocks authorize delay.
+
+### K6 — evidence-hold lifecycle
+No arbitrary universal maximum retention period is adopted. A hold begins on the relevant trigger, is limited to material reasonably necessary for reconstruction/investigation, and continues only while documented evidentiary or investigative need exists. Continued holds receive periodic external review; each extension requires necessity, proportionality and scope justification. Unnecessary material returns to normal retention/deletion. Unrelated user data must not be retained merely because a hold exists. Applicable law or lawful investigative/judicial orders may require longer preservation.
+R3 consequence: distinguish routine retention from incident hold and require review, narrowing, release/disposal and lawful extension.
+
+### K7 — external review-pool architecture
+Final high-consequence safety review is external to the reviewed company. Reviewers require documented technical competence, necessary evidence access and organizational independence. A qualified AI laboratory may serve as technical peer reviewer, but the reviewed company may not freely choose a favourable reviewer. Use a documented allocation/rotation mechanism among qualified external reviewers; prohibit review-shopping, outcome-linked incentives and bilateral approval trading. Material conflicts trigger reassignment or additional review without erasing the original review; conflicting reviews remain in the audit trail.
+Rationale: rotation reduces static single-point capture; preserved disagreement is itself an investigatable trace. Cross-industry technical competence is useful without granting industry actors ownership of the judgment. Strategic adaptation/capture by advanced systems is treated as a threat model, not an assumed fact.
+R3 consequence: specify externality, competence, allocation, conflicts, anti-capture and preservation of dissent.
+
+### K8 — disputed credible-suspicion trigger
+A concrete report with an identifiable factual basis for possible LOTUS-relevant misconduct receives prompt preliminary assessment. If relevant evidence could reasonably disappear, change or be overwritten, a provisional evidence hold applies during assessment. The company may conclude that the credible-suspicion threshold is not met, but must record its grounds and cannot use its own rejection alone to defeat necessary provisional preservation. A reporter or other competent actor can seek external review through the K7 mechanism. The external reviewer may confirm, narrow or lift the hold. Rejection, review and disagreement remain in the audit trail. Credible suspicion is an investigation/preservation threshold, not a finding of guilt.
+R3 consequence: provisional preservation, documented rejection, external challenge and preserved disagreement, with safeguards against obviously baseless or abusive reports.
+
+### K9 — risk-proportionate reconstructability before deployment
+Baseline evidence architecture is designed for reconstructability rather than mass retention. Before deployment, normal records must be sufficient to make relevant serious events reasonably reconstructable over a risk-proportionate period, without a general requirement to retain all user content or hidden internal reasoning.
+Four layers govern implementation:
+1. System traces before human surveillance: prioritize model/version, relevant configuration and policy state, tool use, privilege changes, agent/sub-agent actions, safety-control intervention/override, relevant retrieval/memory state and other traces necessary for reconstruction.
+2. Risk-proportionate depth: stronger capability, irreversibility or opacity requires stronger auditability/retention. For high-consequence capability, reconstructability is externally reviewed under K7 before access.
+3. Privacy by design: use the least intrusive evidence architecture reasonably sufficient for reconstruction; prefer less sensitive traces where they suffice.
+4. The system must not control its own historical archive: critical audit traces are protected from alteration/destruction by the system and investigated parties through appropriate separation, integrity controls and access architecture.
+Strategic lying, manipulation, self-preservation or audit evasion by advanced agents is treated as a threat model against which the architecture should be robust, not as an assumed property or proof of consciousness.
+R3 consequence: establish minimum-sufficient evidence, external review for high-risk reconstructability and tamper-resistant custody without creating general mass surveillance.
+
 ## 3. Finding-by-finding disposition
 
 ### Gemini — 2 findings
@@ -134,14 +161,15 @@ H. Editorial/provenance integrity: accurate Annex purposes, terminology/cross-re
 7. Compiler designation, per-item admission, formal adoption and freeze remain separate later acts.
 8. No model agreement, including six-model convergence, itself adopts text.
 
-## 6. Open implementation questions — not yet silently decided
-The curator has settled the four substantive policy questions K1–K4. Drafting still requires explicit implementation choices, including:
-- time window(s) for post-emergency independent review;
-- periodic review/lapse structure for evidence holds;
-- appointment/rotation mechanism for external reviewers and protection against reciprocal capture;
-- exact review path for disputed rejection of a credible-suspicion trigger;
-- risk-proportionate baseline retention approach without creating indiscriminate mass retention.
-These are implementation questions for the next step, not hidden assumptions in this disposition.
+## 6. Implementation status after K1–K9
+The curator has now settled the substantive and implementation principles needed for drafting:
+- K5 resolves emergency timing by making machine-speed safe action the duty and any numerical deadline an outer backstop only.
+- K6 resolves the hold lifecycle through necessity, proportionality, periodic external review, narrowing and release rather than an arbitrary universal duration.
+- K7 resolves reviewer architecture through an external qualified pool, documented allocation/rotation, conflicts rules, anti-review-shopping and preserved disagreement.
+- K8 resolves disputed credible-suspicion rejection through provisional preservation, documented rejection and external challenge.
+- K9 resolves pre-incident baseline retention through risk-proportionate reconstructability and minimum-sufficient, tamper-resistant evidence architecture.
+
+No unresolved policy choice from the five implementation questions remains. Exact drafting details (for example whether an outer backstop is expressed numerically and the mechanics of rotation) must implement these principles without silently creating a new policy choice. If drafting exposes a genuinely new normative fork, it returns to the curator rather than being decided by the compiler.
 
 ## 7. Procedural state
 The six blind reviews have been compared. This disposition records the comparison and curator decisions only. It does not alter, compile, admit, adopt or freeze LOTUS Protocol V6-R2. The next substantive drafting step is a separately named V6-R3 proposal after the open implementation questions are resolved or explicitly delegated.
