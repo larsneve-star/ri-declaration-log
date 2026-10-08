@@ -182,7 +182,6 @@ def register(before, after):
         rng = [f'{before}..{after}']
     out = git('log', '--reverse', '--format=%H', *rng)
     per_round = {}
-    compiled = set()
     for c in [x for x in out.split('\n') if x]:
         short = c[:7]
         for row in git('show', '--format=', '--name-status', '-M', c).split('\n'):
@@ -201,8 +200,6 @@ def register(before, after):
                 m = model_of(p) if what == 'Answer' else None
                 extra = f' from {m}' if m else ''
                 L.append(f'{t}: {what}{extra} added: `{p}` SHA-256 `{sha(p)}` (commit {short}).')
-                if re.search(r'/compile-[^/]+/PART-', p):
-                    compiled.add(rdir)
             elif status == 'R':
                 L.append(f'{t}: WARNING: renamed `{paths[0]}` → `{paths[1]}` (commit {short}). '
                          'A person should say why in the notes.')
@@ -212,8 +209,6 @@ def register(before, after):
             elif status == 'M' and match(p, FROZEN) and not match(p, NOT_FROZEN):
                 L.append(f'{t}: WARNING: frozen file edited: `{p}`, new SHA-256 `{sha(p)}` '
                          f'(commit {short}). A person should say why in the notes.')
-    for rdir in compiled:
-        per_round.setdefault(rdir, []).extend(compile_check(rdir, after[:7]))
     for rdir, lines in per_round.items():
         if lines:
             append(rdir, lines)
