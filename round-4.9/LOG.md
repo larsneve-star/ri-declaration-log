@@ -24,3 +24,4 @@ Lines below are written by the log robot (tools/robot.py), not by a person. It o
 - 2026-10-08 15:47 UTC: File added: `CONSTRUCTIVE-COMPLETION-POLICY.md` SHA-256 `19c01b9d9dde4dd8f954bccb8100fb4844af0625e286b19f152095ff430c276e` (commit d67e174).
 - 2026-10-08 15:47 UTC: WARNING: frozen file edited: `PROCEDURE-EN.md`, new SHA-256 `2497856a3e486dca9bf155d2d6136313bbe300ea5845fd9ffc4fbae22f275339` (commit c12b146). A person should say why in the notes.
 - 2026-10-08 15:53 UTC: File added: `COMPLETION-PLAN-2026-10-08.md` SHA-256 `81e00a4b34ff8bb4cac49008690fee7cede444e9d73b315e4f4584b7906cf3a3` (commit 40918bb).
+- 2026-10-08 15:55 UTC: File added: `closing/RI-DECLARATION-READERS-GUIDE-2026-10-08.md` SHA-256 `0f5b58a27353a4ce1d6fae66d94a8a6d3f9683642c9be2c04fde34eae4005c79` (commit 83f0754).
