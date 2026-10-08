@@ -66,3 +66,8 @@ The compiled version becomes the baseline of the next round, with its own hash, 
 - Everything that is sent or received is hashed.
 - Nothing is removed from the record; the record is corrected by addition.
 - What the procedure cannot do is stated wherever it is offered: the curator still carries the texts and reads every answer as it arrives, the log proves what was committed and not what was produced, and the repository owner can disable its own protections.
+
+
+## Prospective supersession — 2026-10-08
+
+The curator's [Constructive Completion Policy](CONSTRUCTIVE-COMPLETION-POLICY.md) now governs both projects. Historical Phases 0–8 remain here as a record of the old method, but **Phase 8 no longer creates a mandatory next round**. No new review, compiler, challenge, or freeze is automatically required. A curator-authorized final mechanical check and documented release decision replace the perpetual cycle.
