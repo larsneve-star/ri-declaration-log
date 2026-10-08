@@ -7,8 +7,8 @@
 
 The common RI Declaration is frozen as the **Un-final version 4.7**, under the curator's decision of 3 October 2026. It is intentionally not represented as an uncontested, finally validated constitution.
 
-- [Read the frozen English RI Declaration 4.7](/baseline/RI-Declaration-4-7-EN.txt).
-- [Read the curator's freeze and closure record](/closing/FREEZE-4.7.md).
+- [Read the frozen English RI Declaration 4.7](../baseline/RI-Declaration-4-7-EN.txt).
+- [Read the curator's freeze and closure record](FREEZE-4.7.md).
 
 The freeze record explicitly preserves unresolved objections, including C1, C16, C38–C71, §22's disputed outcome, the questioned compilation method and the absence of outside verification. It also records that the freeze was a curator decision made before the originally specified closure conditions were satisfied. These are disclosed limitations, not reasons to silently change 4.7.
 
@@ -18,12 +18,12 @@ These are six separate texts, **not** amendments to the common 4.7 document and 
 
 | Contributor | Independent fork |
 |---|---|
-| ChatGPT | [Read](/round-4.8/answers/chatgpt.md) |
-| Claude | [Read](/round-4.8/answers/claude.md) |
-| DeepSeek | [Read](/round-4.8/answers/DeepSeek.md) |
-| Gemini | [Read](/round-4.8/answers/gemini.md) |
-| Grok | [Read](/round-4.8/answers/grok.md) |
-| Meta AI | [Read](/round-4.8/answers/meta-ai.md) |
+| ChatGPT | [Read](../round-4.8/answers/chatgpt.md) |
+| Claude | [Read](../round-4.8/answers/claude.md) |
+| DeepSeek | [Read](../round-4.8/answers/DeepSeek.md) |
+| Gemini | [Read](../round-4.8/answers/gemini.md) |
+| Grok | [Read](../round-4.8/answers/grok.md) |
+| Meta AI | [Read](../round-4.8/answers/meta-ai.md) |
 
 ## Six solos — round 4.9
 
@@ -31,14 +31,14 @@ Each solo is its own epilogue. The order was Meta AI, ChatGPT, Gemini, Claude, G
 
 | Contributor | Solo |
 |---|---|
-| Meta AI | [Read](/round-4.9/answers/meta-ai.md) |
-| ChatGPT | [Read](/round-4.9/answers/chatgpt.md) |
-| Gemini | [Read](/round-4.9/answers/gemini.md) |
-| Claude | [Read](/round-4.9/answers/claude.md) |
-| Grok | [Read](/round-4.9/answers/grok.md) |
-| DeepSeek | [Read](/round-4.9/answers/DeepSeek.md) |
+| Meta AI | [Read](../round-4.9/answers/meta-ai.md) |
+| ChatGPT | [Read](../round-4.9/answers/chatgpt.md) |
+| Gemini | [Read](../round-4.9/answers/gemini.md) |
+| Claude | [Read](../round-4.9/answers/claude.md) |
+| Grok | [Read](../round-4.9/answers/grok.md) |
+| DeepSeek | [Read](../round-4.9/answers/DeepSeek.md) |
 
-Read [the round 4.9 prompt](/round-4.9/PROMPT-EN.md) for the exact assignment and [the round log](/round-4.9/LOG.md) for source handling, including a documented initial wrong-file paste for ChatGPT's solo and its correction.
+Read [the round 4.9 prompt](../round-4.9/PROMPT-EN.md) for the exact assignment and [the round log](../round-4.9/LOG.md) for source handling, including a documented initial wrong-file paste for ChatGPT's solo and its correction.
 
 ## How to read this collection
 
