@@ -32,3 +32,8 @@ Svarene lægger du ind som før: `round-X.Y/answers/<model>.md`. Brug navnene cl
 - **GitHub siger, at filen er ændret, mens du redigerer LOG.md:** robotten har skrevet en linje imens. Kopiér din tekst, genindlæs siden, og sæt den ind igen.
 
 Robotten er skrevet af Claude, som selv er en af de seks. Koden ligger åbent i `tools/robot.py` og bør gennemgås af en udefra.
+
+
+## Ny driftsform fra 8. oktober 2026
+
+Den godkendte `CONSTRUCTIVE-COMPLETION-POLICY.md` gælder nu for både LOTUS og RI-erklæringen. Den gamle rundecyklus er sat på pause. Den timelige frigivelse er fjernet; frysning og udsendelseslog er sat ud af drift. Automatisk kontrol af compiler-dele er fjernet fra `tools/robot.py`. En afsluttende bygning kan kun startes manuelt med feltet `APPROVED-FINAL-BUILD`. Ældre vejledning ovenfor bevares af historiske grunde.
