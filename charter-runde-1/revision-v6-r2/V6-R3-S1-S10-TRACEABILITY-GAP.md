@@ -1,11 +1,11 @@
-# V6-R3 REVIEW — CLAUDE V6-R1 S1–S10 TRACEABILITY GATE
+# V6-R3 — S1–S10 PROVENANCE UPDATE
 
-Status: **INCOMPLETE — DO NOT REPRESENT AS VERIFIED S1–S10 MAPPING**.
+Status: ORIGINAL REVIEW RECEIVED FROM CURATOR 2026-10-08; HISTORICAL GAP SUBSTANTIALLY NARROWED.
 
-The original verbatim Claude V6-R1 review labelled S1–S10 and ChatGPT's exact per-finding response have not been located and verified in the available V6-R2 disposition. The later `CLAUDE-R2-F1` through `CLAUDE-R2-F23` are findings from a DIFFERENT review and cannot be substituted or renumbered as S1–S10.
+The curator supplied the full text headed "Claude — review of V6-R1 editorial proposal", delivered 2026-10-07 at approximately 14:55 UTC. It includes S1–S10, D1–D6, M1–M5, P1–P5 and the original mechanical verdict. The original text is preserved in the curator's conversation and should be attached verbatim to the Claude and Gemini review packets. It has **not** yet been committed as a byte-verified original source file.
 
-Confirmed limited history: Claude V6-R1 mechanically verified an earlier 47-change build; remaining substantive topics included model-as-evidence despite no AI rights, stop limits and independence, epistemic uncertainty in §1, and §12 evidence/disclosure. These topic summaries do **not** prove that S1–S10 were all addressed or preserved.
+A separate editorial per-item map is now available: `V6-R3-S1-S10-TRACEABILITY-MAP.md`. The map records all S1–S10 and candidate R3 treatment, preserving residual gaps and without declaring any finding closed.
 
-For each of S1–S10: original exact quotation — NOT VERIFIED; original source file/commit — NOT VERIFIED; ChatGPT treatment — NOT VERIFIED; survival in R3 — NOT VERIFIED.
+Remaining provenance limitation: the original review's platform identity and exact UTC time were explicitly unverified by Claude; the approximately 14:55 UTC time is curator-supplied. The original full review and any ChatGPT R1 per-item treatment must be independently checked before claiming historical byte-level completeness. The mapping is not a substitute for the original.
 
-**Release consequence:** The historical-trace requirement in the common review prompt remains unsatisfied. Supply the original Claude V6-R1 review and the original ChatGPT response/disposition (or their exact repository paths) to resolve. Claude and Gemini may conduct only an expressly limited review if these materials remain missing, with `PACKAGE INCOMPLETE` at the top.
+Previous gap note was superseded by this explicit update; no silent deletion.
