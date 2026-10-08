@@ -1,4 +1,4 @@
-name: "2. Log what was sent to a model"
+name: "PAUSED: legacy round send log"
 
 # Press "Run workflow" right after sending the round to a model.
 # The robot writes the time in UTC. You only choose the model.
@@ -27,6 +27,7 @@ concurrency:
 
 jobs:
   run:
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
