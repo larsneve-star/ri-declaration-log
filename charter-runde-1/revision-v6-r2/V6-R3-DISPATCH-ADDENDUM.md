@@ -1,3 +1,7 @@
+## Superseding provenance correction — 2026-10-08
+
+The file named `CLAUDE-V6-R1-REVIEW-CURATOR-TRANSCRIPT.md` is **not authenticated as a verbatim original**. It was reconstructed by ChatGPT from a curator-relayed account and now carries a prominent correction notice. The SHA-256, byte count and Git blob recorded below describe the **earlier historical revision only**, not the current corrected file. Do not use them to attest current bytes or claim original transcript provenance. The original Claude chat must be independently supplied and compared before any verbatim claim. This correction does not trigger a new review round.
+
 # V6-R3 dispatch addendum
 
 Original Claude V6-R1 review: CLAUDE-V6-R1-REVIEW-CURATOR-TRANSCRIPT.md
