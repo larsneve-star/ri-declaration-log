@@ -10,3 +10,8 @@
 8. **Release.** At release, a line in `LOG.md` states the time and lists every answer file with its SHA-256. The compiler of the next version works from those files.
 9. **No force-push, no history rewriting.** The main branch is protected against force pushes and deletion. Turning that protection off is itself a breach, and anyone watching the repository can see it.
 10. **These rules are themselves open to attack.** Any change to this file is committed with a reason and noted in `LOG.md`, under the Principle of No Silent Deletion.
+
+
+## Prospective amendment — 2026-10-08
+
+The curator has adopted [Constructive Completion Policy](CONSTRUCTIVE-COMPLETION-POLICY.md) for both LOTUS and RI Declaration. The rules above describe historic rounds; they do not oblige new rounds, open-ended attacks, or compiler succession. Preserve verbatim evidence and Git history. Future work requires explicit curator authorization and prioritizes a usable final version with documented limitations.
