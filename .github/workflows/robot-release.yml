@@ -1,11 +1,9 @@
-name: "Auto: release at the deadline"
+name: "Paused: release only by curator"
 
 # Every hour the robot looks at each open round. When all six have answered,
 # or the deadline has passed, it releases the round and logs missing answers.
 
 on:
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
