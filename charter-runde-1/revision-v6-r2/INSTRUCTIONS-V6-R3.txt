@@ -1,0 +1,25 @@
+# INSTRUCTIONS-V6-R3.txt
+
+STATUS: REPRODUCTION INSTRUCTIONS FOR EDITORIAL BUILD — NOT FORMAL COMPILER APPOINTMENT OR APPROVAL.
+SOURCE BRANCH: forslag-lotus-v6-r2
+REPOSITORY: larsneve-star/ri-declaration-log
+PINNED INPUT R2 BLOB: 518b76c2f1ed30a99df701b27fb58471fea0d1f8
+PINNED ANNEX D BLOB: 1480c4e473aa2d3601f79da575c13ab0363224ba
+EXPECTED OUTPUT R3 GIT BLOB: 26fc0599e0508351961af37a3861411bbecc053b
+
+Required files (retrieve at the pinned blob or a commit known to contain them):
+- LOTUS-PROTOCOL-1.4-CANDIDATE-V6-R2.md
+- ANNEX-D-V6-R3-BUILD.md
+- apply-v6-r3.py
+- LOTUS-PROTOCOL-1.4-CANDIDATE-V6-R3.md (for comparison only)
+
+Run:
+python3 apply-v6-r3.py --r2 LOTUS-PROTOCOL-1.4-CANDIDATE-V6-R2.md --annex ANNEX-D-V6-R3-BUILD.md --output REBUILT-V6-R3.md
+sha256sum REBUILT-V6-R3.md LOTUS-PROTOCOL-1.4-CANDIDATE-V6-R3.md
+cmp -s REBUILT-V6-R3.md LOTUS-PROTOCOL-1.4-CANDIDATE-V6-R3.md && echo MATCH || echo MISMATCH
+
+The script fails closed if any OLD is missing or repeated. It applies 17 logged OLD/NEW operations and two additional explicit metadata replacements documented at the end of Annex D. No text normalization. File bytes must be UTF-8 with LF line endings.
+
+Historical R3 date header remains 2026-10-07 even though R3 was created 2026-10-08; this is a disclosed editorial inconsistency, not silently corrected in the frozen reproduction input. Propose an explicit dated amendment separately.
+
+Do not treat a successful reconstruction as independent substantive verification or formal compilation. Curator approval of the review prompt and designation of compiler remain separate gates.
